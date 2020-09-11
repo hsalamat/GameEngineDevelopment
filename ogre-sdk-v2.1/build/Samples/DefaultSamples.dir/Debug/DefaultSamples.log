@@ -1,0 +1,441 @@
+﻿  DefaultSamplesPlugin.cpp
+  HelperLogics.cpp
+  Compute.cpp
+  AmbientLight.cpp
+  DLight.cpp
+  DeferredLightCP.cpp
+  DeferredShading.cpp
+  GBufferMaterialGenerator.cpp
+  GBufferSchemeHandler.cpp
+  GeomUtils.cpp
+  LightMaterialGenerator.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SinbadCharacterController.h(299,28): warning C4244: '=': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Compositor.h(687,61): warning C4244: '=': conversion from 'Ogre::Real' to 'Ogre::uint8', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\DeferredShading.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\DeferredShading.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compute\src\Compute.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compute\src\Compute.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(180,56): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(184,36): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(185,37): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(209,63): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(227,56): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DeferredShadingDemo.h(231,36): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DynTex.h(14,58): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'const unsigned int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DynTex.h(35,83): warning C4244: 'argument': conversion from 'const unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\DynTex.h(161,83): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=Ogre::uint8
+          ] (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(103,38): warning C4244: 'initializing': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(104,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(105,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(106,31): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(107,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(121,42): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(123,47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(142,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(143,33): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(144,31): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(145,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(159,42): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(162,41): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'size_t', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(808,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(817,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Terrain.h(826,75): warning C4244: '=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(205,38): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(206,38): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(221,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(222,25): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(310,23): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(311,23): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(326,1): warning C4244: '+=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Grass.h(327,1): warning C4244: '+=': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\HLMS.h(149,98): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\HLMS.h(152,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Lighting.h(127,27): warning C4101: 'e': unreferenced local variable (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+  MaterialGenerator.cpp
+  SSAOLogic.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\PBR.h(34,94): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\PBR.h(46,77): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\ShaderSystemMultiLight.h(227,47): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Shadows.h(324,47): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Shadows.h(324,38): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SkyBox.h(54,44): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ] (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Smoke.h(25,79): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Smoke.h(26,52): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(100,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(102,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(102,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(103,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(108,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(108,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(109,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(110,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(111,61): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(117,52): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureArray.h(117,37): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureFX.h(42,51): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\TextureFX.h(42,33): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Transparency.h(30,58): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Transparency.h(33,53): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(44,21): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(47,53): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(127,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(129,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(147,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(148,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(149,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(152,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(154,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(333,45): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(337,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ] (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(336,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ] (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(335,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ] (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(458,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(533,17): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\Water.h(534,17): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp)
+  PerlinNoiseTerrainGenerator.cpp
+  Isosurf.cpp
+  ProceduralTools.cpp
+  MeshLod.cpp
+  NewInstancing.cpp
+  MaterialControls.cpp
+  ParticleGS.cpp
+  ProceduralManualObject.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\OceanDemo\src\MaterialControls.cpp(115,29): warning C4101: 'e': unreferenced local variable
+  RandomTools.cpp
+  OgreShaderExInstancedViewports.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp(83,22): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp(91,77): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp(91,21): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\src\NewInstancing.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\src\NewInstancing.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp(169,65): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp(169,34): warning C4244: 'argument': conversion from 'size_t' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp(328,22): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp(406,33): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp(406,24): warning C4244: 'initializing': conversion from 'double' to 'const Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\src\NewInstancing.cpp(639,33): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+  ShaderExReflectionMap.cpp
+  ShaderSystem.cpp
+  RTShaderSRSSegmentedLights.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\src\ParticleGS.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\src\ParticleGS.cpp)
+  SegmentedDynamicLightManager.cpp
+  ShaderSystemMultiLight.cpp
+  RTShaderSRSTexturedFog.cpp
+  ShaderSystemTexturedFog.cpp
+  VolumeCSG.cpp
+  VolumeTerrain.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(240,66): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1559,61): warning C4244: 'argument': conversion from 'Ogre::Real' to 'size_t', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1603,73): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const size_t', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1640,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1641,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1663,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1666,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1666,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1667,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1669,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1669,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1670,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1670,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1673,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1676,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1676,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1677,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1677,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1679,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1680,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1702,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1702,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1704,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1706,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1706,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1707,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1708,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1710,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1710,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1711,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1711,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1712,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1715,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1715,40): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1717,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1719,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1719,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1720,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1720,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1721,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1723,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1723,46): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1724,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp(1725,65): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  ThingRenderable.cpp
+  VolumeRenderable.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\ShaderSystemMultiLight.h(227,47): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp)
+  VolumeTex.cpp
+  WaterMesh.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeCSG\src\VolumeCSG.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeCSG\src\VolumeCSG.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTerrain\src\VolumeTerrain.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTerrain\src\VolumeTerrain.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(148,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\src\VolumeTex.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SdkSample.h(149,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\src\VolumeTex.cpp)
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/DefaultSamples_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/DefaultSamples_d.exp
+  DefaultSamples.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\DefaultSamples_d.dll
+
+Project Performance Summary:
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\OgreMain\OgreMain.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Overlay\OgreOverlay.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Paging\OgrePaging.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Bites\OgreBites.vcxproj   4 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Terrain\OgreTerrain.vcxproj   4 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        4 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\HLMS\OgreHLMS.vcxproj   4 calls
+                  1 ms  GetTargetPath                              1 calls
+                  3 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+        4 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Volume\OgreVolume.vcxproj   4 calls
+                  1 ms  GetTargetPath                              1 calls
+                  2 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+                  0 ms  GetCopyToOutputDirectoryItems              1 calls
+    14403 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\DefaultSamples.vcxproj   1 calls
+              14403 ms  Rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeReferenceLinkInputs                 1 calls
+        0 ms  ComputeResolveLinkObj                      1 calls
+        0 ms  GetResolvedLinkLibs                        4 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  Build                                      1 calls
+        0 ms  IncrementalClean                           1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  SatelliteDllsProjectOutputGroup            1 calls
+        0 ms  BuiltProjectOutputGroup                    1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  GetTargetPath                              4 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  SetTelemetryEnvironmentVariables           1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  CustomBuild                                1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  _CheckWindowsSDKInstalled                  1 calls
+        1 ms  BuildCompileTraverse                       1 calls
+        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        1 ms  CleanReferencedProjects                    1 calls
+        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        1 ms  ComputeLegacyManifestEmbedding             1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  ResolvedXDCMake                            1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        2 ms  PrepareForBuild                            1 calls
+        2 ms  CreateRecipeFile                           1 calls
+        3 ms  CoreClean                                  1 calls
+        3 ms  AssignProjectConfiguration                 1 calls
+        3 ms  GetTargetPathWithTargetPlatformMoniker     4 calls
+        4 ms  WarnCompileDuplicatedFilename              1 calls
+        4 ms  CoreCppClean                               1 calls
+        5 ms  GetNativeManifest                          4 calls
+        5 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        5 ms  GetCopyToOutputDirectoryItems              1 calls
+        5 ms  ContentFilesProjectOutputGroup             1 calls
+        7 ms  ResolvedLinkLib                            1 calls
+       27 ms  _SplitProjectReferencesByFileExistence     1 calls
+      427 ms  Link                                       1 calls
+      621 ms  ResolveProjectReferences                   1 calls
+    13271 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  CreateItem                                 2 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  ReadLinesFromFile                          3 calls
+        0 ms  FindUnderPath                              7 calls
+        0 ms  RemoveDuplicates                           3 calls
+        0 ms  AssignTargetPath                           7 calls
+        0 ms  GetOutOfDateItems                          3 calls
+        0 ms  CheckVCToolsetVersion                      1 calls
+        0 ms  ResolveNonMSBuildProjectOutput             1 calls
+        1 ms  Message                                    3 calls
+        1 ms  SetEnv                                     8 calls
+        1 ms  Delete                                     6 calls
+        2 ms  Touch                                      2 calls
+        2 ms  GenerateDesktopDeployRecipe                1 calls
+        2 ms  WriteLinesToFile                           4 calls
+        2 ms  MakeDir                                   12 calls
+        3 ms  AssignProjectConfiguration                 1 calls
+        3 ms  CppClean                                   1 calls
+        5 ms  CallTarget                                 2 calls
+      425 ms  Link                                       1 calls
+      632 ms  MSBuild                                    4 calls
+    13268 ms  CL                                         1 calls

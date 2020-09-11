@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\src\DefaultSamplesPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compositor\src\HelperLogics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compute\src\Compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\AmbientLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\DLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\DeferredLightCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\DeferredShading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\GBufferMaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\GBufferSchemeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\GeomUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\LightMaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\MaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\src\SSAOLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\Isosurf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\src\ProceduralTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\src\MeshLod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\src\NewInstancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\OceanDemo\src\MaterialControls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\src\ParticleGS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\src\ProceduralManualObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\src\RandomTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderExReflectionMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\src\ShaderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeCSG\src\VolumeCSG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTerrain\src\VolumeTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\src\ThingRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\src\VolumeRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\src\VolumeTex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Water\src\WaterMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\BSP\include\BSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\BezierPatch\include\BezierPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Browser\include\SampleBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Browser\include\SampleBrowser_Android.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Browser\include\SampleBrowser_iOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Browser\include\gestureDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\CameraTrack\include\CameraTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\CelShading\include\CelShading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Character\include\CharacterSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Character\include\SinbadCharacterController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\DefaultSamplesPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\ListenerFactoryLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\SampleContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\SamplePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Common\include\SdkSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compositor\include\Compositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compositor\include\HelperLogics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Compute\include\Compute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\CubeMapping\include\CubeMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\AmbientLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\DLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\DeferredLightCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\DeferredShading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\DeferredShadingDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\GBufferMaterialGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\GBufferSchemeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\GeomUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\LightMaterialGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\MaterialGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\NullSchemeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\SSAOLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DeferredShading\include\SharedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Dot3Bump\include\Dot3Bump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DualQuaternion\include\DualQuaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\DynTex\include\DynTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\EndlessWorld\include\EndlessWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\EndlessWorld\include\PerlinNoiseTerrainGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\FacialAnimation\include\FacialAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Fresnel\include\Fresnel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Grass\include\Grass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\HLMS\include\HLMS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Hair\include\Hair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Island\include\Island.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\include\Isosurf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Isosurf\include\ProceduralTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Lighting\include\Lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\MeshLod\include\MeshLod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\include\MersenneTwister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\NewInstancing\include\NewInstancing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\OceanDemo\include\MaterialControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\OceanDemo\include\OceanDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\PBR\include\PBR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\PCZTestApp\include\PCZTestApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\PCZTestApp\include\RoomObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\PNTrianglesTessellation\include\PNTrianglesTessellation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleFX\include\ParticleFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\include\ParticleGS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\include\ProceduralManualObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ParticleGS\include\RandomTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SSAO\include\SSAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\include\OgreShaderExInstancedViewports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\include\ShaderExReflectionMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystem\include\ShaderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\include\RTShaderSRSSegmentedLights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\include\SegmentedDynamicLightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemMultiLight\include\ShaderSystemMultiLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\include\RTShaderSRSTexturedFog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\ShaderSystemTexturedFog\include\ShaderSystemTexturedFog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Shadows\include\Shadows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SkeletalAnimation\include\SkeletalAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SkyBox\include\SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SkyDome\include\SkyDome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SkyPlane\include\SkyPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Smoke\include\Smoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\SphereMapping\include\SphereMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Terrain\include\Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\TerrainTessellation\include\TerrainTessellation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\TerrainTessellation\include\TerrainTessellationMaterialGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Tessellation\include\Tessellation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\TextureArray\include\TextureArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\TextureFX\include\TextureFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Transparency\include\Transparency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeCSG\include\VolumeCSG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTerrain\include\VolumeTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\include\Julia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\include\ThingRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\include\VolumeRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\VolumeTex\include\VolumeTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Water\include\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Samples\Water\include\WaterMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8028CD45-34E8-312D-9508-B56987D92A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9FFF5AF2-7065-37E8-8744-F1F01FFC5B1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

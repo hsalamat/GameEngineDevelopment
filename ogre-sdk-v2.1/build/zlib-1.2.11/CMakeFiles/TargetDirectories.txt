@@ -1,0 +1,8 @@
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/zlib.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/zlibstatic.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/example.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/minigzip.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/RUN_TESTS.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zlib-1.2.11/CMakeFiles/ZERO_CHECK.dir

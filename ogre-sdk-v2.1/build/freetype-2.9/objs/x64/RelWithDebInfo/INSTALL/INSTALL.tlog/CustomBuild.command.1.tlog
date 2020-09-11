@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\COURSE MATERIALS\GAMEENGINEDEVELOPMENT\OGRE-SDK-V2.1\BUILD\FREETYPE-2.9\OBJS\CMAKEFILES\1654BA14596CFE4DC76D502D286D9255\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

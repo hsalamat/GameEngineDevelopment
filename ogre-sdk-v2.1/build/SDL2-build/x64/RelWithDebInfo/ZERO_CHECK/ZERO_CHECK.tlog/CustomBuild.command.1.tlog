@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\COURSE MATERIALS\GAMEENGINEDEVELOPMENT\OGRE-SDK-V2.1\BUILD\SDL2-BUILD\CMAKEFILES\FF606D7921CD071565A33FAF8328C459\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-2.0.8" "-BC:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/SDL2.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,477 @@
+Determining if files byteswap.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3e919.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_BYTESWAP_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e919.dir\Debug\\" /Fd"cmTC_3e919.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c(2,10): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_3e919.vcxproj]
+
+
+Source:
+/* */
+#include <byteswap.h>
+
+
+int main(void){return 0;}
+
+Determining if files dirent.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6ef09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_DIRENT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ef09.dir\Debug\\" /Fd"cmTC_6ef09.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c(2,10): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_6ef09.vcxproj]
+
+
+Source:
+/* */
+#include <dirent.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7aa5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_DLFCN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7aa5a.dir\Debug\\" /Fd"cmTC_7aa5a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c(2,10): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_7aa5a.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files fnmatch.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c6cee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_FNMATCH_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6cee.dir\Debug\\" /Fd"cmTC_c6cee.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c(2,10): fatal error C1083: Cannot open include file: 'fnmatch.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_c6cee.vcxproj]
+
+
+Source:
+/* */
+#include <fnmatch.h>
+
+
+int main(void){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_80f96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_NDIR_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80f96.dir\Debug\\" /Fd"cmTC_80f96.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c(2,10): fatal error C1083: Cannot open include file: 'ndir.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_80f96.vcxproj]
+
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3f2f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f2f4.dir\Debug\\" /Fd"cmTC_3f2f4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_3f2f4.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\Debug\cmTC_3f2f4.exe : fatal error LNK1120: 1 unresolved externals [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_3f2f4.vcxproj]
+
+
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6c660.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_STRINGS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c660.dir\Debug\\" /Fd"cmTC_6c660.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c(2,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_6c660.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if the function strndup exists failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fafbb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strndup /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fafbb.dir\Debug\\" /Fd"cmTC_fafbb.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strndup referenced in function main [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_fafbb.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\Debug\cmTC_fafbb.exe : fatal error LNK1120: 1 unresolved externals [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_fafbb.vcxproj]
+
+
+
+Determining if files sys/dir.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8539d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_SYS_DIR_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8539d.dir\Debug\\" /Fd"cmTC_8539d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c(2,10): fatal error C1083: Cannot open include file: 'sys/dir.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8539d.vcxproj]
+
+
+Source:
+/* */
+#include <sys/dir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/int_types.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_38b35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_SYS_INT_TYPES_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38b35.dir\Debug\\" /Fd"cmTC_38b35.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c(2,10): fatal error C1083: Cannot open include file: 'sys/int_types.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_38b35.vcxproj]
+
+
+Source:
+/* */
+#include <sys/int_types.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/mman.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d00d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_SYS_MMAN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d00d2.dir\Debug\\" /Fd"cmTC_d00d2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c(2,10): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_d00d2.vcxproj]
+
+
+Source:
+/* */
+#include <sys/mman.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3e2d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_SYS_NDIR_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e2d3.dir\Debug\\" /Fd"cmTC_3e2d3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c(2,10): fatal error C1083: Cannot open include file: 'sys/ndir.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_3e2d3.vcxproj]
+
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b4d43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_SYS_PARAM_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4d43.dir\Debug\\" /Fd"cmTC_b4d43.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c(2,10): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_b4d43.vcxproj]
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a9573.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9573.dir\Debug\\" /Fd"cmTC_a9573.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c(2,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_a9573.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files winbase.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_30b31.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_WINBASE_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30b31.dir\Debug\\" /Fd"cmTC_30b31.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINBASE_H.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(47,5): error C2061: syntax error: identifier 'DWORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(48,12): error C2061: syntax error: identifier 'lpSecurityDescriptor' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(48,12): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(49,10): error C2061: syntax error: identifier 'bInheritHandle' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(49,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(50,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(53,5): error C2061: syntax error: identifier 'ULONG_PTR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(54,15): error C2061: syntax error: identifier 'InternalHigh' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(54,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(57,13): error C2061: syntax error: identifier 'DWORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(58,19): error C2061: syntax error: identifier 'OffsetHigh' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(58,19): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(59,9): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(60,15): error C2061: syntax error: identifier 'Pointer' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(60,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(61,5): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(63,13): error C2061: syntax error: identifier 'hEvent' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(63,13): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(64,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(67,5): error C2061: syntax error: identifier 'ULONG_PTR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(68,18): error C2061: syntax error: identifier 'lpOverlapped' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(68,18): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(69,15): error C2061: syntax error: identifier 'Internal' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(69,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(70,11): error C2061: syntax error: identifier 'dwNumberOfBytesTransferred' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(70,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(71,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(81,5): error C2061: syntax error: identifier 'DWORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(82,11): error C2061: syntax error: identifier 'dwHighDateTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(82,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(83,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(91,5): error C2061: syntax error: identifier 'WORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(92,10): error C2061: syntax error: identifier 'wMonth' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(92,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(93,10): error C2061: syntax error: identifier 'wDayOfWeek' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(93,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(94,10): error C2061: syntax error: identifier 'wDay' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(94,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(95,10): error C2061: syntax error: identifier 'wHour' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(95,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(96,10): error C2061: syntax error: identifier 'wMinute' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(96,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(97,10): error C2061: syntax error: identifier 'wSecond' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(97,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(98,10): error C2061: syntax error: identifier 'wMilliseconds' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(98,10): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(99,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(103,5): error C2061: syntax error: identifier 'DWORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(104,14): error C2061: syntax error: identifier 'ftCreationTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(104,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(105,14): error C2061: syntax error: identifier 'ftLastAccessTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(105,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(106,14): error C2061: syntax error: identifier 'ftLastWriteTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(106,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(107,11): error C2061: syntax error: identifier 'nFileSizeHigh' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(107,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(108,11): error C2061: syntax error: identifier 'nFileSizeLow' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(108,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(109,11): error C2061: syntax error: identifier 'dwReserved0' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(109,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(110,11): error C2061: syntax error: identifier 'dwReserved1' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(110,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(111,15): error C2061: syntax error: identifier 'CHAR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(111,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(111,42): error C2065: 'MAX_PATH': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(111,42): error C2057: expected constant expression [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(112,15): error C2061: syntax error: identifier 'CHAR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(112,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(118,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(120,5): error C2061: syntax error: identifier 'DWORD' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(121,14): error C2061: syntax error: identifier 'ftCreationTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(121,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(122,14): error C2061: syntax error: identifier 'ftLastAccessTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(122,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(123,14): error C2061: syntax error: identifier 'ftLastWriteTime' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(123,14): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(124,11): error C2061: syntax error: identifier 'nFileSizeHigh' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(124,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(125,11): error C2061: syntax error: identifier 'nFileSizeLow' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(125,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(126,11): error C2061: syntax error: identifier 'dwReserved0' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(126,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(127,11): error C2061: syntax error: identifier 'dwReserved1' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(127,11): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(128,15): error C2061: syntax error: identifier 'WCHAR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(128,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(128,42): error C2065: 'MAX_PATH': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(128,42): error C2057: expected constant expression [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(129,15): error C2061: syntax error: identifier 'WCHAR' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(129,15): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(135,1): error C2059: syntax error: '}' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(141,26): error C2061: syntax error: identifier 'WIN32_FIND_DATA' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(141,26): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(142,27): error C2061: syntax error: identifier 'PWIN32_FIND_DATA' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(142,27): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(143,28): error C2061: syntax error: identifier 'LPWIN32_FIND_DATA' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(143,28): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(217,30): error C2061: syntax error: identifier 'CRITICAL_SECTION' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(217,30): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(218,31): error C2061: syntax error: identifier 'PCRITICAL_SECTION' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(218,31): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\minwinbase.h(218,31): fatal error C1003: error count exceeds 100; stopping compilation [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_30b31.vcxproj]
+
+
+Source:
+/* */
+#include <winbase.h>
+
+
+int main(void){return 0;}
+
+Determining if files winnt.h exist failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fd839.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_WINNT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd839.dir\Debug\\" /Fd"cmTC_fd839.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINNT_H.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(173,1): fatal error C1189: #error:  "No Target Architecture" [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_fd839.vcxproj]
+
+
+Source:
+/* */
+#include <winnt.h>
+
+
+int main(void){return 0;}
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8da49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_OFF64_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8da49.dir\Debug\\" /Fd"cmTC_8da49.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c(25,12): error C2065: 'off64_t': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8da49.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c(26,12): error C2065: 'off64_t': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8da49.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c(27,12): error C2065: 'off64_t': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8da49.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c(28,12): error C2065: 'off64_t': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8da49.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\zziplib-develop\CMakeFiles\CMakeTmp\cmTC_8da49.vcxproj]
+
+
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/zziplib-develop/CMakeFiles/CheckTypeSize/ZZIP_SIZEOF_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

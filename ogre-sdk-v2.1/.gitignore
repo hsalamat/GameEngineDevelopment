@@ -4,12 +4,12 @@
 
 # Ignore build directories
 cmake-build-*/
-/build/
 /installed/
 /android-build/
 /embuild/
 /eminstall/
 /mingw/
+/.vs/
 
 # Meta data of macOS's Finder.app
 .DS_Store
@@ -18,3 +18,5 @@ cmake-build-*/
 
 # Ignore vim files
 *.swp
+*.pch
+*.ipch

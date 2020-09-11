@@ -1,0 +1,40 @@
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2f8cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f8cf.dir\Debug\\" /Fd"cmTC_2f8cf.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c(4,27): error C2061: syntax error: identifier 'x1' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_2f8cf.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c(4,27): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_2f8cf.vcxproj]
+
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c1b3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1b3e.dir\Debug\\" /Fd"cmTC_c1b3e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c(4,25): error C2061: syntax error: identifier 's1' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c1b3e.vcxproj]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\src.c(4,25): error C2059: syntax error: ';' [C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c1b3e.vcxproj]
+
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }

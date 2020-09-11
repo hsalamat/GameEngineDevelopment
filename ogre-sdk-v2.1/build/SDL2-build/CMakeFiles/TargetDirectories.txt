@@ -1,0 +1,6 @@
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/SDL2main.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/SDL2.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/uninstall.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/SDL2-build/CMakeFiles/ZERO_CHECK.dir

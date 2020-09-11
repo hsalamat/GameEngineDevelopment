@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\COURSE MATERIALS\GAMEENGINEDEVELOPMENT\OGRE-SDK-V2.1\BUILD\ZLIB-1.2.11\CMAKEFILES\52EFEDA5A180E7F28F2E35971D134DF3\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

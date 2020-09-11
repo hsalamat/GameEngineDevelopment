@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/Components/Java/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindJNI.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindJava.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindSWIG.cmake
