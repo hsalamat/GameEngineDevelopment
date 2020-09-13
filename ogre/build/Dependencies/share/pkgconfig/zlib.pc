@@ -1,0 +1,13 @@
+prefix=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies
+exec_prefix=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies
+libdir=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib
+sharedlibdir=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib
+includedir=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

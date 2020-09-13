@@ -1,0 +1,7 @@
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/zlib.lib
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/bin/zlib.dll
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/zlibstatic.lib
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/include/zconf.h
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/include/zlib.h
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/share/man/man3/zlib.3
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/share/pkgconfig/zlib.pc

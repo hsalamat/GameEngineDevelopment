@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CFA89476-2341-385D-86E1-80E879C65878}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\Assimp\Codec_Assimp.vcxproj">
+      <Project>{0775228C-C454-33E9-A624-E5069C4FCFD9}</Project>
+      <Name>Codec_Assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\STBICodec\Codec_STBI.vcxproj">
+      <Project>{7BCFFA7D-275E-3FB6-896D-7075102D9A69}</Project>
+      <Name>Codec_STBI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Samples\DefaultSamples.vcxproj">
+      <Project>{956CFF0B-35D3-3701-96DE-EAAABE8574FA}</Project>
+      <Name>DefaultSamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Tools\AssimpConverter\OgreAssimpConverter.vcxproj">
+      <Project>{99117B5F-95B4-3B07-8A67-4B240631B2A0}</Project>
+      <Name>OgreAssimpConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Bites\OgreBites.vcxproj">
+      <Project>{EE10D59E-BC6C-3285-9E4D-9EA5EEB3D444}</Project>
+      <Name>OgreBites</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GLSupport\OgreGLSupport.vcxproj">
+      <Project>{95EDBE9C-A7CF-3A7E-B672-AA5752EA9332}</Project>
+      <Name>OgreGLSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj">
+      <Project>{E413107F-3A3F-35BF-925F-4D53F31FDD95}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj">
+      <Project>{AB733A0D-1D3B-34C8-A385-FC14197D0EBA}</Project>
+      <Name>OgreMeshLodGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj">
+      <Project>{D1DC43E8-C4F1-33FB-A8F9-3C053E9FD2CD}</Project>
+      <Name>OgreMeshUpgrader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{2513F64C-4051-3D9A-829C-7BD014D39BB9}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Paging\OgrePaging.vcxproj">
+      <Project>{10297325-2638-3339-A6F3-D6052B5071CA}</Project>
+      <Name>OgrePaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Property\OgreProperty.vcxproj">
+      <Project>{FA5367D5-BAB5-370E-A518-7E4D6BD830C3}</Project>
+      <Name>OgreProperty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{D6309576-219C-35CA-964E-1B6C1BD03FA7}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{5ADE91E0-22F2-3456-9E9D-9702E97946D2}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\Volume\OgreVolume.vcxproj">
+      <Project>{5BC41F17-2CD2-3769-9A1D-38D6F270E1BD}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Tools\XMLConverter\OgreXMLConverter.vcxproj">
+      <Project>{3239D221-F87D-3D30-B473-8E34A607D023}</Project>
+      <Name>OgreXMLConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj">
+      <Project>{2AC86F48-F8CD-3CFD-B53B-87FB3E3A6690}</Project>
+      <Name>Plugin_BSPSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\DotScene\Plugin_DotScene.vcxproj">
+      <Project>{649483AF-3380-342A-A61D-36C6D1229682}</Project>
+      <Name>Plugin_DotScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
+      <Project>{82BE148A-C2BB-30B5-BD20-B82876A04094}</Project>
+      <Name>Plugin_OctreeSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj">
+      <Project>{9B035DEC-9EE1-3D98-BA04-7342FD52865A}</Project>
+      <Name>Plugin_OctreeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj">
+      <Project>{7458AABC-0E8E-3FA8-A57F-DE12DF65F9C6}</Project>
+      <Name>Plugin_PCZSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj">
+      <Project>{C6CD2BDC-95D5-352C-BD54-48E72A3CD203}</Project>
+      <Name>Plugin_ParticleFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj">
+      <Project>{C2FEF7DF-AABA-39D9-A1BA-C6119F2E9C75}</Project>
+      <Name>RenderSystem_Direct3D11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GL\RenderSystem_GL.vcxproj">
+      <Project>{0B65B5D7-47FF-3B2E-BFAF-F98C1293A95D}</Project>
+      <Name>RenderSystem_GL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GL3Plus\RenderSystem_GL3Plus.vcxproj">
+      <Project>{F2F7676E-9375-329C-B025-0939E9727CB6}</Project>
+      <Name>RenderSystem_GL3Plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Samples\Browser\SampleBrowser.vcxproj">
+      <Project>{6E50465F-E6FF-3EE2-A793-6B9D614433CF}</Project>
+      <Name>SampleBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\Tools\VRMLConverter\VRMLConverter.vcxproj">
+      <Project>{F7BA0FFB-4F9A-3EB3-8CD2-965617E5A44B}</Project>
+      <Name>VRMLConverter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

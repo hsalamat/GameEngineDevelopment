@@ -1,0 +1,11 @@
+prefix=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies
+exec_prefix=${prefix}
+includedir=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/include
+libdir=C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

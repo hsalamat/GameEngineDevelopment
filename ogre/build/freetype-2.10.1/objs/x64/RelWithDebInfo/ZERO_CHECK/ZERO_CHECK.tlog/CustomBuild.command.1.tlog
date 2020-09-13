@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\OGRE\BUILD\FREETYPE-2.10.1\OBJS\CMAKEFILES\7D8F929737A4262B46C6DCE19A5EAF64\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1 -BC:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/freetype.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

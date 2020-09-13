@@ -1,0 +1,5 @@
+C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/CMakeFiles/PACKAGE.dir
+C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/CMakeFiles/freetype.dir
+C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/ogre/build/freetype-2.10.1/objs/CMakeFiles/ZERO_CHECK.dir

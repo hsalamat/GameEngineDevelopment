@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapseCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapseCostCurvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapseCostOutside.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapseCostProfiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapseCostQuadric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodCollapser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodConfigSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodInputProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodOutputProviderMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodWorkQueueInjector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreLodWorkQueueWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\src\OgreSmallVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLod0Stripifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapseCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapseCostCurvature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapseCostOutside.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapseCostProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapseCostQuadric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodCollapser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodConfigSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodInputProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodInputProviderBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodInputProviderMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutputProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutputProviderBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutputProviderCompressedBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutputProviderCompressedMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutputProviderMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodOutsideMarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodWorkQueueInjector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodWorkQueueInjectorListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodWorkQueueRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreLodWorkQueueWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreMeshLodGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreSmallVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreVectorSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\Components\MeshLodGenerator\include\OgreVectorSetImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\build\Components\MeshLodGenerator\CMakeFiles\OgreMeshLodGenerator.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0D43477-7C7C-3143-A622-C5D4B079AC63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{B78E46F5-8DDB-3907-92BA-E8E8F567F93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE37620E-BE22-333F-8F7C-2C559FAF6840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

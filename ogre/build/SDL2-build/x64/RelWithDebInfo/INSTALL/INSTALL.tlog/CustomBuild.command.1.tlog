@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\OGRE\BUILD\SDL2-BUILD\CMAKEFILES\85732BA9FCBE3F513CF98CD2F7354993\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

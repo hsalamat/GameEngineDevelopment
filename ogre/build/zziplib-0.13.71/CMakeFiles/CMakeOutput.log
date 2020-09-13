@@ -1,0 +1,393 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2020-09-13 4:29:20 PM.
+Project "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\3.17.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\3.17.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\3.17.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/3.17.3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1b8f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b8f7.dir\Debug\\" /Fd"cmTC_1b8f7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_1b8f7.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_1b8f7.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_845b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_845b3.dir\Debug\\" /Fd"cmTC_845b3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_845b3.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_845b3.exe
+
+
+
+Determining if files direct.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_97a97.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_DIRECT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97a97.dir\Debug\\" /Fd"cmTC_97a97.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRECT_H.c"
+  cmTC_97a97.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_97a97.exe
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3bb12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_INTTYPES_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bb12.dir\Debug\\" /Fd"cmTC_3bb12.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_INTTYPES_H.c"
+  cmTC_3bb12.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_3bb12.exe
+
+
+
+Determining if files io.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3de39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_IO_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3de39.dir\Debug\\" /Fd"cmTC_3de39.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_IO_H.c"
+  cmTC_3de39.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_3de39.exe
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_82c2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_MEMORY_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82c2c.dir\Debug\\" /Fd"cmTC_82c2c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_MEMORY_H.c"
+  cmTC_82c2c.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_82c2c.exe
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_50a5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_STDINT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50a5a.dir\Debug\\" /Fd"cmTC_50a5a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDINT_H.c"
+  cmTC_50a5a.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_50a5a.exe
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a79a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_STDLIB_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a79a0.dir\Debug\\" /Fd"cmTC_a79a0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDLIB_H.c"
+  cmTC_a79a0.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_a79a0.exe
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_76101.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_STRING_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76101.dir\Debug\\" /Fd"cmTC_76101.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRING_H.c"
+  cmTC_76101.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_76101.exe
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4b675.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_HAVE_SYS_STAT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b675.dir\Debug\\" /Fd"cmTC_4b675.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_STAT_H.c"
+  cmTC_4b675.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_4b675.exe
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dd8c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_SYS_TYPES_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd8c8.dir\Debug\\" /Fd"cmTC_dd8c8.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_TYPES_H.c"
+  cmTC_dd8c8.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_dd8c8.exe
+
+
+
+Determining if files windows.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d9da7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  ZZIP_HAVE_WINDOWS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9da7.dir\Debug\\" /Fd"cmTC_d9da7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINDOWS_H.c"
+  cmTC_d9da7.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_d9da7.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c2cd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2cd4.dir\Debug\\" /Fd"cmTC_c2cd4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_c2cd4.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_c2cd4.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5dc0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5dc0c.dir\Debug\\" /Fd"cmTC_5dc0c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_5dc0c.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_5dc0c.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_13d02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13d02.dir\Debug\\" /Fd"cmTC_13d02.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_13d02.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_13d02.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_10250.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_INT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10250.dir\Debug\\" /Fd"cmTC_10250.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c"
+  cmTC_10250.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_10250.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5b9a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b9a0.dir\Debug\\" /Fd"cmTC_5b9a0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c"
+  cmTC_5b9a0.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_5b9a0.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a96e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a96e5.dir\Debug\\" /Fd"cmTC_a96e5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c"
+  cmTC_a96e5.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_a96e5.exe
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f7122.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_STDC_HEADERS.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7122.dir\Debug\\" /Fd"cmTC_f7122.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_STDC_HEADERS.c"
+  cmTC_f7122.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_f7122.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_be496.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be496.dir\Debug\\" /Fd"cmTC_be496.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_be496.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_be496.exe
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_775b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  TestEndianess.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_775b6.dir\Debug\\" /Fd"cmTC_775b6.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\TestEndianess.c"
+  cmTC_775b6.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_775b6.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of off_t_32 passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6285b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_OFF_T_32.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D off_t_32=off_t /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6285b.dir\Debug\\" /Fd"cmTC_6285b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_32.c"
+  cmTC_6285b.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_6285b.exe
+
+
+
+Determining size of off_t_64 passed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6f9c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ZZIP_SIZEOF_OFF_T_64.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D off_t_64=off_t /D _FILE_OFFSET_BITS=64 /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f9c9.dir\Debug\\" /Fd"cmTC_6f9c9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_64.c"
+  cmTC_6f9c9.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\CMakeTmp\Debug\cmTC_6f9c9.exe
+
+
+

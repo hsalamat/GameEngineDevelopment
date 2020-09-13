@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\OGRE\BUILD\ZLIB-1.2.11\CMAKEFILES\9D681F8CFBAA8638760BBAAC1AAA033A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Hooman/GBC/GAME3121/ogre/build/zlib-1.2.11 -BC:/Hooman/GBC/GAME3121/ogre/build/zlib-1.2.11 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Hooman/GBC/GAME3121/ogre/build/zlib-1.2.11/zlib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

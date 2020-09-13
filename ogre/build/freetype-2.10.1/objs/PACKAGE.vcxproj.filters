@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Hooman\GBC\GAME3121\ogre\build\freetype-2.10.1\objs\CMakeFiles\7d8f929737a4262b46c6dce19a5eaf64\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6B5309CA-99DD-3400-A7B4-235EDDF61989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

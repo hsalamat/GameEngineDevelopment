@@ -1,0 +1,4 @@
+C:/Hooman/GBC/GAME3121/ogre/build/pugixml-1.10/CMakeFiles/pugixml.dir
+C:/Hooman/GBC/GAME3121/ogre/build/pugixml-1.10/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/pugixml-1.10/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/ogre/build/pugixml-1.10/CMakeFiles/ZERO_CHECK.dir

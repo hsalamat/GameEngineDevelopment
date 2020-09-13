@@ -1,0 +1,93 @@
+# CMake generation dependency list for this directory.
+C:/Hooman/GBC/GAME3121/ogre/CMake/ConfigureBuild.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Dependencies.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/FeatureSummary.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/InstallDependencies.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/InstallResources.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindCg.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindDirectX.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindDirectX11.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindFreeImage.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindOpenEXR.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindOpenGLES2.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindSoftimage.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindZZip.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packaging.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/PrepareThreadingOptions.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OGREConfig.cmake.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OgreBuildSettings.h.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OgreComponents.h.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OgreConfigPaths.h.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OgreGLES2Config.h.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/OgreRTShaderConfig.h.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/plugins.cfg.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/resources.cfg.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/samples.cfg.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/tests.cfg.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/version.txt.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Utils/FindPkgMacros.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Utils/MacroLogFeature.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Utils/OgreConfigTargets.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Utils/PrecompiledHeader.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMakeLists.txt
+C:/Hooman/GBC/GAME3121/ogre/LICENSE
+C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/3.17.3/CMakeCCompiler.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/3.17.3/CMakeRCCompiler.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/3.17.3/CMakeSystem.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/cmake/SDL2Config.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/cmake/SDL2ConfigVersion.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/cmake/SDL2Targets-relwithdebinfo.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/cmake/SDL2Targets.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/assimp-5.0/assimp-config-version.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/assimp-5.0/assimp-config.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/assimp-5.0/assimpTargets-release.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/assimp-5.0/assimpTargets.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/pugixml/pugixml-config-relwithdebinfo.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/cmake/pugixml/pugixml-config.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeFindFrameworks.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindFreetype.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPythonLibs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindSWIG.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Templates/CPackConfig.cmake.in

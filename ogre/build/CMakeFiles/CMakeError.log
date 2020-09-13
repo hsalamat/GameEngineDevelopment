@@ -1,0 +1,33 @@
+Determining if the function strtol_l exists failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9e592.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol_l /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e592.dir\Debug\\" /Fd"cmTC_9e592.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strtol_l referenced in function main [C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\cmTC_9e592.vcxproj]
+C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\Debug\cmTC_9e592.exe : fatal error LNK1120: 1 unresolved externals [C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\cmTC_9e592.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Hooman/GBC/GAME3121/ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ee563.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee563.dir\Debug\\" /Fd"cmTC_ee563.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  /Zm256 C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\src.cxx
+C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\src.cxx(1,16): error C2065: '__deprecated__': undeclared identifier [C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\cmTC_ee563.vcxproj]
+C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\src.cxx(1,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\cmTC_ee563.vcxproj]
+C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\src.cxx(1,37): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Hooman\GBC\GAME3121\ogre\build\CMakeFiles\CMakeTmp\cmTC_ee563.vcxproj]
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Hooman/GBC/GAME3121/ogre/CMake/Packages/FindWix.cmake
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/VisualStudioUserFile.vcproj.user.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Templates/VisualStudioUserFile.vcxproj.user.in
+C:/Hooman/GBC/GAME3121/ogre/CMake/Utils/FindPkgMacros.cmake
+C:/Hooman/GBC/GAME3121/ogre/Samples/CMakeLists.txt

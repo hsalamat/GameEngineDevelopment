@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLExtSupport.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgram.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgramManager.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLProgramFactory.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp">
+      <Filter>ATIFS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp">
+      <Filter>ATIFS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp">
+      <Filter>ATIFS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_rc1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ts1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse_errors.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_combiners.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_final.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_general.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ts1.0_inst.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ts1.0_inst_list.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLCopyingRenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLDepthBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLEngineDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLGpuProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLGpuProgramManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwareBufferManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwareIndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwareOcclusionQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwareVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPBRenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPixelFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderToVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLStateCacheManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLCopyingRenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLDepthBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLFBOMultiRenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLFBORenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLFrameBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLGpuNvparseProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLGpuProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLGpuProgramManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLHardwareBufferManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLHardwareIndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLHardwareOcclusionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLHardwarePixelBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLHardwareVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLPBRenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLPixelFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLRenderSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLRenderToVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLStateCacheManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\include\OgreGLTextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\include\OgreGLSLExtSupport.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\include\OgreGLSLLinkProgram.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\include\OgreGLSLLinkProgramManager.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\include\OgreGLSLProgram.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\include\OgreGLSLProgramFactory.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_rc1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ts1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\macro.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse_errors.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse_externs.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_combiners.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_final.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_general.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_register.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ts1.0_inst.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ts1.0_inst_list.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ATIFS">
+      <UniqueIdentifier>{0A7011C0-363A-3DE7-8751-6EAFB029422F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL">
+      <UniqueIdentifier>{28277E60-EB7C-3E17-B3D4-6FD378149F12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A0D43477-7C7C-3143-A622-C5D4B079AC63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NVparse">
+      <UniqueIdentifier>{553B9476-2592-3059-8EF0-2CBCBB4826B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE37620E-BE22-333F-8F7C-2C559FAF6840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

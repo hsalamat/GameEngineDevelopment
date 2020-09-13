@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Common\src\DefaultSamplesPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\CSMGpuConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\src\ShadowCameraSetupStableCSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Compositor\src\HelperLogics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\AmbientLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredLightCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\DeferredShading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferMaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GBufferSchemeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\GeomUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\LightMaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\MaterialGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\src\SSAOLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\Isosurf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\src\ProceduralTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\OceanDemo\src\MaterialControls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\PCZTestApp\src\RoomObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ParticleGS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\ProceduralManualObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\src\RandomTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\OgreShaderExInstancedViewports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderExReflectionMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\src\ShaderSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\Compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\MeshLod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\NewInstancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeCSG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\src\VolumeTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\ThingRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\src\VolumeTex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Water\src\WaterMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Browser\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\CSMShadows\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Character\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Common\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Compositor\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\DeferredShading\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\EndlessWorld\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Isosurf\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\OceanDemo\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\PCZTestApp\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ParticleGS\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystem\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemMultiLight\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\ShaderSystemTexturedFog\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Simple\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\TerrainTessellation\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\VolumeTex\include" />
+    <None Include="C:\Hooman\GBC\GAME3121\ogre\Samples\Water\include" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE37620E-BE22-333F-8F7C-2C559FAF6840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

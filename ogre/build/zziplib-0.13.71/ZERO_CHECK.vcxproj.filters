@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Hooman\GBC\GAME3121\ogre\build\zziplib-0.13.71\CMakeFiles\8fce9ea06ad18fa1f666e7037f0de8d7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4EA39812-AD80-3D46-A06A-FFBDECEB9CD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

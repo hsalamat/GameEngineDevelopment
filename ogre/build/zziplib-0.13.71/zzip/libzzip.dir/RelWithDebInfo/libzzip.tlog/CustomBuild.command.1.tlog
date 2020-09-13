@@ -1,0 +1,10 @@
+^C:\HOOMAN\GBC\GAME3121\OGRE\BUILD\ZZIPLIB-0.13.71\ZZIP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71 -BC:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71 --check-stamp-file C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/zzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

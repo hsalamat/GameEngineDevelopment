@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/cmake-modules/FindRT.cmake
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/code/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake

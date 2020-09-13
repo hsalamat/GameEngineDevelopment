@@ -1,0 +1,424 @@
+﻿  cmake_pch.cxx
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+  OgreASTCCodec.cpp
+  OgreAlignedAllocator.cpp
+  OgreAnimable.cpp
+  OgreAnimation.cpp
+  OgreAnimationState.cpp
+  OgreAnimationTrack.cpp
+  OgreArchive.cpp
+  OgreArchiveManager.cpp
+  OgreAutoParamDataSource.cpp
+  OgreAxisAlignedBox.cpp
+  OgreBillboard.cpp
+  OgreBillboardChain.cpp
+  OgreBillboardParticleRenderer.cpp
+  OgreBillboardSet.cpp
+  OgreBone.cpp
+  OgreCamera.cpp
+  OgreCodec.cpp
+  OgreColourValue.cpp
+  OgreCommon.cpp
+  OgreCompositionPass.cpp
+  OgreCompositionTargetPass.cpp
+  OgreCompositionTechnique.cpp
+  OgreCompositor.cpp
+  OgreCompositorChain.cpp
+  OgreCompositorInstance.cpp
+  OgreCompositorManager.cpp
+  OgreConfigFile.cpp
+  OgreControllerManager.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreCompositorInstance.cpp(706,85): warning C4244: '=': conversion from 'float' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreCompositorInstance.cpp(711,87): warning C4244: '=': conversion from 'float' to 'Ogre::uint32', possible loss of data
+  OgreConvexBody.cpp
+  OgreDataStream.cpp
+  OgreDefaultHardwareBufferManager.cpp
+  OgreDefaultSceneQueries.cpp
+  OgreDeflate.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreDeflate.cpp(409,34): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  OgreDepthBuffer.cpp
+  OgreDistanceLodStrategy.cpp
+  OgreDualQuaternion.cpp
+  OgreDynLib.cpp
+  OgreDynLibManager.cpp
+  OgreEdgeListBuilder.cpp
+  OgreEntity.cpp
+  OgreException.cpp
+  OgreExternalTextureSourceManager.cpp
+  OgreExternalTextureSource.cpp
+  OgreFrustum.cpp
+  OgreGpuProgram.cpp
+  OgreGpuProgramManager.cpp
+  OgreGpuProgramParams.cpp
+  OgreGpuProgramUsage.cpp
+  OgreHardwareBufferManager.cpp
+  OgreHardwareIndexBuffer.cpp
+  OgreHardwareOcclusionQuery.cpp
+  OgreHardwarePixelBuffer.cpp
+  OgreHardwareUniformBuffer.cpp
+  OgreHardwareVertexBuffer.cpp
+  OgreHighLevelGpuProgram.cpp
+  OgreHighLevelGpuProgramManager.cpp
+  OgreImage.cpp
+  OgreInstanceBatch.cpp
+  OgreInstanceBatchHW.cpp
+  OgreInstanceBatchHW_VTF.cpp
+  OgreInstanceBatchShader.cpp
+  OgreInstanceBatchVTF.cpp
+  OgreInstanceManager.cpp
+  OgreInstancedEntity.cpp
+  OgreKeyFrame.cpp
+  OgreLight.cpp
+  OgreLodStrategy.cpp
+  OgreLodStrategyManager.cpp
+  OgreLog.cpp
+  OgreLogManager.cpp
+  OgreManualObject.cpp
+  OgreMaterial.cpp
+  OgreMaterialManager.cpp
+  OgreMaterialSerializer.cpp
+  OgreMath.cpp
+  OgreMatrix3.cpp
+  OgreMatrix4.cpp
+  OgreMesh.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMesh.cpp(1335,45): warning C4244: 'initializing': conversion from '__int64' to 'unsigned short', possible loss of data
+  OgreMeshManager.cpp
+  OgreMeshSerializerImpl.cpp
+  OgreMeshSerializer.cpp
+  OgreMovableObject.cpp
+  OgreMovablePlane.cpp
+  OgreMurmurHash3.cpp
+  OgreNode.cpp
+  OgreNumerics.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  OgreOptimisedUtil.cpp
+  OgreOptimisedUtilGeneral.cpp
+  OgreOptimisedUtilSSE.cpp
+  OgreParticle.cpp
+  OgreParticleEmitter.cpp
+  OgreParticleEmitterCommands.cpp
+  OgreParticleIterator.cpp
+  OgreParticleSystem.cpp
+  OgreParticleSystemManager.cpp
+  OgrePass.cpp
+  OgrePatchMesh.cpp
+  OgrePatchSurface.cpp
+  OgrePixelCountLodStrategy.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgrePatchSurface.cpp(178,39): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgrePatchSurface.cpp(179,39): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgrePatchSurface.cpp(384,36): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgrePatchSurface.cpp(385,36): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgrePixelCountLodStrategy.cpp(122,96): warning C4244: 'return': conversion from 'double' to 'Ogre::Real', possible loss of data
+  OgrePixelFormat.cpp
+  OgrePlatformInformation.cpp
+  OgrePolygon.cpp
+  OgrePose.cpp
+  OgrePredefinedControllers.cpp
+  OgrePrefabFactory.cpp
+  OgreProfiler.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreProfiler.cpp(261,53): warning C4244: '=': conversion from 'uint64_t' to 'Ogre::ulong', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreProfiler.cpp(328,54): warning C4244: 'initializing': conversion from 'uint64_t' to 'Ogre::ulong', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreProfiler.cpp(328,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'const Ogre::ulong', possible loss of data
+  OgreQuaternion.cpp
+  OgreRectangle2D.cpp
+  OgreRenderQueue.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRenderQueue.cpp(229,60): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint8', possible loss of data
+  OgreRenderQueueInvocation.cpp
+  OgreRenderQueueSortingGrouping.cpp
+  OgreRenderSystem.cpp
+  OgreRenderSystemCapabilities.cpp
+  OgreRenderSystemCapabilitiesManager.cpp
+  OgreRenderSystemCapabilitiesSerializer.cpp
+  OgreRenderTarget.cpp
+  OgreRenderTexture.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRenderTarget.cpp(290,44): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRenderTarget.cpp(298,32): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+  OgreRenderToVertexBuffer.cpp
+  OgreRenderWindow.cpp
+  OgreRenderable.cpp
+  OgreResource.cpp
+  OgreResourceBackgroundQueue.cpp
+  OgreResourceGroupManager.cpp
+  OgreResourceManager.cpp
+  OgreRibbonTrail.cpp
+  OgreRoot.cpp
+  OgreRotationSpline.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRoot.cpp(803,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRoot.cpp(886,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreRoot.cpp(895,38): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+  OgreSceneLoaderManager.cpp
+  OgreSceneManager.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneLoaderManager.cpp(96,5): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OgreSceneManagerEnumerator.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(2084,68): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(3097,29): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(3096,30): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(3095,29): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(3094,30): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneManager.cpp(4064,73): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=Ogre::ushort
+          ]
+  OgreSceneNode.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreSceneNode.cpp(366,92): warning C4244: 'argument': conversion from '__int64' to 'unsigned short', possible loss of data
+  OgreSceneQuery.cpp
+  OgreScriptCompiler.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreScriptCompiler.cpp(1673,55): warning C4996: 'Ogre::PreApplyTextureAliasesScriptCompilerEvent::eventType': was declared deprecated
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreScriptCompiler.cpp(1683,58): warning C4996: 'Ogre::CreateHighLevelGpuProgramScriptCompilerEvent::eventType': was declared deprecated
+  OgreScriptLexer.cpp
+  OgreScriptParser.cpp
+  OgreScriptTranslator.cpp
+  OgreSerializer.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreScriptTranslator.cpp(4971,43): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreScriptTranslator.cpp(4972,45): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+  OgreShadowCameraSetup.cpp
+  OgreShadowCameraSetupFocused.cpp
+  OgreShadowCameraSetupLiSPSM.cpp
+  OgreShadowCameraSetupPSSM.cpp
+  OgreShadowCameraSetupPlaneOptimal.cpp
+  OgreShadowCaster.cpp
+  OgreShadowRenderer.cpp
+  OgreShadowTextureManager.cpp
+  OgreShadowVolumeExtrudeProgram.cpp
+  OgreSimpleRenderable.cpp
+  OgreSimpleSpline.cpp
+  OgreSkeleton.cpp
+  OgreSkeletonInstance.cpp
+  OgreSkeletonManager.cpp
+  OgreSkeletonSerializer.cpp
+  OgreSkyRenderer.cpp
+  OgreStaticGeometry.cpp
+  OgreStreamSerialiser.cpp
+  OgreString.cpp
+  OgreStringConverter.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreStringConverter.cpp(267,25): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+  OgreStringInterface.cpp
+  OgreSubEntity.cpp
+  OgreSubMesh.cpp
+  OgreTagPoint.cpp
+  OgreTangentSpaceCalc.cpp
+  OgreTechnique.cpp
+  OgreTexture.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreTexture.cpp(196,40): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreTexture.cpp(296,38): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreTexture.cpp(297,41): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreTexture.cpp(421,62): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+  OgreTextureManager.cpp
+  OgreTextureUnitState.cpp
+  OgreTimer.cpp
+  OgreUnifiedHighLevelGpuProgram.cpp
+  OgreUserObjectBindings.cpp
+  OgreVector.cpp
+  OgreVertexIndexData.cpp
+  OgreViewport.cpp
+  OgreWireBoundingBox.cpp
+  OgreWorkQueue.cpp
+  OgreDDSCodec.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreDDSCodec.cpp(396,84): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreDDSCodec.cpp(398,76): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+  OgreETCCodec.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreWorkQueue.cpp(597,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreWorkQueue.cpp(627,77): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+  OgreFileSystemLayer.cpp
+  OgreDefaultWorkQueueStandard.cpp
+  OgreFileSystem.cpp
+  OgreZip.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreZip.cpp(668,19): warning C4267: 'return': conversion from 'size_t' to 'zzip_ssize_t', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreZip.cpp(706,22): warning C4267: 'return': conversion from 'size_t' to 'zzip_off_t', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\src\OgreZip.cpp(719,44): warning C4267: 'return': conversion from 'size_t' to 'zzip_off_t', possible loss of data
+     Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Release/OgreMain.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Release/OgreMain.exp
+  OgreMain.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Release\OgreMain.dll
+
+Project Performance Summary:
+    27801 ms  C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj   1 calls
+              27801 ms  Rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  Build                                      1 calls
+        0 ms  IncrementalClean                           1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ResolvedLinkLib                            1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  SatelliteDllsProjectOutputGroup            1 calls
+        0 ms  BuiltProjectOutputGroup                    1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  Clean                                      1 calls
+        1 ms  SetTelemetryEnvironmentVariables           1 calls
+        1 ms  CustomBuild                                1 calls
+        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  CreateRecipeFile                           1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  MakeDirsForBscMake                         1 calls
+        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        2 ms  CoreClean                                  1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        3 ms  FixupCLCompileOptions                      1 calls
+        4 ms  ComputeCLOutputs                           1 calls
+        4 ms  PrepareForBuild                            1 calls
+        5 ms  ContentFilesProjectOutputGroup             1 calls
+       16 ms  WarnCompileDuplicatedFilename              1 calls
+       75 ms  CoreCppClean                               1 calls
+      602 ms  Link                                       1 calls
+    27062 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  CreateItem                                 2 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  ReadLinesFromFile                          3 calls
+        0 ms  FindUnderPath                              7 calls
+        0 ms  RemoveDuplicates                           3 calls
+        0 ms  AssignTargetPath                           7 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  MSBuild                                    1 calls
+        0 ms  CheckVCToolsetVersion                      1 calls
+        1 ms  GetOutOfDateItems                          3 calls
+        1 ms  Message                                    3 calls
+        1 ms  Delete                                     6 calls
+        1 ms  GenerateDesktopDeployRecipe                1 calls
+        1 ms  CallTarget                                 2 calls
+        2 ms  SetEnv                                     8 calls
+        2 ms  Touch                                      2 calls
+        3 ms  MakeDir                                   12 calls
+        3 ms  WriteLinesToFile                           4 calls
+       74 ms  CppClean                                   1 calls
+      594 ms  Link                                       1 calls
+    27052 ms  CL                                         3 calls

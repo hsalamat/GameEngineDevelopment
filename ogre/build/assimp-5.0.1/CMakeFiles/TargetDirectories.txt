@@ -1,0 +1,10 @@
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/CMakeFiles/uninstall.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/CMakeFiles/ZERO_CHECK.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/contrib/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/contrib/irrXML/CMakeFiles/IrrXML.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/contrib/irrXML/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/code/CMakeFiles/assimp.dir
+C:/Hooman/GBC/GAME3121/ogre/build/assimp-5.0.1/code/CMakeFiles/INSTALL.dir

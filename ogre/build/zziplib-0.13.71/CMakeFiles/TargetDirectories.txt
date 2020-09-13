@@ -1,0 +1,6 @@
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/ALL_BUILD.dir
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/CMakeFiles/ZERO_CHECK.dir
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/zzip/CMakeFiles/libzzip.dir
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/zzip/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/zziplib-0.13.71/zzip/CMakeFiles/ALL_BUILD.dir
