@@ -1,8 +1,3 @@
-/*-------------------------------------------------------------------------
-xcopy /y $(ogre_home_v2)\build\bin\debug\*.* $(ProjectDir)x64\debug\
-xcopy /y "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\*.*" "C:\Hooman\GBC\GAME3121\Week3\Week3\x64\debug\"
--------------------------------------------------------------------------*/
-
 //! [fullsource]
 
 #include "Ogre.h"
@@ -28,7 +23,7 @@ public:
 
 
 BasicTutorial1::BasicTutorial1()
-    : ApplicationContext("OgreTemplate-V2")
+    : ApplicationContext("OgreTemplate-V21")
 {
 }
 
