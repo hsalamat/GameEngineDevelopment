@@ -127,7 +127,8 @@
       <AdditionalDependencies>OgreMain_d.lib;OgreBites_d.lib;OgreRTShaderSystem_d.lib;OgreOverlay_d.lib;OgreTerrain_d.lib;OgrePaging_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /y "C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\*.*" "C:\Hooman\GBC\GAME3121\Week3\Week3\x64\debug\"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
