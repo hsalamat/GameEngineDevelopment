@@ -1,0 +1,2 @@
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OgreTemplatev1.12\OgreTemplatev1.12\x64\Debug\OgreTemplatev1.12.exe
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OgreTemplatev1.12\OgreTemplatev1.12\x64\Debug\OgreTemplatev1.12.pdb

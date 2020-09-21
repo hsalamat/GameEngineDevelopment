@@ -54,7 +54,7 @@ void BasicTutorial1::setup()
     //! [newlight]
 
     //! [lightpos]
-    lightNode->setPosition(20, 80, 50);
+    lightNode->setPosition(-80, 80, 50);
     //! [lightpos]
 
     //! [camera]
@@ -102,9 +102,10 @@ void BasicTutorial1::setup()
     //! [entity3]
 
     //! [entity4]
-    Entity* ogreEntity4 = scnMgr->createEntity("ogrehead.mesh");
+    Entity* ogreEntity4 = scnMgr->createEntity("fish.mesh");
     SceneNode* ogreNode4 = scnMgr->getRootSceneNode()->createChildSceneNode();
     ogreNode4->setPosition(-84, 48, 0);
+    ogreNode4->setScale(4, 4, 4);
     ogreNode4->roll(Degree(-90));
     ogreNode4->attachObject(ogreEntity4);
     //! [entity4]

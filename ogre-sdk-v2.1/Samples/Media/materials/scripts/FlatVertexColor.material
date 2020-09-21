@@ -1,0 +1,14 @@
+material FlatVertexColour
+{
+	technique
+	{
+		pass
+		{
+			diffuse vertexcolour
+			specular vertexcolour
+			ambient vertexcolour
+			lighting on
+			
+		}
+	}
+}

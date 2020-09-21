@@ -1,0 +1,647 @@
+﻿  Source.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAxisAlignedBox.h(66,25): warning C4251: 'Ogre::AxisAlignedBox::mMinimum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAxisAlignedBox.h(67,25): warning C4251: 'Ogre::AxisAlignedBox::mMaximum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePlane.h(65,23): warning C4251: 'Ogre::Plane::normal': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Plane'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreSphere.h(56,24): warning C4251: 'Ogre::Sphere::mCenter': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Sphere'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreBone.h(140,41): warning C4251: 'Ogre::Bone::mBindDerivedInverseScale': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreBone.h(144,44): warning C4251: 'Ogre::Bone::mBindDerivedInversePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreRay.h(48,24): warning C4251: 'Ogre::Ray::mOrigin': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreRay.h(49,27): warning C4251: 'Ogre::Ray::mDirection': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(74,40): warning C4251: 'Ogre::AutoParamDataSource::mCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(75,51): warning C4251: 'Ogre::AutoParamDataSource::mCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(80,76): warning C4251: 'Ogre::AutoParamDataSource::mShadowCamDepthRanges': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(85,43): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(86,54): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(108,28): warning C4251: 'Ogre::AutoParamDataSource::mFogParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(109,30): warning C4251: 'Ogre::AutoParamDataSource::mPointParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(111,41): warning C4251: 'Ogre::AutoParamDataSource::mSceneDepthRange': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreAutoParamDataSource.h(119,40): warning C4251: 'Ogre::AutoParamDataSource::mCameraRelativePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(253): message : see declaration of 'Ogre::Vector<3,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureManager.h(417,35): warning C4251: 'Ogre::TextureManager::mWarningTexture': class 'Ogre::SharedPtr<Ogre::Texture>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(303): message : see declaration of 'Ogre::SharedPtr<Ogre::Texture>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureManager.h(418,35): warning C4251: 'Ogre::TextureManager::mDefaultSampler': class 'std::shared_ptr<Ogre::Sampler>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureUnitState.h(223): message : see declaration of 'std::shared_ptr<Ogre::Sampler>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureManager.h(419,52): warning C4251: 'Ogre::TextureManager::mNamedSamplers': class 'std::map<Ogre::String,Ogre::SamplerPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SamplerPtr>>>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureManager.h(419): message : see declaration of 'std::map<Ogre::String,Ogre::SamplerPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SamplerPtr>>>'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTimer.h(41,52): warning C4251: 'Ogre::Timer::start': class 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' needs to have dll-interface to be used by clients of class 'Ogre::Timer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\chrono(603): message : see declaration of 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreStaticPluginLoader.h(20,44): warning C4251: 'OgreBites::StaticPluginLoader::mPlugins': class 'std::vector<Ogre::Plugin *,std::allocator<Ogre::Plugin *>>' needs to have dll-interface to be used by clients of class 'OgreBites::StaticPluginLoader'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreRoot.h(73): message : see declaration of 'std::vector<Ogre::Plugin *,std::allocator<Ogre::Plugin *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(195,40): warning C4251: 'Ogre::RTShader::ProgramManager::mProgramWritersMap': class 'std::map<Ogre::String,Ogre::RTShader::ProgramWriter *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramWriter *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(100): message : see declaration of 'std::map<Ogre::String,Ogre::RTShader::ProgramWriter *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramWriter *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(197,46): warning C4251: 'Ogre::RTShader::ProgramManager::mProgramProcessorsMap': class 'std::map<Ogre::String,Ogre::RTShader::ProgramProcessor *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramProcessor *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(105): message : see declaration of 'std::map<Ogre::String,Ogre::RTShader::ProgramProcessor *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramProcessor *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(199,53): warning C4251: 'Ogre::RTShader::ProgramManager::mProgramWriterFactories': class 'std::vector<Ogre::RTShader::ProgramWriterFactory *,std::allocator<Ogre::RTShader::ProgramWriterFactory *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(102): message : see declaration of 'std::vector<Ogre::RTShader::ProgramWriterFactory *,std::allocator<Ogre::RTShader::ProgramWriterFactory *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(201,36): warning C4251: 'Ogre::RTShader::ProgramManager::mVertexShaderMap': class 'std::map<Ogre::String,Ogre::GpuProgramPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::GpuProgramPtr>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(93): message : see declaration of 'std::map<Ogre::String,Ogre::GpuProgramPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::GpuProgramPtr>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(203,38): warning C4251: 'Ogre::RTShader::ProgramManager::mFragmentShaderMap': class 'std::map<Ogre::String,Ogre::GpuProgramPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::GpuProgramPtr>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(93): message : see declaration of 'std::map<Ogre::String,Ogre::GpuProgramPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::GpuProgramPtr>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(205,51): warning C4251: 'Ogre::RTShader::ProgramManager::mDefaultProgramProcessors': class 'std::vector<Ogre::RTShader::ProgramProcessor *,std::allocator<Ogre::RTShader::ProgramProcessor *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramManager.h(108): message : see declaration of 'std::vector<Ogre::RTShader::ProgramProcessor *,std::allocator<Ogre::RTShader::ProgramProcessor *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderParameter.h(376,17): warning C4251: 'Ogre::RTShader::Parameter::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderParameter.h(379,21): warning C4251: 'Ogre::RTShader::Parameter::mBindName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(151,52): warning C4251: 'Ogre::RTShader::SubRenderState::mThisAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(43): message : see declaration of 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(153,45): warning C4251: 'Ogre::RTShader::SubRenderState::mOtherAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(43): message : see declaration of 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(208,58): warning C4251: 'Ogre::RTShader::SubRenderStateAccessor::mSubRenderStateInstancesSet': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateAccessor'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(161): message : see declaration of 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(313,42): warning C4251: 'Ogre::RTShader::SubRenderStateFactory::mSubRenderStateList': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateFactory'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(161): message : see declaration of 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(71,43): warning C4251: 'Ogre::RTShader::ProgramSet::mVSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(65): message : see declaration of 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(73,43): warning C4251: 'Ogre::RTShader::ProgramSet::mPSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(65): message : see declaration of 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(75,32): warning C4251: 'Ogre::RTShader::ProgramSet::mVSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(282): message : see declaration of 'Ogre::SharedPtr<Ogre::GpuProgram>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderProgramSet.h(77,32): warning C4251: 'Ogre::RTShader::ProgramSet::mPSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(282): message : see declaration of 'Ogre::SharedPtr<Ogre::GpuProgram>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderRenderState.h(117,43): warning C4251: 'Ogre::RTShader::RenderState::mSubRenderStateList': class 'std::vector<Ogre::RTShader::SubRenderState *,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::RenderState'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderSubRenderState.h(157): message : see declaration of 'std::vector<Ogre::RTShader::SubRenderState *,std::allocator<Ogre::RTShader::SubRenderState *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderRenderState.h(119,25): warning C4251: 'Ogre::RTShader::RenderState::mLightCount': class 'Ogre::Vector<3,int>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::RenderState'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(254): message : see declaration of 'Ogre::Vector<3,int>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderRenderState.h(204,44): warning C4251: 'Ogre::RTShader::TargetRenderState::mProgramSet': class 'std::unique_ptr<Ogre::RTShader::ProgramSet,std::default_delete<Ogre::RTShader::ProgramSet>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::TargetRenderState'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderRenderState.h(204): message : see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramSet,std::default_delete<Ogre::RTShader::ProgramSet>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(432,38): warning C4251: 'Ogre::RTShader::ShaderGenerator::DEFAULT_SCHEME_NAME': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(524,62): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGPass::mTargetRenderState': class 'std::unique_ptr<Ogre::RTShader::TargetRenderState,std::default_delete<Ogre::RTShader::TargetRenderState>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGPass'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(524): message : see declaration of 'std::unique_ptr<Ogre::RTShader::TargetRenderState,std::default_delete<Ogre::RTShader::TargetRenderState>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(585,30): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::UserKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(608,32): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mPassEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGPass *,std::allocator<Ogre::RTShader::ShaderGenerator::SGPass *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(452): message : see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGPass *,std::allocator<Ogre::RTShader::ShaderGenerator::SGPass *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(611,44): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mCustomRenderStates': class 'std::vector<Ogre::RTShader::RenderState *,std::allocator<Ogre::RTShader::RenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(610): message : see declaration of 'std::vector<Ogre::RTShader::RenderState *,std::allocator<Ogre::RTShader::RenderState *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(615,39): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mDstTechniqueSchemeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(643,21): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(645,22): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mGroup': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(647,42): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(456): message : see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(720,21): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(722,42): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(456): message : see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(726,50): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mRenderState': class 'std::unique_ptr<Ogre::RTShader::RenderState,std::default_delete<Ogre::RTShader::RenderState>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(726): message : see declaration of 'std::unique_ptr<Ogre::RTShader::RenderState,std::default_delete<Ogre::RTShader::RenderState>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(836,37): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerMap': class 'std::map<Ogre::String,Ogre::SceneManager *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SceneManager *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreSceneManagerEnumerator.h(92): message : see declaration of 'std::map<Ogre::String,Ogre::SceneManager *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SceneManager *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(838,66): warning C4251: 'Ogre::RTShader::ShaderGenerator::mRenderObjectListener': class 'std::unique_ptr<Ogre::RTShader::SGRenderObjectListener,std::default_delete<Ogre::RTShader::SGRenderObjectListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(838): message : see declaration of 'std::unique_ptr<Ogre::RTShader::SGRenderObjectListener,std::default_delete<Ogre::RTShader::SGRenderObjectListener>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(840,66): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerListener': class 'std::unique_ptr<Ogre::RTShader::SGSceneManagerListener,std::default_delete<Ogre::RTShader::SGSceneManagerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(840): message : see declaration of 'std::unique_ptr<Ogre::RTShader::SGSceneManagerListener,std::default_delete<Ogre::RTShader::SGSceneManagerListener>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(842,72): warning C4251: 'Ogre::RTShader::ShaderGenerator::mScriptTranslatorManager': class 'std::unique_ptr<Ogre::RTShader::SGScriptTranslatorManager,std::default_delete<Ogre::RTShader::SGScriptTranslatorManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(842): message : see declaration of 'std::unique_ptr<Ogre::RTShader::SGScriptTranslatorManager,std::default_delete<Ogre::RTShader::SGScriptTranslatorManager>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(844,78): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialSerializerListener': class 'std::unique_ptr<Ogre::RTShader::SGMaterialSerializerListener,std::default_delete<Ogre::RTShader::SGMaterialSerializerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(844): message : see declaration of 'std::unique_ptr<Ogre::RTShader::SGMaterialSerializerListener,std::default_delete<Ogre::RTShader::SGMaterialSerializerListener>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(846,68): warning C4251: 'Ogre::RTShader::ShaderGenerator::mResourceGroupListener': class 'std::unique_ptr<Ogre::RTShader::SGResourceGroupListener,std::default_delete<Ogre::RTShader::SGResourceGroupListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(846): message : see declaration of 'std::unique_ptr<Ogre::RTShader::SGResourceGroupListener,std::default_delete<Ogre::RTShader::SGResourceGroupListener>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(850,27): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderLanguage': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(852,33): warning C4251: 'Ogre::RTShader::ShaderGenerator::mVertexShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(854,43): warning C4251: 'Ogre::RTShader::ShaderGenerator::mVertexShaderProfilesList': class 'std::vector<Ogre::String,std::allocator<Ogre::String>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreString.h(110): message : see declaration of 'std::vector<Ogre::String,std::allocator<Ogre::String>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(856,35): warning C4251: 'Ogre::RTShader::ShaderGenerator::mFragmentShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(858,45): warning C4251: 'Ogre::RTShader::ShaderGenerator::mFragmentShaderProfilesList': class 'std::vector<Ogre::String,std::allocator<Ogre::String>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreString.h(110): message : see declaration of 'std::vector<Ogre::String,std::allocator<Ogre::String>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(860,28): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderCachePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(862,52): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramManager': class 'std::unique_ptr<Ogre::RTShader::ProgramManager,std::default_delete<Ogre::RTShader::ProgramManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(862): message : see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramManager,std::default_delete<Ogre::RTShader::ProgramManager>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(864,64): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramWriterManager': class 'std::unique_ptr<Ogre::RTShader::ProgramWriterManager,std::default_delete<Ogre::RTShader::ProgramWriterManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(864): message : see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramWriterManager,std::default_delete<Ogre::RTShader::ProgramWriterManager>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(868,66): warning C4251: 'Ogre::RTShader::ShaderGenerator::mFFPRenderStateBuilder': class 'std::unique_ptr<Ogre::RTShader::FFPRenderStateBuilder,std::default_delete<Ogre::RTShader::FFPRenderStateBuilder>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(868): message : see declaration of 'std::unique_ptr<Ogre::RTShader::FFPRenderStateBuilder,std::default_delete<Ogre::RTShader::FFPRenderStateBuilder>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(870,38): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *,Ogre::RTShader::ShaderGenerator::MatGroupPair_less,std::allocator<std::pair<const Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(463): message : see declaration of 'std::map<Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *,Ogre::RTShader::ShaderGenerator::MatGroupPair_less,std::allocator<std::pair<const Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(872,34): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSchemeEntriesMap': class 'std::map<Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(467): message : see declaration of 'std::map<Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(874,40): warning C4251: 'Ogre::RTShader::ShaderGenerator::mTechniqueEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::SGTechnique *,Ogre::RTShader::ShaderGenerator::SGTechnique *,std::less<Ogre::RTShader::ShaderGenerator::SGTechnique *>,std::allocator<std::pair<Ogre::RTShader::ShaderGenerator::SGTechnique *const ,Ogre::RTShader::ShaderGenerator::SGTechnique *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(460): message : see declaration of 'std::map<Ogre::RTShader::ShaderGenerator::SGTechnique *,Ogre::RTShader::ShaderGenerator::SGTechnique *,std::less<Ogre::RTShader::ShaderGenerator::SGTechnique *>,std::allocator<std::pair<Ogre::RTShader::ShaderGenerator::SGTechnique *const ,Ogre::RTShader::ShaderGenerator::SGTechnique *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(876,54): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSubRenderStateFactories': class 'std::map<Ogre::String,Ogre::RTShader::SubRenderStateFactory *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::SubRenderStateFactory *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(735): message : see declaration of 'std::map<Ogre::String,Ogre::RTShader::SubRenderStateFactory *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::SubRenderStateFactory *>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(878,61): warning C4251: 'Ogre::RTShader::ShaderGenerator::mBuiltinSRSFactories': class 'std::vector<Ogre::RTShader::SubRenderStateFactory *,std::allocator<Ogre::RTShader::SubRenderStateFactory *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderGenerator.h(878): message : see declaration of 'std::vector<Ogre::RTShader::SubRenderStateFactory *,std::allocator<Ogre::RTShader::SubRenderStateFactory *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(152,28): warning C4251: 'Ogre::RTShader::Operand::mParameter': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Operand'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(233,28): warning C4251: 'Ogre::RTShader::FunctionAtom::mOperands': class 'std::vector<Ogre::RTShader::Operand,std::allocator<Ogre::RTShader::Operand>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(200): message : see declaration of 'std::vector<Ogre::RTShader::Operand,std::allocator<Ogre::RTShader::Operand>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(234,25): warning C4251: 'Ogre::RTShader::FunctionAtom::mFunctionName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(292,23): warning C4251: 'Ogre::RTShader::FunctionInvocation::mReturnType': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionInvocation'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(291,17): warning C4251: 'Ogre::RTShader::Function::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(293,24): warning C4251: 'Ogre::RTShader::Function::mDescription': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(295,41): warning C4251: 'Ogre::RTShader::Function::mInputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(77): message : see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(297,42): warning C4251: 'Ogre::RTShader::Function::mOutputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(77): message : see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(299,41): warning C4251: 'Ogre::RTShader::Function::mLocalParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(77): message : see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(301,62): warning C4251: 'Ogre::RTShader::Function::mAtomInstances': class 'std::map<size_t,Ogre::RTShader::FunctionAtomInstanceList,std::less<size_t>,std::allocator<std::pair<const size_t,Ogre::RTShader::FunctionAtomInstanceList>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(301): message : see declaration of 'std::map<size_t,Ogre::RTShader::FunctionAtomInstanceList,std::less<size_t>,std::allocator<std::pair<const size_t,Ogre::RTShader::FunctionAtomInstanceList>>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunction.h(302,50): warning C4251: 'Ogre::RTShader::Function::mSortedAtomInstances': class 'std::vector<Ogre::RTShader::FunctionAtom *,std::allocator<Ogre::RTShader::FunctionAtom *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFunctionAtom.h(324): message : see declaration of 'std::vector<Ogre::RTShader::FunctionAtom *,std::allocator<Ogre::RTShader::FunctionAtom *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTransform.h(83,23): warning C4251: 'Ogre::RTShader::FFPTransform::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTransform'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(113,23): warning C4251: 'Ogre::RTShader::FFPColour::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(124,33): warning C4251: 'Ogre::RTShader::FFPColour::mVSInputDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(126,34): warning C4251: 'Ogre::RTShader::FFPColour::mVSOutputDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(128,35): warning C4251: 'Ogre::RTShader::FFPColour::mVSOutputSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(130,33): warning C4251: 'Ogre::RTShader::FFPColour::mPSInputDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(132,34): warning C4251: 'Ogre::RTShader::FFPColour::mPSInputSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPColour.h(134,34): warning C4251: 'Ogre::RTShader::FFPColour::mPSOutputDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPColour'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(91,23): warning C4251: 'Ogre::RTShader::FFPLighting::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(101,38): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mPosition': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(103,39): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mDirection': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(105,44): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mAttenuatParams': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(107,40): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mSpotParams': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(109,43): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mDiffuseColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(111,44): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mSpecularColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(115,30): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mToLight': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(117,36): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mPSInDirection': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(120,38): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mVSOutToLightDir': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(122,37): warning C4251: 'Ogre::RTShader::FFPLighting::LightParams::mVSOutDirection': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPLighting::LightParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(202,37): warning C4251: 'Ogre::RTShader::FFPLighting::mLightParamsList': class 'std::vector<Ogre::RTShader::FFPLighting::LightParams,std::allocator<Ogre::RTShader::FFPLighting::LightParams>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(125): message : see declaration of 'std::vector<Ogre::RTShader::FFPLighting::LightParams,std::allocator<Ogre::RTShader::FFPLighting::LightParams>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(204,41): warning C4251: 'Ogre::RTShader::FFPLighting::mWorldViewMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(206,43): warning C4251: 'Ogre::RTShader::FFPLighting::mWorldViewITMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(208,29): warning C4251: 'Ogre::RTShader::FFPLighting::mViewNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(210,26): warning C4251: 'Ogre::RTShader::FFPLighting::mViewPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(212,26): warning C4251: 'Ogre::RTShader::FFPLighting::mToLight': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(214,25): warning C4251: 'Ogre::RTShader::FFPLighting::mToView': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(216,31): warning C4251: 'Ogre::RTShader::FFPLighting::mVSInPosition': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(218,29): warning C4251: 'Ogre::RTShader::FFPLighting::mVSInNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(220,28): warning C4251: 'Ogre::RTShader::FFPLighting::mInDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(222,29): warning C4251: 'Ogre::RTShader::FFPLighting::mOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(224,30): warning C4251: 'Ogre::RTShader::FFPLighting::mOutSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(226,44): warning C4251: 'Ogre::RTShader::FFPLighting::mDerivedSceneColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(228,44): warning C4251: 'Ogre::RTShader::FFPLighting::mLightAmbientColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(230,51): warning C4251: 'Ogre::RTShader::FFPLighting::mDerivedAmbientLightColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(232,47): warning C4251: 'Ogre::RTShader::FFPLighting::mSurfaceEmissiveColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPLighting.h(234,42): warning C4251: 'Ogre::RTShader::FFPLighting::mSurfaceShininess': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(82,23): warning C4251: 'Ogre::RTShader::FFPTexturing::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(103,43): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mTextureMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(105,56): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mTextureViewProjImageMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(107,44): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mTextureSampler': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(109,38): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mVSInputTexCoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(111,39): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mVSOutputTexCoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(113,38): warning C4251: 'Ogre::RTShader::FFPTexturing::TextureUnitParams::mPSInputTexCoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::FFPTexturing::TextureUnitParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(209,49): warning C4251: 'Ogre::RTShader::FFPTexturing::mTextureUnitParamsList': class 'std::vector<Ogre::RTShader::FFPTexturing::TextureUnitParams,std::allocator<Ogre::RTShader::FFPTexturing::TextureUnitParams>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(116): message : see declaration of 'std::vector<Ogre::RTShader::FFPTexturing::TextureUnitParams,std::allocator<Ogre::RTShader::FFPTexturing::TextureUnitParams>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(211,37): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(213,39): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldITMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(215,36): warning C4251: 'Ogre::RTShader::FFPTexturing::mViewMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(217,32): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(219,29): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(221,31): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(223,28): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPTexturing.h(225,29): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(117,23): warning C4251: 'Ogre::RTShader::FFPFog::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(146,28): warning C4251: 'Ogre::RTShader::FFPFog::mFogParamsValue': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(255): message : see declaration of 'Ogre::Vector<4,Ogre::Real>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(151,35): warning C4251: 'Ogre::RTShader::FFPFog::mFogColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(153,35): warning C4251: 'Ogre::RTShader::FFPFog::mFogParams': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(155,27): warning C4251: 'Ogre::RTShader::FFPFog::mVSOutPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(157,33): warning C4251: 'Ogre::RTShader::FFPFog::mVSOutFogFactor': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(159,32): warning C4251: 'Ogre::RTShader::FFPFog::mPSInFogFactor': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(161,29): warning C4251: 'Ogre::RTShader::FFPFog::mVSOutDepth': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(163,28): warning C4251: 'Ogre::RTShader::FFPFog::mPSInDepth': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderFFPFog.h(165,31): warning C4251: 'Ogre::RTShader::FFPFog::mPSOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPFog'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExPerPixelLighting.h(67,23): warning C4251: 'Ogre::RTShader::PerPixelLighting::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::PerPixelLighting'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExPerPixelLighting.h(107,31): warning C4251: 'Ogre::RTShader::PerPixelLighting::mVSOutViewPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::PerPixelLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExPerPixelLighting.h(109,30): warning C4251: 'Ogre::RTShader::PerPixelLighting::mVSOutNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::PerPixelLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(93,23): warning C4251: 'Ogre::RTShader::NormalMapLighting::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(188,33): warning C4251: 'Ogre::RTShader::NormalMapLighting::mNormalMapTextureName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(194,33): warning C4251: 'Ogre::RTShader::NormalMapLighting::mNormalMapSampler': class 'std::shared_ptr<Ogre::Sampler>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreTextureUnitState.h(223): message : see declaration of 'std::shared_ptr<Ogre::Sampler>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(198,37): warning C4251: 'Ogre::RTShader::NormalMapLighting::mWorldMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(200,43): warning C4251: 'Ogre::RTShader::NormalMapLighting::mWorldInvRotMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(202,42): warning C4251: 'Ogre::RTShader::NormalMapLighting::mCamPosWorldSpace': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(204,34): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSWorldPosition': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(206,30): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSInTangent': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(208,30): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSTBNMatrix': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(210,29): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSLocalDir': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(212,44): warning C4251: 'Ogre::RTShader::NormalMapLighting::mPSNormalMapSampler': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(214,31): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSInTexcoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(216,32): warning C4251: 'Ogre::RTShader::NormalMapLighting::mVSOutTexcoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExNormalMapLighting.h(218,31): warning C4251: 'Ogre::RTShader::NormalMapLighting::mPSInTexcoord': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::NormalMapLighting'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(101,23): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(114,44): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams::mTextureSampler': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(116,44): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams::mInvTextureSize': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(118,49): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams::mWorldViewProjMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(120,41): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams::mVSOutLightPosition': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(122,40): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams::mPSInLightPosition': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of struct 'Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(167,53): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mShadowTextureParamsList': class 'std::vector<Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams,std::allocator<Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(126): message : see declaration of 'std::vector<Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams,std::allocator<Ogre::RTShader::IntegratedPSSM3::ShadowTextureParams>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(169,39): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSSplitPoints': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(171,26): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mVSInPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(173,27): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mVSOutPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(175,29): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mVSOutDepth': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(177,28): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSInDepth': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(179,38): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSLocalShadowFactor': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(181,28): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(183,31): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(185,29): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSSpecualr': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(75): message : see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExIntegratedPSSM3.h(187,46): warning C4251: 'Ogre::RTShader::IntegratedPSSM3::mPSDerivedSceneColour': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::IntegratedPSSM3'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderPrerequisites.h(76): message : see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExLayeredBlending.h(153,23): warning C4251: 'Ogre::RTShader::LayeredBlending::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExLayeredBlending.h(190,45): warning C4251: 'Ogre::RTShader::LayeredBlending::mTextureBlends': class 'std::vector<Ogre::RTShader::LayeredBlending::TextureBlend,std::allocator<Ogre::RTShader::LayeredBlending::TextureBlend>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExLayeredBlending.h(190): message : see declaration of 'std::vector<Ogre::RTShader::LayeredBlending::TextureBlend,std::allocator<Ogre::RTShader::LayeredBlending::TextureBlend>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(145,23): warning C4251: 'Ogre::RTShader::HardwareSkinning::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinning'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(164,38): warning C4251: 'Ogre::RTShader::HardwareSkinning::mLinear': class 'Ogre::SharedPtr<Ogre::RTShader::LinearSkinning>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinning'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(164): message : see declaration of 'Ogre::SharedPtr<Ogre::RTShader::LinearSkinning>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(165,48): warning C4251: 'Ogre::RTShader::HardwareSkinning::mDualQuat': class 'Ogre::SharedPtr<Ogre::RTShader::DualQuaternionSkinning>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinning'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(165): message : see declaration of 'Ogre::SharedPtr<Ogre::RTShader::DualQuaternionSkinning>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(166,58): warning C4251: 'Ogre::RTShader::HardwareSkinning::mActiveTechnique': class 'Ogre::SharedPtr<Ogre::RTShader::HardwareSkinningTechnique>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinning'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(166): message : see declaration of 'Ogre::SharedPtr<Ogre::RTShader::HardwareSkinningTechnique>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(316,72): warning C4251: 'Ogre::RTShader::HardwareSkinningFactory::mCustomShadowCasterMaterialsLinear': class 'Ogre::SharedPtr<Ogre::Material>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinningFactory'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(295): message : see declaration of 'Ogre::SharedPtr<Ogre::Material>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(317,80): warning C4251: 'Ogre::RTShader::HardwareSkinningFactory::mCustomShadowCasterMaterialsDualQuaternion': class 'Ogre::SharedPtr<Ogre::Material>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinningFactory'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(295): message : see declaration of 'Ogre::SharedPtr<Ogre::Material>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(320,74): warning C4251: 'Ogre::RTShader::HardwareSkinningFactory::mCustomShadowReceiverMaterialsLinear': class 'Ogre::SharedPtr<Ogre::Material>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinningFactory'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(295): message : see declaration of 'Ogre::SharedPtr<Ogre::Material>'
+C:\Hooman\GBC\GAME3121\ogre\Components\RTShaderSystem\Include\OgreShaderExHardwareSkinning.h(321,82): warning C4251: 'Ogre::RTShader::HardwareSkinningFactory::mCustomShadowReceiverMaterialsDualQuaternion': class 'Ogre::SharedPtr<Ogre::Material>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::HardwareSkinningFactory'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgrePrerequisites.h(295): message : see declaration of 'Ogre::SharedPtr<Ogre::Material>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreSGTechniqueResolverListener.h(47,93): warning C4275: non dll-interface class 'Ogre::MaterialManager::Listener' used as base for dll-interface class 'OgreBites::SGTechniqueResolverListener'
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\Include\OgreMaterialManager.h(76): message : see declaration of 'Ogre::MaterialManager::Listener'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreSGTechniqueResolverListener.h(47): message : see declaration of 'OgreBites::SGTechniqueResolverListener'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreInput.h(178,47): warning C4251: 'OgreBites::InputListenerChain::mListenerChain': class 'std::vector<OgreBites::InputListener *,std::allocator<OgreBites::InputListener *>>' needs to have dll-interface to be used by clients of class 'OgreBites::InputListenerChain'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreInput.h(178): message : see declaration of 'std::vector<OgreBites::InputListener *,std::allocator<OgreBites::InputListener *>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(294,35): warning C4251: 'OgreBites::ApplicationContextBase::mNextRenderer': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(295,30): warning C4251: 'OgreBites::ApplicationContextBase::mAppName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(298,28): warning C4251: 'OgreBites::ApplicationContextBase::mWindows': class 'std::vector<OgreBites::NativeWindowPair,std::allocator<OgreBites::NativeWindowPair>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(297): message : see declaration of 'std::vector<OgreBites::NativeWindowPair,std::allocator<OgreBites::NativeWindowPair>>'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(301,42): warning C4251: 'OgreBites::ApplicationContextBase::mInputListeners': class 'std::set<std::pair<uint32_t,OgreBites::InputListener *>,std::less<std::pair<uint32_t,OgreBites::InputListener *>>,std::allocator<std::pair<uint32_t,OgreBites::InputListener *>>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\Hooman\GBC\GAME3121\ogre\Components\Bites\Include\OgreApplicationContextBase.h(300): message : see declaration of 'std::set<std::pair<uint32_t,OgreBites::InputListener *>,std::less<std::pair<uint32_t,OgreBites::InputListener *>>,std::allocator<std::pair<uint32_t,OgreBites::InputListener *>>>'
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OgreTemplatev1.12\OgreTemplatev1.12\Source.cpp(100,34): warning C4305: 'argument': truncation from 'double' to 'Ogre::Real'
+  OgreTemplatev1.12.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OgreTemplatev1.12\OgreTemplatev1.12\x64\Debug\OgreTemplatev1.12.exe
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Codec_STBI_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Codec_STBI_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Codec_STBI_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\DefaultSamples_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\DefaultSamples_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\DefaultSamples_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreBites_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreBites_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreBites_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreHLMS_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreHLMS_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreHLMS_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMain_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMain_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMain_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshLodGenerator_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshLodGenerator_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshLodGenerator_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshUpgrader_d.exe
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshUpgrader_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreMeshUpgrader_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreOverlay_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreOverlay_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreOverlay_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgrePaging_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgrePaging_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgrePaging_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreProperty_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreProperty_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreProperty_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreRTShaderSystem_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreRTShaderSystem_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreRTShaderSystem_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreTerrain_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreTerrain_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreTerrain_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreVolume_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreVolume_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreVolume_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreXMLConverter_d.exe
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreXMLConverter_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\OgreXMLConverter_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\plugins.cfg
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_BSPSceneManager_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_BSPSceneManager_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_BSPSceneManager_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeSceneManager_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeSceneManager_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeSceneManager_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeZone_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeZone_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_OctreeZone_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_ParticleFX_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_ParticleFX_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_ParticleFX_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_PCZSceneManager_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_PCZSceneManager_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\Plugin_PCZSceneManager_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\quakemap.cfg
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_Direct3D11_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_Direct3D11_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_Direct3D11_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL3Plus_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL3Plus_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL3Plus_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL_d.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\RenderSystem_GL_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\resources.cfg
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\SampleBrowser_d.exe
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\SampleBrowser_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\SampleBrowser_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\samples.cfg
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\SDL2.dll
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\tests.cfg
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\VRMLConverter_d.exe
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\VRMLConverter_d.ilk
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\VRMLConverter_d.pdb
+  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\debug\zlib.dll
+         79 file(s) copied.
+
+Project Performance Summary:
+     4140 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OgreTemplatev1.12\OgreTemplatev1.12\OgreTemplatev1.12.vcxproj   1 calls
+               4140 ms  Rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ResolvedLinkLib                            1 calls
+        0 ms  ContentFilesProjectOutputGroup             1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  BuiltProjectOutputGroup                    1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        1 ms  IncrementalClean                           1 calls
+        1 ms  SatelliteDllsProjectOutputGroup            1 calls
+        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  _CheckWindowsSDKInstalled                  1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+        1 ms  FindReferenceAssembliesForReferences       1 calls
+        1 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        2 ms  WarnCompileDuplicatedFilename              1 calls
+        2 ms  ComputeLinkSwitches                        1 calls
+        3 ms  MakeDirsForCl                              1 calls
+        3 ms  CustomBuild                                1 calls
+        4 ms  CoreClean                                  1 calls
+        5 ms  SetTelemetryEnvironmentVariables           1 calls
+        5 ms  PrepareForBuild                            1 calls
+        5 ms  CreateRecipeFile                           1 calls
+       10 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       11 ms  CoreCppClean                               1 calls
+       13 ms  ResolveProjectReferences                   1 calls
+      507 ms  Link                                       1 calls
+      904 ms  PostBuildEvent                             1 calls
+     2641 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Copy                                       1 calls
+        0 ms  CallTarget                                 2 calls
+        0 ms  FindUnderPath                              7 calls
+        0 ms  RemoveDuplicates                           3 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  AssignTargetPath                           7 calls
+        1 ms  ReadLinesFromFile                          3 calls
+        1 ms  CreateItem                                 2 calls
+        1 ms  CheckVCToolsetVersion                      1 calls
+        1 ms  MakeDir                                   12 calls
+        1 ms  ConvertToAbsolutePath                      1 calls
+        1 ms  MSBuild                                    1 calls
+        1 ms  Message                                    3 calls
+        1 ms  SetEnv                                     8 calls
+        2 ms  Touch                                      2 calls
+        2 ms  Delete                                     6 calls
+        3 ms  WriteLinesToFile                           4 calls
+        3 ms  GetOutOfDateItems                          3 calls
+        5 ms  GenerateDesktopDeployRecipe                1 calls
+       10 ms  CppClean                                   1 calls
+      507 ms  Link                                       1 calls
+      903 ms  Exec                                       1 calls
+     2640 ms  CL                                         1 calls
