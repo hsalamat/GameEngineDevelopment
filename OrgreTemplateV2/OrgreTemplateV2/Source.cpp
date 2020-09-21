@@ -23,7 +23,7 @@ public:
 
 
 BasicTutorial1::BasicTutorial1()
-    : ApplicationContext("OgreTemplate-V21")
+    : ApplicationContext("OgreTemplate-V213")
 {
 }
 
