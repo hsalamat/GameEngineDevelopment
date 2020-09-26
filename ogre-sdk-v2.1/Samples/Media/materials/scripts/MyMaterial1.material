@@ -1,0 +1,13 @@
+material MyMaterial1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+			texture leaf.png
+			}
+		}
+	}
+}
