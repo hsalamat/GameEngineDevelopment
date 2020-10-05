@@ -1,7 +1,9 @@
-//How to Draw a Simple Triangle
+
+//Animation(Rotation) of a simple Quad
 // Rendering operation using vertex buffers
 //  OT_POINT_LIST = 1, OT_LINE_LIST = 2, OT_LINE_STRIP = 3, OT_TRIANGLE_LIST = 4,
 //  OT_TRIANGLE_STRIP = 5, OT_TRIANGLE_FAN = 6,...
+//Hooman Salamat
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -12,39 +14,79 @@
 using namespace Ogre;
 using namespace OgreBites;
 
-class BasicTutorial1
+Ogre::Real m_Angle = 0.0;
+Ogre::Vector3 translate(0, 0, 0);
+
+class ExampleFrameListener : public Ogre::FrameListener
+{
+private:
+    Ogre::SceneNode* _node;
+public:
+
+    ExampleFrameListener(Ogre::SceneNode* node)
+    {
+        _node = node;
+    }
+
+    bool frameStarted(const Ogre::FrameEvent& evt)
+    {
+        const Ogre::Real Radius = 1.0;
+        Ogre::Real x = Radius * Ogre::Math::Cos(m_Angle);
+        Ogre::Real y = Radius * Ogre::Math::Sin(m_Angle);
+        m_Angle += 0.01;
+        _node->setPosition(x, y, 0);
+        //_node->translate(translate * evt.timeSinceLastFrame);
+        translate = Ogre::Vector3(0, 0, 0);
+        return true;
+    }
+};
+
+class OgreTutorial
     : public ApplicationContext
     , public InputListener
 {
+private:
+    SceneManager* scnMgr;
+    Root* root;
 public:
-    BasicTutorial1();
-    virtual ~BasicTutorial1() {}
+    OgreTutorial();
+    virtual ~OgreTutorial() {}
 
     void setup();
+    void createScene();
+    void createCamera();
     bool keyPressed(const KeyboardEvent& evt);
+    void createFrameListener();
+    Ogre::SceneNode* TriangleNode;
 };
 
 
-BasicTutorial1::BasicTutorial1()
-    : ApplicationContext("OgreTemplate-week3-1")
+OgreTutorial::OgreTutorial()
+    : ApplicationContext("week4-3-ManualObjectAnimation")
 {
 }
 
 
-void BasicTutorial1::setup()
+void OgreTutorial::setup()
 {
     // do not forget to call the base first
     ApplicationContext::setup();
     addInputListener(this);
 
     // get a pointer to the already created root
-    Root* root = getRoot();
-    SceneManager* scnMgr = root->createSceneManager();
-
+    root = getRoot();
+    scnMgr = root->createSceneManager();
 
     // register our scene with the RTSS
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(scnMgr);
+    createScene();
+    createCamera();
+    createFrameListener();
+}
+
+void OgreTutorial::createScene()
+{
 
     // -- tutorial section start --
     //! [turnlights]
@@ -68,7 +110,7 @@ void BasicTutorial1::setup()
     lightNode->attachObject(lightEnt);
     lightNode->attachObject(light1);
     lightNode->setScale(0.01f, 0.01f, 0.01f);
-    
+
 
     scnMgr->getRootSceneNode()->addChild(lightNode);
     //! [newlight]
@@ -78,6 +120,31 @@ void BasicTutorial1::setup()
     //! [lightpos]
     lightNode->setPosition(0, 4, 10);
     //! [lightpos]
+
+
+    Ogre::ManualObject* ManualObject = NULL;
+    ManualObject = scnMgr->createManualObject("Triangle");
+    ManualObject->setDynamic(false);
+    ManualObject->begin("BaseWhiteNoLighting",
+        Ogre::RenderOperation::OT_TRIANGLE_LIST);
+    ManualObject->position(0, 0, 0);
+    ManualObject->position(1, 0, 0);
+    ManualObject->position(1, 1, 0);
+    ManualObject->position(0, 1, 0);
+    ManualObject->triangle(0, 1, 2);
+    ManualObject->triangle(0, 2, 3);
+    ManualObject->end();
+
+    TriangleNode = scnMgr->getRootSceneNode()->
+        createChildSceneNode("TriangleNode");
+    TriangleNode->attachObject(ManualObject);
+
+
+    // -- tutorial section end --
+}
+
+void OgreTutorial::createCamera()
+{
 
     //! [camera]
     SceneNode* camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
@@ -94,36 +161,37 @@ void BasicTutorial1::setup()
     getRenderWindow()->addViewport(cam);
 
     //! [camera]
-
-
-    Ogre::ManualObject* ManualObject = NULL;
-    ManualObject = scnMgr->createManualObject("Triangle");
-    ManualObject->setDynamic(false);
-    ManualObject->begin("BaseWhiteNoLighting",
-        Ogre::RenderOperation::OT_TRIANGLE_LIST);
-    ManualObject->position(0, 0, 0);
-    ManualObject->position(1, 0, 0);
-    ManualObject->position(1, 1, 0);
-    ManualObject->position(0, 1, 0);
-    ManualObject->triangle(0, 1, 2);
-    ManualObject->end();
-
-    Ogre::SceneNode* TriangleNode = scnMgr->getRootSceneNode()->
-       createChildSceneNode("TriangleNode");
-    TriangleNode->attachObject(ManualObject);
-
-
-    // -- tutorial section end --
 }
 
-
-bool BasicTutorial1::keyPressed(const KeyboardEvent& evt)
+bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
 {
-    if (evt.keysym.sym == SDLK_ESCAPE)
+    switch (evt.keysym.sym)
     {
+    case SDLK_ESCAPE:
         getRoot()->queueEndRendering();
+        break;
+    case 'w':
+        translate = Ogre::Vector3(0, 10, 0);
+        break;
+    case 's':
+        translate = Ogre::Vector3(0, -10, 0);
+        break;
+    case 'a':
+        translate = Ogre::Vector3(-10, 0, 0);
+        break;
+    case 'd':
+        translate = Ogre::Vector3(10, 0, 0);
+        break;
+    default:
+        break;
     }
     return true;
+}
+
+void OgreTutorial::createFrameListener()
+{
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(TriangleNode);
+    mRoot->addFrameListener(FrameListener);
 }
 
 
@@ -131,7 +199,7 @@ int main(int argc, char** argv)
 {
     try
     {
-        BasicTutorial1 app;
+        OgreTutorial app;
         app.initApp();
         app.getRoot()->startRendering();
         app.closeApp();

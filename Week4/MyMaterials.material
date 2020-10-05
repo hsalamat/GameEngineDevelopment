@@ -1,0 +1,168 @@
+material MyMaterial1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture Water02.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial3
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial4
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode clamp
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial5
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode mirror
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial6
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial7
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+				tex_border_colour 0.0 0.0 1.0
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial8
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial9
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll 0.8 0.8
+            }
+        }
+    }
+}
+
+material MyMaterial10
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll_anim 0.01 0.01
+            }
+        }
+    }
+}
+
+material MyMaterial11
+{
+    technique
+    {
+        pass
+        {
+            texture_unit texture1
+            {
+                texture terr_rock6.jpg
+				rotate_anim 0.1
+            }
+        }
+    }
+}
+
+material MyMaterial12 : MyMaterial11
+{
+  set_texture_alias texture1 Water02.jpg
+}
+
+

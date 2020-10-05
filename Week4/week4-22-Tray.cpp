@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------------------
-//To use Trays, you have to create an TrayManager. This is the class through which you will create and
-//manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties,
+//To use Trays, you have to create an TrayManager. This is the class through which you will create and 
+//manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties, 
 //pop up dialogs, show/hide the loading bar, etc. You can have multiple tray managers in one application.
 -------------------------------------------------------------------------*/
 
@@ -27,12 +27,11 @@ public:
     void setup();
     bool keyPressed(const KeyboardEvent& evt);
     OgreBites::TrayListener myTrayListener;
-    OgreBites::Label* mInfoLabel;
 };
 
 
 BasicTutorial1::BasicTutorial1()
-    : ApplicationContext("Tray2")
+    : ApplicationContext("Week4-3-Tray")
 {
 }
 
@@ -88,14 +87,37 @@ void BasicTutorial1::setup()
     camNode->setPosition(0, 47, 222);
     //! [cameramove]
 
+    //! [entity2]
+    //Entity* ogreEntity2 = scnMgr->createEntity("ogrehead.mesh");
+    //SceneNode* ogreNode2 = scnMgr->getRootSceneNode()->createChildSceneNode(Vector3(84, 48, 0));
+    //ogreNode2->attachObject(ogreEntity2);
+    //! [entity2]
+
+    //! [entity3]
+    //Entity* ogreEntity3 = scnMgr->createEntity("ogrehead.mesh");
+    //SceneNode* ogreNode3 = scnMgr->getRootSceneNode()->createChildSceneNode();
+    //ogreNode3->setPosition(0, 104, 0);
+    //ogreNode3->setScale(2, 1.2, 1);
+    //ogreNode3->attachObject(ogreEntity3);
+    //! [entity3]
+
+    //! [entity4]
+    //Entity* ogreEntity4 = scnMgr->createEntity("ogrehead.mesh");
+    //SceneNode* ogreNode4 = scnMgr->getRootSceneNode()->createChildSceneNode();
+    //ogreNode4->setPosition(-84, 48, 0);
+    //ogreNode4->roll(Degree(-90));
+    //ogreNode4->attachObject(ogreEntity4);
+    //! [entity4]
 
     OgreBites::TrayManager* mTrayMgr = new OgreBites::TrayManager("InterfaceName", getRenderWindow());
-
+    
     //Once you have your tray manager, make sure you relay input events to it.
     addInputListener(mTrayMgr);
-
-    mInfoLabel = mTrayMgr->createLabel(TL_TOP, "TInfo", "My Game Engine", 350);
     
+    //You're now free to create widgets! Try adding a button to the top-left tray:
+     Button * b = mTrayMgr->createButton(TL_TOPLEFT, "MyButton", "Click Me!");
+
+     //mTrayMgr->showOkDialog("Error", "Failed to load mesh!");
     // -- tutorial section end --
 }
 

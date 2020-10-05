@@ -1,0 +1,409 @@
+material MyMaterial1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture Water02.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial3
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial4
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode clamp
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial5
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode mirror
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial6
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial7
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+				tex_border_colour 0.0 0.0 1.0
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial8
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial9
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll 0.8 0.8
+            }
+        }
+    }
+}
+
+material MyMaterial10
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll_anim 0.01 0.01
+            }
+        }
+    }
+}
+
+material MyMaterial11
+{
+    technique
+    {
+        pass
+        {
+            texture_unit texture1
+            {
+                texture terr_rock6.jpg
+				rotate_anim 0.1
+            }
+        }
+    }
+}
+
+material MyMaterial12 : MyMaterial11
+{
+  set_texture_alias texture1 Water02.jpg
+}
+
+
+vertex_program MyVertexShader1 cg
+ {
+	source Ogre3DBeginnerGuideShaders.cg  
+	entry_point MyVertexShader1   
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader1 cg  
+{
+	source Ogre3DBeginnerGuideShaders.cg    
+	entry_point MyFragmentShader1   
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial13
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader1    
+            {
+            }
+
+            fragment_program_ref MyFragmentShader1    
+            {
+            }
+        }
+    }
+}
+
+vertex_program MyVertexShader2 cg
+ {
+	source Ogre3DBeginnerGuideShaders.cg  
+	entry_point MyVertexShader2
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader2 cg  
+{
+	source Ogre3DBeginnerGuideShaders.cg    
+	entry_point MyFragmentShader2  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial14
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader2  
+            {
+            }
+
+            fragment_program_ref MyFragmentShader2    
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+
+vertex_program MyVertexShader3 cg
+ {
+	source Ogre3DBeginnerGuideShaders.cg  
+	entry_point MyVertexShader3
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader3 cg  
+{
+	source Ogre3DBeginnerGuideShaders.cg    
+	entry_point MyFragmentShader3  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial15
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader3 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader3
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+
+vertex_program MyVertexShader4 cg
+ {
+	source Ogre3DBeginnerGuideShaders.cg  
+	entry_point MyVertexShader4
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader4 cg  
+{
+	source Ogre3DBeginnerGuideShaders.cg    
+	entry_point MyFragmentShader4  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial16
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader4 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader4
+            {
+            }
+		
+        }
+    }
+}
+
+
+vertex_program MyVertexShader5 cg
+ {
+	source Ogre3DBeginnerGuideShaders.cg  
+	entry_point MyVertexShader5
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix  
+		param_named_auto pulseTime time    
+	}
+}
+			
+	
+
+material MyMaterial17
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader5 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader2
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+		
+        }
+    }
+}
+
+
+fragment_program MyFragmentShader5 cg  
+{
+	source Ogre3DBeginnerGuideShaders.cg    
+	entry_point MyFragmentShader5  
+	profiles ps_1_1  arbfp1
+}
+
+
+
+material MyMaterial18
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader5
+            {
+            }
+
+            fragment_program_ref MyFragmentShader5
+            {
+            }
+        }
+    }
+}
+
+
+
+
+ 
+

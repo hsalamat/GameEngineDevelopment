@@ -1,12 +1,16 @@
-//How to Draw a Simple QUAD
-// Demoing rendering operation using vertex buffers
-//  OT_POINT_LIST = 1, OT_LINE_LIST = 2, OT_LINE_STRIP = 3, OT_TRIANGLE_LIST = 4,
-//  OT_TRIANGLE_STRIP = 5, OT_TRIANGLE_FAN = 6,...
+/*-------------------------------------------------------------------------
+//To use Trays, you have to create an TrayManager. This is the class through which you will create and 
+//manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties, 
+//pop up dialogs, show/hide the loading bar, etc. You can have multiple tray managers in one application.
+-------------------------------------------------------------------------*/
+
+//! [fullsource]
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
 #include "OgreInput.h"
 #include "OgreRTShaderSystem.h"
+#include "OgreTrays.h"
 #include <iostream>
 
 using namespace Ogre;
@@ -22,11 +26,13 @@ public:
 
     void setup();
     bool keyPressed(const KeyboardEvent& evt);
+    OgreBites::TrayListener myTrayListener;
+    OgreBites::Label* mInfoLabel;
 };
 
 
 BasicTutorial1::BasicTutorial1()
-    : ApplicationContext("OgreTemplate-week3-1")
+    : ApplicationContext("Tray2")
 {
 }
 
@@ -41,10 +47,12 @@ void BasicTutorial1::setup()
     Root* root = getRoot();
     SceneManager* scnMgr = root->createSceneManager();
 
-
     // register our scene with the RTSS
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(scnMgr);
+
+    //you must add this in order to add a tray
+    scnMgr->addRenderQueueListener(mOverlaySystem);
 
     // -- tutorial section start --
     //! [turnlights]
@@ -52,31 +60,13 @@ void BasicTutorial1::setup()
     //! [turnlights]
 
     //! [newlight]
-    //
-    Light* light1 = scnMgr->createLight("Light1");
-    light1->setType(Ogre::Light::LT_POINT);
-    // Set Light Color
-    light1->setDiffuseColour(1.0f, 1.0f, 1.0f);
-    // Set Light Reflective Color
-    light1->setSpecularColour(1.0f, 0.0f, 0.0f);
-    // Set Light (Range, Brightness, Fade Speed, Rapid Fade Speed)
-    light1->setAttenuation(10, 0.5, 0.045, 0.0);
-
-    //
-    Entity* lightEnt = scnMgr->createEntity("LightEntity", "sphere.mesh");
-    SceneNode* lightNode = scnMgr->createSceneNode("LightNode");
-    lightNode->attachObject(lightEnt);
-    lightNode->attachObject(light1);
-    lightNode->setScale(0.01f, 0.01f, 0.01f);
-    
-
-    scnMgr->getRootSceneNode()->addChild(lightNode);
+    Light* light = scnMgr->createLight("MainLight");
+    SceneNode* lightNode = scnMgr->getRootSceneNode()->createChildSceneNode();
+    lightNode->attachObject(light);
     //! [newlight]
 
-
-
     //! [lightpos]
-    lightNode->setPosition(0, 4, 10);
+    lightNode->setPosition(20, 80, 50);
     //! [lightpos]
 
     //! [camera]
@@ -87,32 +77,33 @@ void BasicTutorial1::setup()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 15);
-    camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
+    camNode->setPosition(0, 0, 140);
 
     // and tell it to render into the main window
     getRenderWindow()->addViewport(cam);
-
     //! [camera]
 
 
-    Ogre::ManualObject* ManualObject = NULL;
-    ManualObject = scnMgr->createManualObject("Quad");
-    ManualObject->setDynamic(false);
-    ManualObject->begin("BaseWhiteNoLighting",
-        Ogre::RenderOperation::OT_TRIANGLE_LIST);
-    ManualObject->position(0, 0, 0);
-    ManualObject->position(1, 0, 0);
-    ManualObject->position(1, 1, 0);
-    ManualObject->position(0, 1, 0);
-    ManualObject->triangle(0, 1, 2);
-    ManualObject->triangle(0, 2, 3);
-    ManualObject->end();
+    //! [cameramove]
+    camNode->setPosition(0, 47, 222);
+    //! [cameramove]
 
-    Ogre::SceneNode* QuadNode = scnMgr->getRootSceneNode()->
-       createChildSceneNode("QuadNode");
-    QuadNode->attachObject(ManualObject);
 
+    OgreBites::TrayManager* mTrayMgr = new OgreBites::TrayManager("InterfaceName", getRenderWindow());
+    
+    //Once you have your tray manager, make sure you relay input events to it.
+    addInputListener(mTrayMgr);
+    
+    mTrayMgr->showLogo(TL_TOPRIGHT);
+    mTrayMgr->showFrameStats(TL_BOTTOMLEFT);
+    //mTrayMgr->toggleAdvancedFrameStats();
+
+    mInfoLabel = mTrayMgr->createLabel(TL_TOP, "TInfo", "My Game Engine", 350);
+
+    // a friendly reminder
+    StringVector names;
+    names.push_back("Help");
+    mTrayMgr->createParamsPanel(TL_TOPLEFT, "Help", 100, names)->setParamValue(0, "H/F1");
 
     // -- tutorial section end --
 }

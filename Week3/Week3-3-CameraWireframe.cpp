@@ -1,6 +1,12 @@
 //Week3-3-CameraWireFrame
-//Now change the render mode to wireframe modus :
-//cam->setPolygonMode(Ogre::PM_WIREFRAME);
+//PM_POINTS
+//Only the points of each polygon are rendered.
+
+//PM_WIREFRAME
+//Polygons are drawn in outline only.
+
+//PM_SOLID
+//The normal situation - polygons are filled in.
 //Hooman Salamat
 
 #include "Ogre.h"
@@ -16,12 +22,20 @@ class OgreTutorial
     : public ApplicationContext
     , public InputListener
 {
+private:
+    SceneNode* SinbadNode;
+    SceneManager* scnMgr;
+    Root* root;
+    Ogre::PolygonMode polyMode;
+    Camera* cam;
 public:
     OgreTutorial();
     virtual ~OgreTutorial() {}
 
     void setup();
     bool keyPressed(const KeyboardEvent& evt);
+    void createScene();
+    void createCamera();
 };
 
 
@@ -38,14 +52,22 @@ void OgreTutorial::setup()
     addInputListener(this);
 
     // get a pointer to the already created root
-    Root* root = getRoot();
-    SceneManager* scnMgr = root->createSceneManager();
+    root = getRoot();
+    scnMgr = root->createSceneManager();
 
 
     // register our scene with the RTSS
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(scnMgr);
 
+    polyMode = Ogre::PolygonMode::PM_SOLID;
+
+    createScene();
+    createCamera();
+}
+
+void OgreTutorial::createScene()
+{
     // -- tutorial section start --
 
     Ogre::SceneNode* node = scnMgr->createSceneNode("Node1");
@@ -73,7 +95,7 @@ void OgreTutorial::setup()
     lightNode->attachObject(lightEnt);
     lightNode->attachObject(light1);
     lightNode->setScale(0.01f, 0.01f, 0.01f);
-    
+
     //! [newlight]
 
 
@@ -82,26 +104,11 @@ void OgreTutorial::setup()
     lightNode->setPosition(3, 3, 4);
     //! [lightpos]
 
-    //! [camera]
-    SceneNode* camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
 
-    // create the camera
-    Camera* cam = scnMgr->createCamera("myCam");
-    cam->setNearClipDistance(5); // specific to this sample
-    cam->setAutoAspectRatio(true);
-    camNode->attachObject(cam);
-    camNode->setPosition(0, 3, 15);
-    camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
-    cam->setPolygonMode(Ogre::PM_WIREFRAME);
 
-    // and tell it to render into the main window
-    getRenderWindow()->addViewport(cam);
-
-    //! [camera]
-   
 
     //The first thing we'll do is create an abstract Plane object. This is not the mesh, it is more of a blueprint.
-    Plane plane(Vector3::UNIT_Y, 0);
+    Plane plane(Vector3::UNIT_Y, -10);
     //Now we'll ask the MeshManager to create us a mesh using our Plane blueprint. The MeshManager is already keeping track of the resources we loaded when initializing our application. On top of this, it can create new meshes for us.
     MeshManager::getSingleton().createPlane(
         "ground", RGN_DEFAULT,
@@ -130,6 +137,25 @@ void OgreTutorial::setup()
     // -- tutorial section end --
 }
 
+void OgreTutorial::createCamera()
+{
+//! [camera]
+SceneNode* camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
+
+// create the camera
+cam = scnMgr->createCamera("myCam");
+cam->setNearClipDistance(5); // specific to this sample
+cam->setAutoAspectRatio(true);
+camNode->attachObject(cam);
+camNode->setPosition(0, 3, 15);
+camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
+//cam->setPolygonMode(Ogre::PM_WIREFRAME);
+
+// and tell it to render into the main window
+getRenderWindow()->addViewport(cam);
+}
+
+//! [camera]
 
 bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
 {
@@ -137,6 +163,25 @@ bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
     {
         getRoot()->queueEndRendering();
     }
+
+
+    if (evt.keysym.sym == 'r')
+    {
+        if (polyMode == PM_SOLID)
+        {
+            polyMode = Ogre::PolygonMode::PM_WIREFRAME;
+        }
+        else if (polyMode == PM_WIREFRAME)
+        {
+            polyMode = Ogre::PolygonMode::PM_POINTS;
+        }
+        else if (polyMode == PM_POINTS)
+        {
+            polyMode = Ogre::PolygonMode::PM_SOLID;
+        }
+        cam->setPolygonMode(polyMode);
+    }
+
     return true;
 }
 
