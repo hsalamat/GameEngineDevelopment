@@ -1,9 +1,10 @@
 //Week6-6-OurFirstShaderDemo.cpp
+//Run this with GLSL 3plus renderer!
 //we created the material13 in our material file.First, we are going to define the fragment shader.
 //The vertex shader contains the matrix that we will use for transforming our quad into camera space.
 //Copy MyMaterials.material from the Github to "\GameEngineDevelopment\ogre-sdk-vxxx.xx\Samples\Media\materials\scripts"
-//Now we need to write the shader itself. Copy MyShaders.cg from the Github to
-//the "GameEngineDevelopment\ogre-sdk-vxx.xx\Samples\Media\materials\programs\Cg" folder of your Ogre 3D SDK.
+//Now we need to write the shader itself. Copy MyShadersVS.glsl and MyShadersFS.glsl from the Github to
+//the "GameEngineDevelopment\ogre-sdk-vxx.xx\Samples\Media\materials\programs\GLSL150" folder of your Ogre 3D SDK.
 //Hooman Salamat
 
 #include "Ogre.h"
