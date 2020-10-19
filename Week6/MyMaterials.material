@@ -1,0 +1,539 @@
+material MyMaterial1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture Water02.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial3
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial4
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode clamp
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial5
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode mirror
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial6
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial7
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+				tex_border_colour 0.0 0.0 1.0
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material MyMaterial8
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material MyMaterial9
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll 0.8 0.8
+            }
+        }
+    }
+}
+
+material MyMaterial10
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll_anim 0.01 0.01
+            }
+        }
+    }
+}
+
+material MyMaterial11
+{
+    technique
+    {
+        pass
+        {
+            texture_unit texture1
+            {
+                texture terr_rock6.jpg
+				rotate_anim 0.1
+            }
+        }
+    }
+}
+
+material MyMaterial12 : MyMaterial11
+{
+  set_texture_alias texture1 Water02.jpg
+}
+
+
+vertex_program MyVertexShader1 cg
+ {
+	source MyShaders.cg  
+	entry_point MyVertexShader1   
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader1 cg  
+{
+	source MyShaders.cg    
+	entry_point MyFragmentShader1   
+	profiles ps_1_1  arbfp1
+}
+
+	 
+
+material MyMaterial13cg
+{
+    technique
+    {
+        pass
+        {   
+            vertex_program_ref MyVertexShader1   
+            {
+            }
+
+            fragment_program_ref MyFragmentShader1
+            {
+            }
+        }
+    }
+}
+
+vertex_program MyVertexShader20 glsl
+ {
+    source MyShadersVS1.glsl  
+    syntax glsl150
+    profiles glsl                   
+ 
+
+    default_params                    
+    {        
+        param_named_auto worldViewMatrix worldviewproj_matrix        
+        param_named_auto pulseTime time
+    }
+}
+            
+fragment_program MyFragmentShader20 glsl  
+{
+    source MyShadersFS1.glsl   
+    syntax glsl150  
+    profiles glsl
+}
+
+vertex_program MyVertexShader0 glsl
+ {
+    source MyShadersVS.glsl  
+    syntax glsl150
+    profiles glsl                   
+ 
+
+    default_params                    
+    {        
+        param_named_auto worldViewMatrix worldviewproj_matrix        
+    }
+}
+            
+fragment_program MyFragmentShader0 glsl  
+{
+    source MyShadersFS.glsl   
+    syntax glsl150  
+    profiles glsl
+}
+			
+		
+
+material MyMaterial13
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader0    
+            {
+            }
+
+            fragment_program_ref MyFragmentShader0
+            {
+            }
+        }
+    }
+}
+
+vertex_program MyVertexShader2 cg
+ {
+	source MyShaders.cg  
+	entry_point MyVertexShader2
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader2 cg  
+{
+	source MyShaders.cg    
+	entry_point MyFragmentShader2  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial14
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader2  
+            {
+            }
+
+            fragment_program_ref MyFragmentShader2    
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+
+vertex_program MyVertexShader3 cg
+ {
+	source MyShaders.cg  
+	entry_point MyVertexShader3
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader3 cg  
+{
+	source MyShaders.cg    
+	entry_point MyFragmentShader3  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial15
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader3 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader3
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+
+vertex_program MyVertexShader4 cg
+ {
+	source MyShaders.cg  
+	entry_point MyVertexShader4
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix        
+	}
+}
+			
+fragment_program MyFragmentShader4 cg  
+{
+	source MyShaders.cg    
+	entry_point MyFragmentShader4  
+	profiles ps_1_1  arbfp1
+}
+			
+		
+
+material MyMaterial16
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader4 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader4
+            {
+            }
+		
+        }
+    }
+}
+
+
+vertex_program MyVertexShader5 cg
+ {
+	source MyShaders.cg  
+	entry_point MyVertexShader5
+	profiles vs_1_1 arbvp1                   
+ 
+
+	default_params                    
+	{        
+		param_named_auto worldViewMatrix worldviewproj_matrix  
+		param_named_auto pulseTime time    
+	}
+}
+			
+	
+
+material MyMaterial17
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader5 
+            {
+            }
+
+            fragment_program_ref MyFragmentShader2
+            {
+            }
+			
+			texture_unit
+            {
+                texture terr_rock6.jpg
+            }
+		
+        }
+    }
+}
+
+
+fragment_program MyFragmentShader5 cg  
+{
+	source MyShaders.cg    
+	entry_point MyFragmentShader5  
+	profiles ps_1_1  arbfp1
+}
+
+
+
+material MyMaterial18
+{
+    technique
+    {
+        pass
+        {	
+			vertex_program_ref MyVertexShader5
+            {
+            }
+
+            fragment_program_ref MyFragmentShader5
+            {
+            }
+        }
+    }
+}
+
+
+
+material MyMaterial20
+{
+    technique
+    {
+        pass
+        {   
+            vertex_program_ref MyVertexShader20
+            {
+            }
+
+            fragment_program_ref MyFragmentShader20
+            {
+            }
+        }
+    }
+}
+
+
+// CG Vertex shader definition
+vertex_program PlainTexture_VS cg            
+{
+        // Look in this source file for shader code
+    source GameObjStandard.cg
+        // Use this function for the vertex shader            
+    entry_point main_plain_texture_vp    
+        // Compile the shader to vs_1_1 format    
+    profiles vs_1_1                    
+
+    // This block saves us from manually setting parameters in code
+        default_params                    
+    {
+                // Ogre will put the worldviewproj into our 'worldViewProj' parameter for us.
+        param_named_auto worldViewProj worldviewproj_matrix        
+                // Note that 'worldViewProj' is a parameter in the cg code.
+    }
+}
+
+// CG Pixel shader definition
+fragment_program PlainTexture_PS cg            
+{
+        // Look in this source file for shader code
+    source GameObjStandard.cg        
+        // Use this function for the pixel shader    
+    entry_point main_plain_texture_fp    
+        // Compile to ps_1_1 format    
+    profiles ps_1_1                    
+}
+
+material PlainTexture
+{
+        // Material has one technique
+    technique                    
+    {
+                // This technique has one pass
+        pass                    
+        {
+                        // Make this pass use the vertex shader defined above
+            vertex_program_ref PlainTexture_VS    
+            {
+            }
+                        // Make this pass use the pixel shader defined above
+            fragment_program_ref PlainTexture_PS    
+            {
+            }
+            texture_unit
+            {
+                                // This pass will use this 2D texture as its input
+                texture Ten.png 2d        
+            }
+        }
+    }
+} 
+
