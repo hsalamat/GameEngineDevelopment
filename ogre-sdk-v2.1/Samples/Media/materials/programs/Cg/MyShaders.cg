@@ -1,0 +1,135 @@
+void main_plain_texture_vp(
+        // Vertex Inputs
+        float4 position        : POSITION,    // Vertex position in model space
+        float2 texCoord0    : TEXCOORD0,    // Texture UV set 0
+
+        // Outputs
+        out float4 oPosition    : POSITION,    // Transformed vertex position
+        out float2 uv0        : TEXCOORD0,    // UV0
+
+        // Model Level Inputs
+        uniform float4x4 worldViewProj)
+{
+    // Calculate output position
+    oPosition = mul(worldViewProj, position);
+
+    // Simply copy the input vertex UV to the output
+    uv0 = texCoord0;
+}
+
+void main_plain_texture_fp(
+        // Pixel Inputs
+        float2 uv0        : TEXCOORD0,    // UV interpolated for current pixel
+             
+        // Outputs
+        out float4 color    : COLOR,    // Output color we want to write
+             
+        // Model Level Inputs
+        uniform sampler2D texture)        // Texture we're going to use
+{
+    // Just sample texture using supplied UV
+    color = tex2D(texture, uv0);
+}
+
+void MyVertexShader1(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,      
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+}
+ 
+void MyFragmentShader1(out float4 color : COLOR)
+ 
+{
+    color = float4(0,0,1,0);
+}
+
+
+
+void MyVertexShader2(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oUv = uv;
+
+}
+ 
+void MyFragmentShader2(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR,
+						uniform sampler2D texture)
+ 
+{
+    color = tex2D(texture, uv);
+}
+
+
+
+void MyVertexShader3(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oUv = uv;
+
+}
+ 
+void MyFragmentShader3(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR,
+						uniform sampler2D texture)
+ 
+{
+    color = float4(0,1,0,0);
+}
+
+
+void MyVertexShader4(
+        float4 position        : POSITION,
+        out float4 oPosition    : POSITION, 
+		float4 color		:COLOR,
+		out float4 ocolor		:COLOR,		
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	ocolor = color;
+
+}
+ 
+void MyFragmentShader4(	float4 color : COLOR,
+						out float4 oColor : COLOR)
+ 
+{
+    oColor = color;
+}
+
+void MyVertexShader5( uniform float pulseTime,
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oPosition.x *= (2+sin(pulseTime));
+	oUv = uv;
+
+}
+
+void MyFragmentShader5(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR
+						)
+ 
+{
+	float brickwidth = 0.25;
+	float brickheight = 0.25;
+	float morterthickness = 0.01;
+    color = float4(0,0,1,0);
+}
+

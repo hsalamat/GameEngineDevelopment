@@ -43,9 +43,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/Volume/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/Overlay/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/HLMS/cmake_install.cmake")
-  include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/Python/cmake_install.cmake")
-  include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/Csharp/cmake_install.cmake")
-  include("C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/Components/Java/cmake_install.cmake")
 
 endif()
 

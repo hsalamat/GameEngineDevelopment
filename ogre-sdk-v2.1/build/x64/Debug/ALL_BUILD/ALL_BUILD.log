@@ -1,54 +1,34 @@
 ﻿
 Project Performance Summary:
-        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Paging\OgrePaging.vcxproj   3 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
-        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Terrain\OgreTerrain.vcxproj   3 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\STBICodec\Codec_STBI.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
-        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj   3 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj   3 calls
+        0 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\Browser\SampleBrowser.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
-                  1 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\Browser\SampleBrowser.vcxproj   3 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\GL\RenderSystem_GL.vcxproj   3 calls
                   1 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
         1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Volume\OgreVolume.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Property\OgreProperty.vcxproj   3 calls
-                  0 ms  GetTargetPath                              1 calls
-                  1 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\GL3Plus\RenderSystem_GL3Plus.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\GL\RenderSystem_GL.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
                   1 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\DefaultSamples.vcxproj   3 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Tools\VRMLConverter\VRMLConverter.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
-                  1 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj   3 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
@@ -60,52 +40,75 @@ Project Performance Summary:
                   0 ms  GetTargetPath                              2 calls
                   0 ms  GetNativeManifest                          2 calls
                   1 ms  GetResolvedLinkLibs                        2 calls
-        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\HLMS\OgreHLMS.vcxproj   3 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\HLMS\OgreHLMS.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Bites\OgreBites.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Paging\OgrePaging.vcxproj   3 calls
+                  0 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+        1 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\DefaultSamples.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetNativeManifest                          1 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\Direct3D11\RenderSystem_Direct3D11.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
                   1 ms  GetResolvedLinkLibs                        1 calls
-        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj   3 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\GL3Plus\RenderSystem_GL3Plus.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  1 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Terrain\OgreTerrain.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
+                  1 ms  GetNativeManifest                          1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj   3 calls
                   0 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
                   1 ms  GetResolvedLinkLibs                        1 calls
-        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\STBICodec\Codec_STBI.vcxproj   3 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Property\OgreProperty.vcxproj   3 calls
                   1 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
-        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
+        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\CgProgramManager\Plugin_CgProgramManager.vcxproj   3 calls
+                  0 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        2 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Bites\OgreBites.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  1 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        3 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
-                  2 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-        3 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj   3 calls
+                  1 ms  GetResolvedLinkLibs                        1 calls
+        3 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj   3 calls
                   3 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
-                  1 ms  GetResolvedLinkLibs                        1 calls
-        4 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Tools\VRMLConverter\VRMLConverter.vcxproj   3 calls
-                  2 ms  GetTargetPath                              1 calls
+                  0 ms  GetResolvedLinkLibs                        1 calls
+        3 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj   3 calls
+                  1 ms  GetTargetPath                              1 calls
                   1 ms  GetNativeManifest                          1 calls
                   1 ms  GetResolvedLinkLibs                        1 calls
-        9 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Overlay\OgreOverlay.vcxproj   3 calls
-                  2 ms  GetTargetPath                              1 calls
-                  8 ms  GetNativeManifest                          1 calls
+        6 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Components\Overlay\OgreOverlay.vcxproj   3 calls
+                  0 ms  GetTargetPath                              1 calls
+                  6 ms  GetNativeManifest                          1 calls
                   0 ms  GetResolvedLinkLibs                        1 calls
        18 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\RenderSystems\GLSupport\OgreGLSupport.vcxproj   3 calls
-                  1 ms  GetTargetPath                              1 calls
+                  0 ms  GetTargetPath                              1 calls
                   0 ms  GetNativeManifest                          1 calls
-                 17 ms  GetResolvedLinkLibs                        1 calls
-     1703 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\ALL_BUILD.vcxproj   1 calls
-               1703 ms  Rebuild                                    1 calls
+                 18 ms  GetResolvedLinkLibs                        1 calls
+     1708 ms  C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\ALL_BUILD.vcxproj   1 calls
+               1708 ms  Rebuild                                    1 calls
 
 Target Performance Summary:
         0 ms  _CheckForInvalidConfigurationAndPlatform   2 calls
-        0 ms  BuildGenerateSources                       1 calls
         0 ms  _BuildGenerateSourcesAction                1 calls
         0 ms  AfterBuildGenerateSourcesEvent             1 calls
         0 ms  AfterBuildGenerateSources                  1 calls
@@ -120,19 +123,19 @@ Target Performance Summary:
         0 ms  _SelectedFiles                             1 calls
         0 ms  PreBuildEvent                              1 calls
         0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ResolveReferences                          2 calls
         0 ms  BuildCompileTraverse                       1 calls
-        0 ms  _BuildCompileAction                        1 calls
         0 ms  BuildCompile                               1 calls
-        0 ms  BuildLinkTraverse                          1 calls
         0 ms  Build                                      1 calls
         0 ms  IncrementalClean                           1 calls
         0 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
-        0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  AfterBuild                                 1 calls
         0 ms  BuildLink                                  1 calls
         0 ms  _BuildLinkAction                           1 calls
-        0 ms  AfterRebuild                               1 calls
         0 ms  PostBuildEvent                             1 calls
+        0 ms  ContentFilesProjectOutputGroup             1 calls
         0 ms  MakeDirsForFxc                             1 calls
         0 ms  SatelliteDllsProjectOutputGroup            1 calls
         0 ms  PrepareResourceNames                       1 calls
@@ -140,73 +143,74 @@ Target Performance Summary:
         0 ms  SplitResourcesByCulture                    1 calls
         0 ms  AssignTargetPaths                          1 calls
         0 ms  BuiltProjectOutputGroup                    1 calls
-        0 ms  ContentFilesProjectOutputGroup             1 calls
-        0 ms  ResolveReferences                          2 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  ResolveAssemblyReferences                  2 calls
-        0 ms  Clean                                      1 calls
-        0 ms  CppClean                                   1 calls
+        0 ms  _BuildCompileAction                        1 calls
         0 ms  AfterResolveReferences                     2 calls
-        0 ms  AfterCppClean                              1 calls
-        0 ms  BeforeCppClean                             1 calls
-        0 ms  AfterClean                                 1 calls
-        0 ms  _PrepareForBuild                           1 calls
-        0 ms  CleanReferencedProjects                    1 calls
-        0 ms  _GetProjectReferenceTargetFrameworkProperties   2 calls
-        0 ms  AssignProjectConfiguration                 2 calls
-        0 ms  BeforeClean                                1 calls
-        0 ms  _PrepareForClean                           1 calls
-        0 ms  BeforeRebuild                              1 calls
-        0 ms  _PrepareForRebuild                         1 calls
-        0 ms  PrepareProjectReferences                   2 calls
-        0 ms  BeforeResolveReferences                    2 calls
-        0 ms  PGInstrumentedClean                        1 calls
-        0 ms  Rebuild                                    1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
         0 ms  ExpandSDKReferences                        2 calls
-        0 ms  ResolveSDKReferences                       2 calls
-        0 ms  SetCABuildNativeEnvironmentVariables       2 calls
+        0 ms  SetTelemetryEnvironmentVariables           1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  _GetProjectReferenceTargetFrameworkProperties   2 calls
+        0 ms  PrepareProjectReferences                   2 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  ResolveAssemblyReferences                  2 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  Rebuild                                    1 calls
         0 ms  _RemoveNameMetadataFromProjectReferenceItems   2 calls
-        0 ms  GetFrameworkPaths                          2 calls
+        0 ms  BeforeResolveReferences                    2 calls
+        0 ms  GetTargetPathWithTargetPlatformMoniker    26 calls
         0 ms  SetBuildDefaultEnvironmentVariables        2 calls
-        0 ms  _CheckWindowsSDKInstalled                  2 calls
-        1 ms  GetReferenceAssemblyPaths                  2 calls
-        1 ms  CustomBuild                                1 calls
+        0 ms  GetReferenceAssemblyPaths                  2 calls
+        1 ms  _PrepareForClean                           1 calls
         1 ms  CoreClean                                  1 calls
-        1 ms  SetTelemetryEnvironmentVariables           1 calls
-        1 ms  CleanPublishFolder                         1 calls
-        2 ms  _PrepareForReferenceResolution            26 calls
-        2 ms  GetTargetPath                             25 calls
+        1 ms  BuildLinkTraverse                          1 calls
+        1 ms  GetTargetPath                             26 calls
+        1 ms  CustomBuild                                1 calls
+        1 ms  SetCABuildNativeEnvironmentVariables       2 calls
+        1 ms  _CheckWindowsSDKInstalled                  2 calls
+        1 ms  ResolveSDKReferences                       2 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  GetFrameworkPaths                          2 calls
+        2 ms  CreateRecipeFile                           1 calls
         2 ms  FinalizeBuildStatus                        1 calls
-        2 ms  InitializeBuildStatus                      1 calls
-        3 ms  CreateRecipeFile                           1 calls
-        3 ms  GetResolvedWinMD                          26 calls
-        3 ms  GetTargetPathWithTargetPlatformMoniker    25 calls
-        4 ms  GetResolvedLinkLibs                       25 calls
-        4 ms  CoreCppClean                               1 calls
-        5 ms  _SplitProjectReferencesByFileExistence     2 calls
-        8 ms  PrepareForBuild                            2 calls
-       13 ms  GetNativeManifest                         25 calls
-       34 ms  ResolvedLinkLib                            2 calls
-     1651 ms  ResolveProjectReferences                   2 calls
+        3 ms  GetResolvedWinMD                          27 calls
+        3 ms  InitializeBuildStatus                      1 calls
+        5 ms  AssignProjectConfiguration                 2 calls
+        6 ms  _SplitProjectReferencesByFileExistence     2 calls
+        6 ms  GetResolvedLinkLibs                       26 calls
+        7 ms  PrepareForBuild                            2 calls
+        7 ms  _PrepareForReferenceResolution            27 calls
+        8 ms  CoreCppClean                               1 calls
+       12 ms  GetNativeManifest                         26 calls
+       39 ms  ResolvedLinkLib                            2 calls
+     1643 ms  ResolveProjectReferences                   2 calls
 
 Task Performance Summary:
         0 ms  Message                                    4 calls
         0 ms  CreateItem                                 2 calls
         0 ms  AssignCulture                              1 calls
         0 ms  AssignTargetPath                           4 calls
-        0 ms  AssignProjectConfiguration                 2 calls
-        0 ms  ResolveNonMSBuildProjectOutput             2 calls
-        0 ms  ReadLinesFromFile                          3 calls
-        0 ms  Delete                                     5 calls
-        0 ms  RemoveDuplicates                           3 calls
+        0 ms  CheckVCToolsetVersion                      2 calls
         0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  FindUnderPath                              7 calls
+        0 ms  ReadLinesFromFile                          3 calls
+        0 ms  RemoveDuplicates                           3 calls
         1 ms  GetOutOfDateItems                          3 calls
-        1 ms  CheckVCToolsetVersion                      2 calls
-        1 ms  MakeDir                                    9 calls
-        1 ms  FindUnderPath                              7 calls
         1 ms  SetEnv                                    13 calls
+        1 ms  ResolveNonMSBuildProjectOutput             2 calls
+        2 ms  Delete                                     6 calls
         2 ms  GenerateDesktopDeployRecipe                1 calls
-        2 ms  Touch                                      2 calls
-        2 ms  CppClean                                   1 calls
         3 ms  WriteLinesToFile                           3 calls
-     1684 ms  MSBuild                                    6 calls
+        3 ms  Touch                                      2 calls
+        4 ms  MakeDir                                    9 calls
+        5 ms  AssignProjectConfiguration                 2 calls
+        6 ms  CppClean                                   1 calls
+     1681 ms  MSBuild                                    6 calls

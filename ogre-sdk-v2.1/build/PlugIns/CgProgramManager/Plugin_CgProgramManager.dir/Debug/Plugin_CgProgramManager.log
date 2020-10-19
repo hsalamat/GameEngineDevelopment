@@ -1,0 +1,7 @@
+﻿  OgreCgFxScriptLoader.cpp
+  OgreCgPlugin.cpp
+  OgreCgProgram.cpp
+  OgreCgProgramFactory.cpp
+  OgreCgProgramManagerDll.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_CgProgramManager_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_CgProgramManager_d.exp
+  Plugin_CgProgramManager.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\Plugin_CgProgramManager_d.dll

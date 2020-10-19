@@ -171,6 +171,10 @@
       <Project>{40C55F28-99EE-3B7F-A935-912125605E81}</Project>
       <Name>Plugin_BSPSceneManager</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\CgProgramManager\Plugin_CgProgramManager.vcxproj">
+      <Project>{1360468D-C3F2-3DFB-83E6-9DDF1E7AB1D3}</Project>
+      <Name>Plugin_CgProgramManager</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
       <Project>{E54A62AB-AD0C-36AE-BBD2-EA9945E3A4C0}</Project>
       <Name>Plugin_OctreeSceneManager</Name>
