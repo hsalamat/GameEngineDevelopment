@@ -31,7 +31,7 @@ public:
     {
         _sceneNode = sceneNode;
         _camNode = camNode;
-        _movementspeed = 2.0f;
+        _movementspeed = 20.0f;
         _mousespeed = 0.002f;
     }
 
@@ -142,36 +142,6 @@ void Game::createScene()
     //! [lightDirection]
 
 
-
-
-    ////The first thing we'll do is create an abstract Plane object. This is not the mesh, it is more of a blueprint.
-    //Plane plane(Vector3::UNIT_Y, -10);
-    ////Now we'll ask the MeshManager to create us a mesh using our Plane blueprint. The MeshManager is already keeping track of the resources we loaded when initializing our application. On top of this, it can create new meshes for us.
-    //MeshManager::getSingleton().createPlane(
-    //    "ground", RGN_DEFAULT,
-    //    plane,
-    //    1500, 1500, 200, 200,
-    //    true,
-    //    1, 5, 5,
-    //    Vector3::UNIT_Z);
-
-    ////Now we will create a new Entity using this mesh.
-    ////We want to tell our SceneManager not to cast shadows from our ground Entity. It would just be a waste. Don't get confused, this means the ground won't cast a shadow, it doesn't mean we can't cast shadows on to the ground.
-    //Entity* groundEntity = mScnMgr->createEntity("ground");
-    //mScnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
-    //groundEntity->setCastShadows(false);
-    ////And finally we need to give our ground a material.
-    //groundEntity->setMaterialName("Examples/BeachStones");
-
-
-    //Entity* Sinbad = mScnMgr->createEntity("Sinbad.mesh");
-    //Sinbad->setCastShadows(true);
-    //SceneNode* SinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    //SinbadNode->attachObject(Sinbad);
-    //mScnMgr->getRootSceneNode()->addChild(SinbadNode);
-    //SinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    //SinbadNode->setPosition(0, 4.0, 0);
-
     //locate a resource
 
     String mArchive;
@@ -230,7 +200,9 @@ void Game::createCamera()
 
     // Quake uses the Z axis as the up axis, so make necessary adjustments
     camNode->setFixedYawAxis(true, Vector3::UNIT_Z);
-    camNode->pitch(Degree(90));
+    camNode->pitch(Degree(120));
+    //camNode->roll(Degree(-30));
+    camNode->yaw(Degree(-140));
 
     camNode->setPosition(vp.position);
     camNode->rotate(vp.orientation);
