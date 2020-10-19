@@ -168,13 +168,21 @@ void Game::createScene()
     // associate the world geometry with the world resource group, and then load the group
     ResourceGroupManager& rgm = ResourceGroupManager::getSingleton();
     rgm.linkWorldGeometryToResourceGroup(rgm.getWorldResourceGroupName(), mMap, mScnMgr);
+
+    //The function 'initialiseResourceGroup' parses scripts if any material in the locations.
     rgm.initialiseResourceGroup(rgm.getWorldResourceGroupName());
+    //Files that can be loaded are loaded
     //rgm.loadResourceGroup(rgm.getWorldResourceGroupName(), false);
 
     mScnMgr = mRoot->createSceneManager("BspSceneManager");
     mScnMgr->setWorldGeometry("maps/chiropteradm.bsp");
 
     std::cout << green << mScnMgr->getTypeName() << "::" << mScnMgr->getName() << white << std::endl;
+
+    //Ogre::MaterialPtr lMaterial = MaterialManager.create("M_NoLighting", rgm.getWorldResourceGroupName());// this creation is not perfect (as you will see in a later tutorial about manualresourceloader).The created material has already 1 technique and 1 pass.
+    //Ogre::Technique* lFirstTechnique = lMaterial->getTechnique(0); Ogre::Pass* lFirstPass = lFirstTechnique->getPass(0); No lighting is allowed on this pass. (defaut is 'lighting enabled')
+    //lFirstPass->setLightingEnabled(false);
+
 
     // -- tutorial section end --
 }
