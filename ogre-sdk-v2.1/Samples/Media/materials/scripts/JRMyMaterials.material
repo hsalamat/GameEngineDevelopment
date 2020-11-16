@@ -1,0 +1,48 @@
+material JRDoodle
+{
+    technique
+    {
+        pass
+        {
+			scene_blend alpha_blend
+			depth_write off
+			
+            texture_unit 
+            {
+				texture doodle.png
+            }
+        }
+    }
+}
+
+material JRPlatform
+{
+    technique
+    {
+        pass
+        {
+			scene_blend alpha_blend
+			depth_write off
+			
+            texture_unit 
+            {
+                texture platform.png
+            }
+        }
+    }
+}
+
+material JRBackground
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture background.png
+            }
+        }
+    }
+}
+

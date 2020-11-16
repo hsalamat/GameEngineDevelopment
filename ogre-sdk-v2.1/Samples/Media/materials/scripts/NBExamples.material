@@ -1,0 +1,43 @@
+material NBExamples/Platform
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture platform.png
+			}
+		}
+	}
+}
+
+material NBExamples/Doodle
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture doodle.png
+			}
+		}
+	}
+}
+
+material NBExamples/Background
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture background.png
+			}
+		}
+	}
+}

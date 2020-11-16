@@ -435,14 +435,12 @@ material MyMaterial17
     }
 }
 
-
 fragment_program MyFragmentShader5 cg  
 {
-	source MyShaders.cg    
-	entry_point MyFragmentShader5  
-	profiles ps_1_1  arbfp1
+    source MyShaders.cg    
+    entry_point MyFragmentShader5 
+    profiles ps_1_1  arbfp1
 }
-
 
 
 material MyMaterial18
@@ -480,6 +478,180 @@ material MyMaterial20
         }
     }
 }
+
+
+
+material Comps/Comp1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+
+
+material Comps/Comp2
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader5
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+
+fragment_program MyFragmentShader6 cg  
+{
+    source MyShaders.cg    
+    entry_point MyFragmentShader6 
+    profiles ps_1_1  arbfp1
+}
+
+material Comps/Comp3
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader6
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+
+fragment_program MyFragmentShader7 cg  
+{
+    source MyShaders.cg    
+    entry_point MyFragmentShader7 
+    profiles ps_1_1  arbfp1
+}
+
+material Comps/Comp4
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader7
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+fragment_program MyFragmentShader8 cg  
+{
+    source MyShaders.cg    
+    entry_point MyFragmentShader8
+    profiles ps_1_1  arbfp1
+}
+
+material Comps/Comp5
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader8
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+fragment_program MyFragmentShader9 cg  
+{
+    source MyShaders.cg    
+    entry_point MyFragmentShader9
+    profiles ps_1_1  arbfp1
+    
+    default_params                    
+    {        
+        param_named numpixels float 1000 
+    }
+}
+
+material Comps/Comp6
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader9
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+fragment_program MyFragmentShader10 cg  
+{
+    source MyShaders.cg    
+    entry_point MyFragmentShader10
+    profiles ps_1_1  arbfp1
+    
+    default_params                    
+    {        
+        param_named factors float4 1 1 1 0
+    }
+    
+    
+}
+
+material Comps/Comp7
+{
+    technique
+    {
+        pass
+        {
+            fragment_program_ref MyFragmentShader10
+            {
+            }
+            
+            texture_unit
+            {
+            }
+        }
+    }
+}
+
+
+
+
+
+
 
 
 // CG Vertex shader definition

@@ -1,0 +1,46 @@
+material DSMyMaterial0
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+
+            texture_unit 
+            {
+                texture doodle.png
+            }
+        }
+    }
+}
+
+
+material DSMyMaterial21
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture background.png
+            }
+        }
+    }
+}
+
+material DSMyMaterial22
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+
+            texture_unit 
+            {
+                texture platform.png
+            }
+        }
+    }
+}

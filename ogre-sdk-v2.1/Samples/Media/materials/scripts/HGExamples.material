@@ -1,0 +1,51 @@
+
+
+material HGExamples/Doodle
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture doodle.png
+			}
+		}
+	}
+}
+
+material HGExamples/BoxBackground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture background.png
+			}
+		}
+	}
+}
+
+material HGExamples/Platform
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture platform.png
+			}
+		}
+	}
+}
+
+

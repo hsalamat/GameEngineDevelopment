@@ -1,0 +1,48 @@
+material skmario
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture skmario.png
+            }
+            scene_blend alpha_blend
+            depth_write off
+        }
+    }
+}
+
+material skplatform
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture skplatform.png
+            }
+            scene_blend alpha_blend
+            depth_write off
+        }
+    }
+}
+
+material skbg
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture skbg.png
+            }
+            scene_blend alpha_blend
+            depth_write off
+        }
+    }
+}
+

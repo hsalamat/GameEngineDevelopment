@@ -1,0 +1,56 @@
+material Doodle
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_check on
+            depth_write off
+            transparent_sorting on
+            texture_unit 
+            {
+                texture doodle.png
+                diffuse 1 1 1 0
+            }
+        }
+    }
+}
+
+material DoodlePlatform
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_check on
+            depth_write off
+            transparent_sorting on
+            texture_unit 
+            {
+                texture platform.png
+                diffuse 1 1 1 0
+            }
+        }
+    }
+}
+
+material DoodleBackground
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_check on
+            depth_write off
+            transparent_sorting on
+            texture_unit 
+            {
+                texture background.png
+                diffuse 1 1 1 0
+            }
+        }
+    }
+}

@@ -1,9 +1,9 @@
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreescenemanagerdll.obj
-c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreeplugin.obj
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreescenemanager.obj
-c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctree.obj
-c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreecamera.obj
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreenode.obj
+c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreeplugin.obj
+c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreecamera.obj
+c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctree.obj
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\ogreoctreescenequery.obj
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\vc142.pdb
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\bin\debug\plugin_octreescenemanager_d.ilk
@@ -11,7 +11,7 @@ c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\buil
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\bin\debug\plugin_octreescenemanager_d.pdb
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\lib\debug\plugin_octreescenemanager_d.lib
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\lib\debug\plugin_octreescenemanager_d.exp
-c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\plugin_o.e54a62ab.tlog\cl.11388.write.1.tlog
+c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\plugin_o.e54a62ab.tlog\cl.1268.write.1.tlog
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\plugin_o.e54a62ab.tlog\cl.command.1.tlog
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\plugin_o.e54a62ab.tlog\cl.read.1.tlog
 c:\hooman\gbc\game3121\course materials\gameenginedevelopment\ogre-sdk-v2.1\build\plugins\octreescenemanager\plugin_octreescenemanager.dir\debug\plugin_o.e54a62ab.tlog\link.command.1.tlog

@@ -1,0 +1,51 @@
+material Platformer/Background
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture background.png
+			}
+		}
+	}
+}
+material Platformer/Doodle
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 150
+			scene_blend alpha_blend
+
+		    cull_hardware none
+            cull_software none
+
+			texture_unit
+			{
+				texture doodle.png
+			}
+		}
+	}
+}
+material Platformer/Platform
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 150
+			scene_blend alpha_blend
+
+		    cull_hardware none
+            cull_software none
+
+			texture_unit
+			{
+				texture platform.png
+			}
+		}
+	}
+}

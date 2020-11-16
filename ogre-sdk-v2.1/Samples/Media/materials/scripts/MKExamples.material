@@ -1,0 +1,46 @@
+
+material MKExamples/DoodleCharacter
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 150
+
+			texture_unit
+			{
+				texture doodle.png
+			}
+		}
+	}
+}
+
+material MKExamples/Platform
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture platform.png
+			}
+		}
+	}
+}
+
+
+material MKExamples/DoodleBackground
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture background.png
+			}
+		}
+	}
+}
+

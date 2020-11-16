@@ -1,0 +1,17 @@
+material DoodlePlayer
+{
+    technique
+    {
+        pass
+        {
+	    
+	    alpha_rejection greater 150
+	    scene_blend alpha_blend
+		
+            texture_unit 
+            {
+                texture doodle.png
+            }
+        }
+    }
+}
