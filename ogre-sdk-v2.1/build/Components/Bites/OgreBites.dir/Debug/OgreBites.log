@@ -7,6 +7,7 @@
   OgreTrays.cpp
   OgreWindowEventUtilities.cpp
   OgreApplicationContextSDL.cpp
+  OgreWIN32ConfigDialog.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreCameraMan.cpp(199,91): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
           with
           [
@@ -17,7 +18,6 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Comp
           [
               T=Ogre::Real
           ]
-  OgreWIN32ConfigDialog.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(93,26): warning C4244: 'return': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(323,44): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(342,53): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
@@ -100,12 +100,12 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Comp
           ]
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2190,54): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2189,55): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\SDLInputMapping.h(67,46): warning C4244: '=': conversion from 'const SDL_FingerID' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreApplicationContextSDL.cpp)
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(163,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(170,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(202,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(238,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(245,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(327,13): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\SDLInputMapping.h(67,46): warning C4244: '=': conversion from 'const SDL_FingerID' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreApplicationContextSDL.cpp)
      Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreBites_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreBites_d.exp
   OgreBites.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreBites_d.dll

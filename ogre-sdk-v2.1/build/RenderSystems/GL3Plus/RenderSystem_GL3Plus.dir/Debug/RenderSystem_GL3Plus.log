@@ -7,17 +7,17 @@
   OgreGLSLShaderFactory.cpp
   OgreGL3PlusDepthBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLSeparableProgram.cpp(163,81): warning C4267: 'initializing': conversion from 'size_t' to 'GLint', possible loss of data
-  OgreGL3PlusEngineDll.cpp
-  OgreGL3PlusFBOMultiRenderTarget.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp(160,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgram.cpp(173,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
-  OgreGL3PlusFBORenderTexture.cpp
-  OgreGL3PlusFrameBufferObject.cpp
-  OgreGL3PlusHardwareBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp(745,67): warning C4267: 'initializing': conversion from 'size_t' to 'GLint', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp(761,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp(763,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\GLSL\src\OgreGLSLProgramManager.cpp(834,71): warning C4267: 'initializing': conversion from 'size_t' to 'GLint', possible loss of data
+  OgreGL3PlusEngineDll.cpp
+  OgreGL3PlusFBOMultiRenderTarget.cpp
+  OgreGL3PlusFBORenderTexture.cpp
+  OgreGL3PlusFrameBufferObject.cpp
+  OgreGL3PlusHardwareBuffer.cpp
   OgreGL3PlusHardwareBufferManager.cpp
   OgreGL3PlusHardwareCounterBuffer.cpp
   OgreGL3PlusHardwareIndexBuffer.cpp
@@ -34,11 +34,6 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
   OgreGL3PlusTexture.cpp
   OgreGL3PlusTextureBuffer.cpp
   OgreGL3PlusTextureManager.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(107,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(108,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(109,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(110,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(335,9): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(796,56): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1384,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1390,17): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
@@ -54,17 +49,22 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(1494,71): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(2234,13): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusRenderSystem.cpp(2322,59): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(107,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(108,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(109,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(110,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusStateCacheManager.cpp(335,9): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTexture.cpp(397,84): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp(127,1): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
-          with
-          [
-              _Ty=Ogre::uint
-          ]
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(174,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(184,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(193,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(202,17): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureBuffer.cpp(204,17): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL3Plus\src\OgreGL3PlusTextureManager.cpp(127,1): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=Ogre::uint
+          ]
   gl3w.c
      Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/RenderSystem_GL3Plus_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/RenderSystem_GL3Plus_d.exp
   RenderSystem_GL3Plus.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\RenderSystem_GL3Plus_d.dll

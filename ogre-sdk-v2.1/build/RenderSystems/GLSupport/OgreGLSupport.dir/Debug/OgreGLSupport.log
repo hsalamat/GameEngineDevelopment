@@ -8,8 +8,8 @@
   OgreGLSLShaderCommon.cpp
   OgreGLRenderSystemCommon.cpp
   OgreGLTextureCommon.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GLSupport\src\win32\OgreWin32RenderTexture.cpp(44,5): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
   OgreGLDepthBufferCommon.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GLSupport\src\win32\OgreWin32RenderTexture.cpp(44,5): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
   OgreGLRenderTexture.cpp
   OgreGLHardwarePixelBufferCommon.cpp
   OgreGLUniformCache.cpp

@@ -4,6 +4,7 @@
 
 # Ignore build directories
 cmake-build-*/
+/build/
 /installed/
 /android-build/
 /embuild/
@@ -17,4 +18,3 @@ cmake-build-*/
 
 # Ignore vim files
 *.swp
-*.pch

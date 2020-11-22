@@ -1,7 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <ProjectOutputs>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\SampleBrowser_d.exe</ProjectOutputs>
-  <ContentFiles></ContentFiles>
-  <SatelliteDlls></SatelliteDlls>
-  <NonRecipeFileRefs></NonRecipeFileRefs>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreMain_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreOverlay_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreRTShaderSystem_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreBites_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreMeshLodGenerator_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgrePaging_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreTerrain_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\OgreVolume_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\Plugin_PCZSceneManager_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\DefaultSamples_d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\SampleBrowser_d.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
 </Project>

@@ -1,1 +1,20 @@
-﻿
+﻿  OgreAreaEmitter.cpp
+  OgreBoxEmitter.cpp
+  OgreColourFaderAffector.cpp
+  OgreColourFaderAffector2.cpp
+  OgreColourImageAffector.cpp
+  OgreColourInterpolatorAffector.cpp
+  OgreCylinderEmitter.cpp
+  OgreDeflectorPlaneAffector.cpp
+  OgreDirectionRandomiserAffector.cpp
+  OgreEllipsoidEmitter.cpp
+  OgreHollowEllipsoidEmitter.cpp
+  OgreLinearForceAffector.cpp
+  OgreParticleFX.cpp
+  OgreParticleFXPlugin.cpp
+  OgrePointEmitter.cpp
+  OgreRingEmitter.cpp
+  OgreRotationAffector.cpp
+  OgreScaleAffector.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_ParticleFX_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_ParticleFX_d.exp
+  Plugin_ParticleFX.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\Plugin_ParticleFX_d.dll

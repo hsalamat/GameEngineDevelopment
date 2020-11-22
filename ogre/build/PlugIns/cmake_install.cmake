@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/OctreeSceneManager/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/BSPSceneManager/cmake_install.cmake")
+  include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/CgProgramManager/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/STBICodec/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/ParticleFX/cmake_install.cmake")
   include("C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/PCZSceneManager/cmake_install.cmake")

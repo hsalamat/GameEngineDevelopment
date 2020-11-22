@@ -175,6 +175,10 @@
       <Project>{2AC86F48-F8CD-3CFD-B53B-87FB3E3A6690}</Project>
       <Name>Plugin_BSPSceneManager</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\CgProgramManager\Plugin_CgProgramManager.vcxproj">
+      <Project>{334A484C-B380-3DA4-9D17-6FF4DFA483D0}</Project>
+      <Name>Plugin_CgProgramManager</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Hooman\GBC\GAME3121\ogre\build\PlugIns\DotScene\Plugin_DotScene.vcxproj">
       <Project>{649483AF-3380-342A-A61D-36C6D1229682}</Project>
       <Name>Plugin_DotScene</Name>

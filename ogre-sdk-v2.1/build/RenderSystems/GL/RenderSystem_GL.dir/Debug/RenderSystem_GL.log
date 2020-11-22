@@ -14,6 +14,12 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(354,48): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
   ps_1_4.cpp
   _ps1.0_lexer.cpp
+  _ps1.0_parser.cpp
+  _rc1.0_lexer.cpp
+  _rc1.0_parser.cpp
+  _ts1.0_lexer.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(83,83): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(141,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(1843,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): message : consider using '%zd' in the format string
@@ -22,25 +28,26 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): message : consider using '%zx' in the format string
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2134,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(83,83): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(141,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 ps1.0_tokens.l(79,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(94,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(114,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(140,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 _ps1.0_lexer.cpp(1392,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
-  _ps1.0_parser.cpp
-  _rc1.0_lexer.cpp
-  _rc1.0_parser.cpp
-  _ts1.0_lexer.cpp
   _ts1.0_parser.cpp
   _vs1.0_lexer.cpp
-_ts1.0_lexer.cpp(1738,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp)
+_rc1.0_lexer.cpp(1992,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp)
   _vs1.0_parser.cpp
   avp1.0_impl.cpp
   nvparse.cpp
+_ts1.0_lexer.cpp(1738,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp)
   nvparse_errors.cpp
-_rc1.0_lexer.cpp(1992,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp)
+  ps1.0_program.cpp
+  rc1.0_combiners.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(33,31): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(39,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(41,31): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  rc1.0_final.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse.cpp(85,23): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
 vs1.0_tokens.l(377,39): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(527,29): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(542,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
@@ -56,9 +63,6 @@ vs1.0_tokens.l(1324,2): warning C4996: 'strcat': This function or variable may b
 vs1.0_tokens.l(1368,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1377,4): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1420,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(33,31): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(39,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(41,31): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
 vs1.0_tokens.l(266,2): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(282,2): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(463,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
@@ -77,6 +81,7 @@ vs1.0_tokens.l(1323,2): warning C4996: 'strncat': This function or variable may 
 vs1.0_tokens.l(1351,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1367,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1376,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
+  rc1.0_general.cpp
 vs1.0_tokens.l(1452,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1460,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(1468,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
@@ -113,7 +118,6 @@ vs1.0_tokens.l(2563,5): warning C4996: 'strcpy': This function or variable may b
 vs1.0_tokens.l(2544,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2545,19): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2604,28): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
-  ps1.0_program.cpp
 vs1.0_tokens.l(2792,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2793,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2797,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
@@ -126,29 +130,23 @@ vs1.0_tokens.l(2916,33): warning C4267: '=': conversion from 'size_t' to 'int', 
 vs1.0_tokens.l(2881,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2883,13): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2909,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
-  rc1.0_combiners.cpp
-  rc1.0_final.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\nvparse.cpp(85,23): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
-  rc1.0_general.cpp
-  ts1.0_inst.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp(74,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  ts1.0_inst_list.cpp
+  ts1.0_inst.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  vcp1.0_impl.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(1022,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ts1.0_inst_list.cpp
+  vcp1.0_impl.cpp
   vp1.0_impl.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\rc1.0_general.cpp(12,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   vs1.0_inst.cpp
   vs1.0_inst_list.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(110,22): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(123,31): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
   vsp1.0_impl.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\rc1.0_general.cpp(12,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   OgreGLCopyingRenderTexture.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp(76,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   OgreGLDepthBuffer.cpp
   OgreGLEngineDll.cpp
-  OgreGLFBOMultiRenderTarget.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp(76,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  OgreGLFBORenderTexture.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(110,22): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(123,31): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(113,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(117,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(121,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -173,8 +171,6 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(508,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(523,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(535,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp(65,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  OgreGLFrameBufferObject.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(543,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(565,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(573,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
@@ -201,11 +197,6 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(772,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(868,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(876,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(922,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(930,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(938,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(946,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(1028,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(64,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(96,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(139,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -216,7 +207,16 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(241,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(227,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(230,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(922,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(930,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(938,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(946,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(1028,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  OgreGLFBOMultiRenderTarget.cpp
+  OgreGLFBORenderTexture.cpp
+  OgreGLFrameBufferObject.cpp
   OgreGLGpuNvparseProgram.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp(65,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   OgreGLGpuProgram.cpp
   OgreGLGpuProgramManager.cpp
   OgreGLHardwareBufferManager.cpp
@@ -229,8 +229,6 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
   OgreGLPlugin.cpp
   OgreGLRenderSystem.cpp
   OgreGLRenderToVertexBuffer.cpp
-  OgreGLStateCacheManager.cpp
-  OgreGLTexture.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(221,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(229,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(244,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
@@ -241,6 +239,7 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(287,84): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(358,60): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(360,82): warning C4267: 'argument': conversion from 'size_t' to 'GLint', possible loss of data
+  OgreGLStateCacheManager.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(278,67): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(281,68): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(284,82): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
@@ -250,6 +249,7 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(292,75): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(325,68): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(328,74): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
+  OgreGLTexture.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(1293,44): warning C4267: 'initializing': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\GL\src\OgreGLRenderSystem.cpp(1522,79): warning C4244: 'argument': conversion from 'Ogre::Real' to 'const _Ty', possible loss of data
           with

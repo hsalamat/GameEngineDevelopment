@@ -13,10 +13,10 @@
   OgreLodInputProviderBuffer.cpp
   OgreLodInputProviderMesh.cpp
   OgreLodOutputProviderBuffer.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp(98,109): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::ushort', possible loss of data
   OgreLodOutputProviderCompressedBuffer.cpp
   OgreLodOutputProviderCompressedMesh.cpp
   OgreLodOutputProviderMesh.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp(98,109): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::ushort', possible loss of data
   OgreLodOutsideMarker.cpp
   OgreLodWorkQueueInjector.cpp
   OgreLodWorkQueueWorker.cpp

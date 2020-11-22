@@ -123,7 +123,7 @@ if(ON)
     ogre_declare_plugin(Plugin BSPSceneManager)
 endif()
 
-if(FALSE)
+if(ON)
     ogre_declare_plugin(Plugin CgProgramManager)
 endif()
 

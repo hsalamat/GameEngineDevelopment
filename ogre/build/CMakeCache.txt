@@ -229,13 +229,13 @@ CPACK_SOURCE_7Z:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=ON
 
 //Path to a file.
-Cg_BINARY_DBG:FILEPATH=Cg_BINARY_DBG-NOTFOUND
+Cg_BINARY_DBG:FILEPATH=C:/Program Files (x86)/NVIDIA Corporation/Cg/bin/cg.dll
 
 //Path to a file.
-Cg_BINARY_REL:FILEPATH=Cg_BINARY_REL-NOTFOUND
+Cg_BINARY_REL:FILEPATH=C:/Program Files (x86)/NVIDIA Corporation/Cg/bin/cg.dll
 
 //x
-Cg_INCLUDE_DIR:PATH=Cg_INCLUDE_DIR-NOTFOUND
+Cg_INCLUDE_DIR:PATH=C:/Program Files (x86)/NVIDIA Corporation/Cg/include/Cg
 
 //x
 Cg_LIBRARY_DBG:FILEPATH=Cg_LIBRARY_DBG-NOTFOUND
@@ -244,7 +244,7 @@ Cg_LIBRARY_DBG:FILEPATH=Cg_LIBRARY_DBG-NOTFOUND
 Cg_LIBRARY_FWK:STRING=NOTFOUND
 
 //x
-Cg_LIBRARY_REL:FILEPATH=Cg_LIBRARY_REL-NOTFOUND
+Cg_LIBRARY_REL:FILEPATH=C:/Program Files (x86)/NVIDIA Corporation/Cg/lib/cg.lib
 
 //Dependencies for the target
 Codec_Assimp_LIB_DEPENDS:STATIC=general;OgreMain;general;ZLIB::ZLIB;general;C:/Hooman/GBC/GAME3121/ogre/build/Dependencies/lib/IrrXML.lib;
@@ -404,6 +404,9 @@ OGRE_BUILD_PLUGIN_ASSIMP:BOOL=ON
 
 //Build BSP SceneManager plugin
 OGRE_BUILD_PLUGIN_BSP:BOOL=ON
+
+//Build Cg plugin
+OGRE_BUILD_PLUGIN_CG:BOOL=ON
 
 //Build .scene plugin
 OGRE_BUILD_PLUGIN_DOT_SCENE:BOOL=ON
@@ -660,6 +663,9 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 Plugin_BSPSceneManager_LIB_DEPENDS:STATIC=general;OgreMain;
 
 //Dependencies for the target
+Plugin_CgProgramManager_LIB_DEPENDS:STATIC=general;OgreMain;general;C:/Program Files (x86)/NVIDIA Corporation/Cg/lib/cg.lib;
+
+//Dependencies for the target
 Plugin_DotScene_LIB_DEPENDS:STATIC=general;OgreMain;general;pugixml;general;OgreTerrain;
 
 //Dependencies for the target
@@ -810,7 +816,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=35
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER
@@ -887,7 +893,7 @@ Cg_LIBRARY_FWK-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Cg_LIBRARY_REL
 Cg_LIBRARY_REL-ADVANCED:INTERNAL=1
 //x
-Cg_PREFIX_PATH_INT_CHECK:INTERNAL=/Dependencies;/Dependencies;C:/Hooman/GBC/GAME3121/ogre-master;/opt/nvidia-cg-toolkit
+Cg_PREFIX_PATH_INT_CHECK:INTERNAL=/Dependencies;/Dependencies;C:/Hooman/GBC/GAME3121/ogre;/opt/nvidia-cg-toolkit
 //ADVANCED property for variable: DOXYGEN_DOT_EXECUTABLE
 DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE

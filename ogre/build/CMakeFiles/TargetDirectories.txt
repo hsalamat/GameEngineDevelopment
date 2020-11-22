@@ -26,6 +26,9 @@ C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/OctreeSceneManager/CMakeFiles/INSTALL.
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/BSPSceneManager/CMakeFiles/PACKAGE.dir
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/BSPSceneManager/CMakeFiles/Plugin_BSPSceneManager.dir
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/BSPSceneManager/CMakeFiles/INSTALL.dir
+C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/CgProgramManager/CMakeFiles/Plugin_CgProgramManager.dir
+C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/CgProgramManager/CMakeFiles/PACKAGE.dir
+C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/CgProgramManager/CMakeFiles/INSTALL.dir
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/STBICodec/CMakeFiles/INSTALL.dir
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/STBICodec/CMakeFiles/Codec_STBI.dir
 C:/Hooman/GBC/GAME3121/ogre/build/PlugIns/STBICodec/CMakeFiles/PACKAGE.dir

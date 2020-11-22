@@ -6,14 +6,6 @@
   ATI_FS_GLGpuProgram.cpp
   Compiler2Pass.cpp
   ps_1_4.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(1843,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): message : consider using '%zd' in the format string
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2102,21): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2102,21): message : consider using '%zd' in the format string
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): message : consider using '%zx' in the format string
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2134,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(104,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(127,59): warning C4267: 'initializing': conversion from 'size_t' to 'uint', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(130,46): warning C4267: 'initializing': conversion from 'size_t' to 'uint', possible loss of data
@@ -22,27 +14,34 @@ C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(308
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp(354,48): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
   _ps1.0_lexer.cpp
   _ps1.0_parser.cpp
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(1843,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2085,17): message : consider using '%zd' in the format string
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2102,21): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2102,21): message : consider using '%zd' in the format string
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2109,24): message : consider using '%zx' in the format string
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ps_1_4.cpp(2134,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   _rc1.0_lexer.cpp
-  _rc1.0_parser.cpp
-  _ts1.0_lexer.cpp
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp)
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp)
+  _rc1.0_parser.cpp
+  _ts1.0_lexer.cpp
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(83,83): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(128,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 ps1.0_tokens.l(79,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(94,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(114,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 ps1.0_tokens.l(140,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
 _ps1.0_lexer.cpp(1392,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp)
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(83,83): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp(128,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-_ts1.0_lexer.cpp(1738,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp)
   _ts1.0_parser.cpp
 _rc1.0_lexer.cpp(1992,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp)
   _vs1.0_lexer.cpp
@@ -55,7 +54,11 @@ C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(39,5
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse_errors.cpp(41,31): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
   ps1.0_program.cpp
   rc1.0_combiners.cpp
+_ts1.0_lexer.cpp(1738,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp)
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse.cpp(85,23): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp(74,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   rc1.0_final.cpp
+  rc1.0_general.cpp
 vs1.0_tokens.l(377,39): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(527,29): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(542,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
@@ -137,21 +140,18 @@ vs1.0_tokens.l(2916,33): warning C4267: '=': conversion from 'size_t' to 'int', 
 vs1.0_tokens.l(2881,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2883,13): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
 vs1.0_tokens.l(2909,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp)
-  rc1.0_general.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp(74,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\nvparse.cpp(85,23): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
   ts1.0_inst.cpp
   ts1.0_inst_list.cpp
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(1022,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   vcp1.0_impl.cpp
   vp1.0_impl.cpp
   vs1.0_inst.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_general.cpp(12,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   vs1.0_inst_list.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(339,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\ps1.0_program.cpp(1022,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\rc1.0_general.cpp(12,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   vsp1.0_impl.cpp
   OgreGLCopyingRenderTexture.cpp
-  OgreGLDepthBuffer.cpp
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp(76,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(113,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(117,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(121,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -207,12 +207,6 @@ C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(930,21):
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(938,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(946,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp(1028,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  OgreGLEngineDll.cpp
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(110,22): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(123,31): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
-C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp(76,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  OgreGLFBOMultiRenderTarget.cpp
-  OgreGLFBORenderTexture.cpp
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(64,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(96,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(139,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -223,9 +217,15 @@ C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(239
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(241,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(227,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp(230,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  OgreGLDepthBuffer.cpp
+  OgreGLEngineDll.cpp
+  OgreGLFBOMultiRenderTarget.cpp
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(110,22): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp(123,31): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  OgreGLFBORenderTexture.cpp
   OgreGLFrameBufferObject.cpp
-  OgreGLGpuNvparseProgram.cpp
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp(65,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  OgreGLGpuNvparseProgram.cpp
   OgreGLGpuProgram.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
@@ -236,46 +236,46 @@ C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning 
           with
           [
               T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLCopyingRenderTexture.cpp)
-  OgreGLGpuProgramManager.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLEngineDll.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp)
+  OgreGLGpuProgramManager.cpp
   OgreGLHardwareBufferManager.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
+          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp)
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp)
   OgreGLHardwareIndexBuffer.cpp
   OgreGLHardwareOcclusionQuery.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp)
   OgreGLHardwarePixelBuffer.cpp
   OgreGLHardwareVertexBuffer.cpp
-  OgreGLPBRenderTexture.cpp
-  OgreGLPixelFormat.cpp
-  OgreGLPlugin.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwareBufferManager.cpp)
+  OgreGLPBRenderTexture.cpp
+  OgreGLPixelFormat.cpp
+  OgreGLPlugin.cpp
   OgreGLRenderSystem.cpp
   OgreGLRenderToVertexBuffer.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
@@ -283,12 +283,12 @@ C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning 
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp)
-  OgreGLStateCacheManager.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPBRenderTexture.cpp)
+  OgreGLStateCacheManager.cpp
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(214,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(222,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp(237,34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
@@ -303,24 +303,24 @@ C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning 
           with
           [
               T=long
-          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPixelFormat.cpp)
-C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-          with
-          [
-              T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPlugin.cpp)
-  OgreGLTexture.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderSystem.cpp)
-  OgreGLTextureManager.cpp
+C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLPixelFormat.cpp)
+  OgreGLTexture.cpp
 C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
           with
           [
               T=long
           ] (compiling source file C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderToVertexBuffer.cpp)
+  OgreGLTextureManager.cpp
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderSystem.cpp(278,67): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderSystem.cpp(281,68): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
 C:\Hooman\GBC\GAME3121\ogre\RenderSystems\GL\src\OgreGLRenderSystem.cpp(284,82): warning C4267: 'argument': conversion from 'size_t' to 'GLenum', possible loss of data
@@ -364,185 +364,3 @@ C:\Hooman\GBC\GAME3121\ogre\OgreMain\include\OgreRenderSystem.h(962,1): warning 
   glew.c
      Creating library C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_GL_d.lib and object C:/Hooman/GBC/GAME3121/ogre/build/lib/Debug/RenderSystem_GL_d.exp
   RenderSystem_GL.vcxproj -> C:\Hooman\GBC\GAME3121\ogre\build\bin\Debug\RenderSystem_GL_d.dll
-
-Project Performance Summary:
-        0 ms  C:\Hooman\GBC\GAME3121\ogre\build\OgreMain\OgreMain.vcxproj   4 calls
-                  0 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  0 ms  GetResolvedLinkLibs                        1 calls
-                  0 ms  GetCopyToOutputDirectoryItems              1 calls
-        1 ms  C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GLSupport\OgreGLSupport.vcxproj   4 calls
-                  0 ms  GetTargetPath                              1 calls
-                  0 ms  GetNativeManifest                          1 calls
-                  1 ms  GetResolvedLinkLibs                        1 calls
-                  0 ms  GetCopyToOutputDirectoryItems              1 calls
-    28780 ms  C:\Hooman\GBC\GAME3121\ogre\build\RenderSystems\GL\RenderSystem_GL.vcxproj   1 calls
-              28780 ms  Rebuild                                    1 calls
-
-Target Performance Summary:
-        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        0 ms  MakeDirsForLink                            1 calls
-        0 ms  PrepareResourceNames                       1 calls
-        0 ms  CreateCustomManifestResourceNames          1 calls
-        0 ms  SplitResourcesByCulture                    1 calls
-        0 ms  AssignTargetPaths                          1 calls
-        0 ms  ComputeManifestInputsTargets               1 calls
-        0 ms  ComputeReferenceLinkInputs                 1 calls
-        0 ms  ComputeResolveLinkObj                      1 calls
-        0 ms  ComputeLinkInputsFromProject               1 calls
-        0 ms  ComputeCLGeneratedLinkInputs               1 calls
-        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
-        0 ms  ComputeRCGeneratedLinkInputs               1 calls
-        0 ms  PreLinkEvent                               1 calls
-        0 ms  ComputeRCOutputs                           1 calls
-        0 ms  ComputeLegacyManifestEmbedding             1 calls
-        0 ms  BuildLinkTraverse                          1 calls
-        0 ms  BuildCompile                               1 calls
-        0 ms  _BuildCompileAction                        1 calls
-        0 ms  AfterBuildCompileEvent                     1 calls
-        0 ms  _ResourceCompile                           1 calls
-        0 ms  AfterResourceCompile                       1 calls
-        0 ms  MakeDirsForResourceCompile                 1 calls
-        0 ms  AfterRebuild                               1 calls
-        0 ms  _ClCompile                                 1 calls
-        0 ms  AfterClCompile                             1 calls
-        0 ms  SelectClCompile                            1 calls
-        0 ms  BeforeLink                                 1 calls
-        0 ms  FindReferenceAssembliesForReferences       1 calls
-        0 ms  ComputeLinkSwitches                        1 calls
-        0 ms  _Link                                      1 calls
-        0 ms  IncrementalClean                           1 calls
-        0 ms  AfterBuild                                 1 calls
-        0 ms  BuildLink                                  1 calls
-        0 ms  _BuildLinkAction                           1 calls
-        0 ms  PostBuildEvent                             1 calls
-        0 ms  PrepareForRun                              1 calls
-        0 ms  CopyFilesToOutputDirectory                 1 calls
-        0 ms  _CopySourceItemsToOutputDirectory          1 calls
-        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
-        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
-        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
-        0 ms  _Deploy                                    1 calls
-        0 ms  AfterLink                                  1 calls
-        0 ms  _Appverifier                               1 calls
-        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
-        0 ms  MakeDirsForFxc                             1 calls
-        0 ms  SatelliteDllsProjectOutputGroup            1 calls
-        0 ms  BuiltProjectOutputGroup                    1 calls
-        0 ms  _BscMake                                   1 calls
-        0 ms  MakeDirsForBscMake                         1 calls
-        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
-        0 ms  _XdcMake                                   1 calls
-        0 ms  MakeDirsForXdcMake                         1 calls
-        0 ms  ResolvedXDCMake                            1 calls
-        0 ms  _Manifest                                  1 calls
-        0 ms  _ALink                                     1 calls
-        0 ms  CreateSatelliteAssemblies                  1 calls
-        0 ms  ComputeCLInputPDBName                      1 calls
-        0 ms  BeforeResourceCompile                      1 calls
-        0 ms  BuildCompileTraverse                       1 calls
-        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
-        0 ms  GetResolvedWinMD                           1 calls
-        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
-        0 ms  GetReferenceAssemblyPaths                  1 calls
-        0 ms  BeforeClCompile                            1 calls
-        0 ms  GetFrameworkPaths                          1 calls
-        0 ms  GetNativeManifest                          1 calls
-        0 ms  GetTargetPath                              1 calls
-        0 ms  GetTargetPathWithTargetPlatformMoniker     1 calls
-        0 ms  _RemoveNameMetadataFromProjectReferenceItems   1 calls
-        0 ms  BeforeResolveReferences                    1 calls
-        0 ms  _PrepareForReferenceResolution             1 calls
-        0 ms  ResolveSDKReferences                       1 calls
-        0 ms  _PrepareForBuild                           1 calls
-        0 ms  CppClean                                   1 calls
-        0 ms  AfterCppClean                              1 calls
-        0 ms  BeforeCppClean                             1 calls
-        0 ms  AfterClean                                 1 calls
-        0 ms  CleanPublishFolder                         1 calls
-        0 ms  CleanReferencedProjects                    1 calls
-        0 ms  PrepareProjectReferences                   1 calls
-        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
-        0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  BeforeClean                                1 calls
-        0 ms  _PrepareForClean                           1 calls
-        0 ms  BeforeRebuild                              1 calls
-        0 ms  Clean                                      1 calls
-        0 ms  ExpandSDKReferences                        1 calls
-        0 ms  Rebuild                                    1 calls
-        0 ms  AfterResolveReferences                     1 calls
-        0 ms  BuildGenerateSources                       1 calls
-        0 ms  _BuildGenerateSourcesAction                1 calls
-        0 ms  AfterBuildGenerateSourcesEvent             1 calls
-        0 ms  AfterBuildGenerateSources                  1 calls
-        0 ms  _Midl                                      1 calls
-        0 ms  ResolveAssemblyReferences                  1 calls
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  MakeDirsForMidl                            1 calls
-        0 ms  _Xsd                                       1 calls
-        0 ms  CopyFileToFolders                          1 calls
-        0 ms  CustomBuild                                1 calls
-        0 ms  ComputeCustomBuildOutput                   1 calls
-        0 ms  SelectCustomBuild                          1 calls
-        0 ms  AfterMidl                                  1 calls
-        0 ms  _SelectedFiles                             1 calls
-        0 ms  ResolveReferences                          1 calls
-        0 ms  PreBuildEvent                              1 calls
-        0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
-        0 ms  ComputeReferenceCLInput                    1 calls
-        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
-        1 ms  FinalizeBuildStatus                        1 calls
-        1 ms  MakeDirsForCl                              1 calls
-        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
-        1 ms  SetTelemetryEnvironmentVariables           1 calls
-        1 ms  Build                                      1 calls
-        1 ms  GetResolvedLinkLibs                        1 calls
-        1 ms  ComputeCLOutputs                           1 calls
-        1 ms  RegisterOutput                             1 calls
-        1 ms  _CheckWindowsSDKInstalled                  1 calls
-        1 ms  _CheckForCompileOutputs                    1 calls
-        1 ms  _SplitProjectReferencesByFileExistence     1 calls
-        1 ms  DoLinkOutputFilesMatch                     1 calls
-        1 ms  CoreClean                                  1 calls
-        1 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
-        1 ms  PGInstrumentedClean                        1 calls
-        2 ms  CreateRecipeFile                           1 calls
-        2 ms  ContentFilesProjectOutputGroup             1 calls
-        2 ms  FixupCLCompileOptions                      1 calls
-        3 ms  PrepareForBuild                            1 calls
-        3 ms  InitializeBuildStatus                      1 calls
-        4 ms  _PrepareForRebuild                         1 calls
-        5 ms  WarnCompileDuplicatedFilename              1 calls
-       32 ms  ResolvedLinkLib                            1 calls
-       41 ms  CoreCppClean                               1 calls
-      120 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
-      120 ms  GetCopyToOutputDirectoryItems              1 calls
-      470 ms  ResolveProjectReferences                   1 calls
-     4154 ms  Link                                       1 calls
-    23921 ms  ClCompile                                  1 calls
-
-Task Performance Summary:
-        0 ms  Message                                    3 calls
-        0 ms  CreateItem                                 2 calls
-        0 ms  AssignCulture                              1 calls
-        0 ms  AssignTargetPath                           7 calls
-        0 ms  GetOutOfDateItems                          3 calls
-        0 ms  CheckVCToolsetVersion                      1 calls
-        0 ms  ResolveNonMSBuildProjectOutput             1 calls
-        0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  ConvertToAbsolutePath                      1 calls
-        0 ms  RemoveDuplicates                           3 calls
-        0 ms  ReadLinesFromFile                          3 calls
-        0 ms  SetEnv                                     8 calls
-        1 ms  FindUnderPath                              7 calls
-        1 ms  Delete                                     7 calls
-        1 ms  GenerateDesktopDeployRecipe                1 calls
-        1 ms  Touch                                      2 calls
-        1 ms  MakeDir                                   12 calls
-        3 ms  WriteLinesToFile                           4 calls
-       40 ms  CppClean                                   1 calls
-      120 ms  CallTarget                                 2 calls
-      622 ms  MSBuild                                    4 calls
-     4151 ms  Link                                       1 calls
-    23914 ms  CL                                         2 calls

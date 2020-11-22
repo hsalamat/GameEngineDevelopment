@@ -103,7 +103,7 @@ WARNING: Disabling this will make the samples unusable.
 
 /** If set to 1, profiling code will be included in the application. When you
     are deploying your application you will probably want to set this to 0 */
-#define OGRE_PROFILING 0
+#define OGRE_PROFILING 1
 
 #define OGRE_NO_QUAD_BUFFER_STEREO 1
 

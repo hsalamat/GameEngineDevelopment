@@ -11,7 +11,8 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
   OgreD3D11HardwareBufferManager.cpp
   OgreD3D11HardwareIndexBuffer.cpp
   OgreD3D11HardwareOcclusionQuery.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp(262,52): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  OgreD3D11HardwarePixelBuffer.cpp
+  OgreD3D11HardwareUniformBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(138,53): warning C4996: 'Ogre::ResourceGroupManager::openResource': was declared deprecated
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(724,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(725,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
@@ -25,22 +26,19 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(733,17): warning C4267: '+=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(854,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(892,57): warning C4267: 'initializing': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+  OgreD3D11HardwareVertexBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1194,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1754,61): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1893,60): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(1945,60): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2046,50): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HLSLProgram.cpp(2051,51): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
-  OgreD3D11HardwarePixelBuffer.cpp
-  OgreD3D11HardwareUniformBuffer.cpp
-  OgreD3D11HardwareVertexBuffer.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwareBuffer.cpp(262,52): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
   OgreD3D11Mappings.cpp
   OgreD3D11MultiRenderTarget.cpp
   OgreD3D11Plugin.cpp
   OgreD3D11RenderSystem.cpp
   OgreD3D11RenderToVertexBuffer.cpp
-  OgreD3D11RenderWindow.cpp
-  OgreD3D11StereoDriverAMD.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(71,5): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(81,90): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(214,92): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
@@ -48,23 +46,27 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Rend
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(374,90): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(375,106): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11HardwarePixelBuffer.cpp(499,118): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  OgreD3D11RenderWindow.cpp
+  OgreD3D11StereoDriverAMD.cpp
   OgreD3D11StereoDriverBridge.cpp
   OgreD3D11StereoDriverNVIDIA.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(284,105): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(294,98): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2234,136): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2243,119): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3060,56): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3507,160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3527,160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   OgreD3D11Texture.cpp
   OgreD3D11TextureManager.cpp
   OgreD3D11VertexDeclaration.cpp
   OgreD3D11VideoMode.cpp
   OgreD3D11VideoModeList.cpp
   OgreMonitorInfo.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(284,105): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(294,98): warning C4244: 'argument': conversion from '__int64' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2234,136): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(2243,119): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11RenderSystem.cpp(3060,56): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
   OgreNsightChecker.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp(120,90): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp(31,7): warning C4996: 'GetVersionExA': was declared deprecated
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(392,142): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11Texture.cpp(525,22): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreNsightChecker.cpp(31,7): warning C4996: 'GetVersionExA': was declared deprecated
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\RenderSystems\Direct3D11\src\OgreD3D11VertexDeclaration.cpp(120,90): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
      Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/RenderSystem_Direct3D11_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/RenderSystem_Direct3D11_d.exp
   RenderSystem_Direct3D11.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\RenderSystem_Direct3D11_d.dll

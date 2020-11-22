@@ -17,19 +17,19 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Comp
   OgreShaderFFPFog.cpp
   OgreShaderFFPLighting.cpp
   OgreShaderFFPRenderStateBuilder.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp(85,32): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
   OgreShaderFFPTexturing.cpp
   OgreShaderFFPTransform.cpp
   OgreShaderFunction.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunction.cpp(155,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFFPLighting.cpp(85,32): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunction.cpp(162,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunction.cpp(169,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunction.cpp(176,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   OgreShaderFunctionAtom.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunctionAtom.cpp(312,65): warning C4267: 'return': conversion from 'size_t' to 'Ogre::uchar', possible loss of data
   OgreShaderGLSLESProgramProcessor.cpp
   OgreShaderGLSLESProgramWriter.cpp
   OgreShaderGLSLProgramProcessor.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\RTShaderSystem\src\OgreShaderFunctionAtom.cpp(312,65): warning C4267: 'return': conversion from 'size_t' to 'Ogre::uchar', possible loss of data
   OgreShaderGLSLProgramWriter.cpp
   OgreShaderGenerator.cpp
   OgreShaderHLSLProgramProcessor.cpp
