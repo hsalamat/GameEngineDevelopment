@@ -1,4 +1,4 @@
-//Week11-5-AddingSwordsDemo
+//Week14-5-AddingSwordsDemo
 
 //Hooman Salamat
 
@@ -60,8 +60,8 @@ public:
         float rotYNew = rotY * evt.timeSinceLastFrame * -1;
 
 
-        _camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
-        _camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
+        //_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
+        //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
         //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
 
@@ -125,7 +125,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week11-5-AddingSwords")
+    : ApplicationContext("Week14-5-AddingSwords")
 {
 }
 

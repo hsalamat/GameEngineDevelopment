@@ -46,8 +46,8 @@ public:
         float rotYNew = rotY * evt.timeSinceLastFrame * -1;
 
 
-        _camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
-        _camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
+        //_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
+        //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
         //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
 
@@ -84,7 +84,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week11-2-AnimationDemo")
+    : ApplicationContext("Week14-2-AnimationDemo")
 {
 }
 

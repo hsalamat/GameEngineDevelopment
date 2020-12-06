@@ -1,4 +1,4 @@
-//Week11-1-CameraMovement
+//Week14-1-CameraMovement
 
 //Hooman Salamat
 
@@ -42,8 +42,8 @@ public:
         //_camNode->yaw(Ogre::Radian(rotXNew));
         //_camNode->pitch(Ogre::Radian(rotYNew));
 
-        _camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
-        _camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
+        //_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
+        //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
 
         //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
@@ -77,7 +77,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week11-1-AnimationDemo")
+    : ApplicationContext("Week14-1-AnimationDemo")
 {
 }
 
