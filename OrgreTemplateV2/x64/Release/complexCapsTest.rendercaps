@@ -1,0 +1,90 @@
+render_system_capabilities "complex caps"
+{
+	render_system_name Dummy RenderSystem
+
+	device_name Dummy Device
+	driver_version 11.13.17.0
+	vendor unknown
+
+	32bit_index false
+	anisotropy false
+	atomic_counters false
+	automipmap_compressed false
+	compute_program false
+	debug false
+	dot3 true
+	fixed_function false
+	fragment_program false
+	geometry_program false
+	glsl_sso_redeclare false
+	hwocclusion true
+	hwrender_to_texture true
+	hwrender_to_vertex_buffer false
+	hwstencil true
+	infinite_far_plane false
+	mapbuffer false
+	mipmap_lod_bias true
+	non_power_of_2_textures true
+	pbuffer false
+	perstageconstant true
+	point_extended_parameters true
+	point_sprites false
+	scissor_test true
+	separate_shader_objects true
+	stencil_wrap false
+	tessellation_domain_program false
+	tessellation_hull_program false
+	texture_1d false
+	texture_3d true
+	texture_compression true
+	texture_compression_astc false
+	texture_compression_atc false
+	texture_compression_bc4_bc5 true
+	texture_compression_bc6h_bc7 true
+	texture_compression_dxt true
+	texture_compression_etc1 false
+	texture_compression_etc2 false
+	texture_compression_pvrtc true
+	texture_compression_vtc true
+	texture_float true
+	two_sided_stencil true
+	user_clip_planes false
+	vao true
+	vertex_format_ubyte4 true
+	vertex_program false
+	vertex_texture_fetch false
+	wide_lines false
+
+	shader_profile ..f(_)specialsymbolextravaganza!@#$%^&*_but_no_spaces
+	shader_profile 99foo100
+
+	max_point_size 123.75
+
+	non_pow2_textures_limited true
+	vertex_texture_units_shared true
+
+	num_texture_units 22
+	stencil_buffer_bit_depth 20001
+	num_multi_render_targets 23
+	vertex_program_constant_float_count 1111
+	vertex_program_constant_int_count 2222
+	vertex_program_constant_bool_count 3333
+	fragment_program_constant_float_count 4444
+	fragment_program_constant_int_count 5555
+	fragment_program_constant_bool_count 64000
+	geometry_program_constant_float_count 0
+	geometry_program_constant_int_count 10
+	geometry_program_constant_bool_count 0
+	tessellation_hull_program_constant_float_count 11264
+	tessellation_hull_program_constant_int_count 36331
+	tessellation_hull_program_constant_bool_count 627
+	tessellation_domain_program_constant_float_count 0
+	tessellation_domain_program_constant_int_count 7288
+	tessellation_domain_program_constant_bool_count 34800
+	compute_program_constant_float_count 627
+	compute_program_constant_int_count 0
+	compute_program_constant_bool_count 0
+	num_vertex_texture_units 24949
+	num_vertex_attributes 1
+
+}

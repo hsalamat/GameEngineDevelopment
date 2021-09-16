@@ -1,0 +1,7 @@
+
+*.obj
+*.log
+*.tlog
+ogre-sdk-v2.1/build/.vs/OGRE/v16/.suo
+*.db
+*.db
