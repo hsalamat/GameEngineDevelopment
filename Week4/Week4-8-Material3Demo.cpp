@@ -4,7 +4,7 @@
 //to use one of its strategies to render texture coordinates 
 //that are larger than 1. The default mode is wrap.
 //This means each value over 1 is wrapped to be between zero and one.
-//Change Material1 to Material2. But you need to define the material2 first!
+//Change Material1 to Material3. But you need to define the material3 first!
 //Hooman Salamat
 
 #include "Ogre.h"

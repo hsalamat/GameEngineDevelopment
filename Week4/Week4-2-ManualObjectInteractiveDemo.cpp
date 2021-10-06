@@ -173,6 +173,12 @@ bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
     case 'd':
         translate = Ogre::Vector3(10, 0, 0);
         break;
+    case 'q':
+        translate = Ogre::Vector3(0, 0, -10);
+        break;
+    case 'e':
+        translate = Ogre::Vector3(0, 0, 10);
+        break;
     default:
         break;
     }

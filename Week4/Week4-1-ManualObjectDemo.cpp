@@ -1,4 +1,5 @@
 //Week4-1-ManualObjectDemo
+// Create our own model
 //How to Draw a Simple Triangle
 // Rendering operation using vertex buffers
 //  OT_POINT_LIST = 1, OT_LINE_LIST = 2, OT_LINE_STRIP = 3, OT_TRIANGLE_LIST = 4,
@@ -55,13 +56,14 @@ void OgreTutorial::setup()
 	root = getRoot();
 	scnMgr = root->createSceneManager();
 
+	std::cout << scnMgr->getTypeName() << "::" << scnMgr->getName() << std::endl;
+
 	// register our scene with the RTSS
 	RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
 	shadergen->addSceneManager(scnMgr);
 
 	createScene();
 	createCamera();
-	// -- tutorial section end --
 }
 
 
@@ -139,9 +141,9 @@ void OgreTutorial::createCamera()
 	//! [camera]
 }
 
-
+/// frameStarted Gets called for every frame
 bool OgreTutorial::frameStarted(const FrameEvent& evt) {
-	std::cout << "Frame Started" << std::endl;
+	//std::cout << "Frame Started" << std::endl;
 	return true;
 }
 

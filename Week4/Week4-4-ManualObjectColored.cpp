@@ -1,5 +1,13 @@
-//How to Draw a colored polygon using a simple material
-//you have to run this with GL3+ Renderer
+/** @file Week4-3-ManualObjectAnimationDemo.cpp
+ *  @brief Animation(Rotation) of a simple Quad
+ *
+ * How to Draw a colored polygon using a simple material called FlatVertexColour
+ * you have to run this with GL3+ Renderer
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -123,6 +131,8 @@ void OgreTutorial::createScene()
     ManualObject->setDynamic(false);
 /// //materialName	The name of the material to render this part of the object with
     //ManualObject->begin("BaseWhiteNoLighting",
+
+    /// @note Adding colored material FlatVertexColour
     ManualObject->begin("FlatVertexColour",
         Ogre::RenderOperation::OT_TRIANGLE_LIST);
     ManualObject->position(0, 0, 0);

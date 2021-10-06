@@ -1,10 +1,14 @@
-/*-------------------------------------------------------------------------
-//To use Trays, you have to create an TrayManager. This is the class through which you will create and
-//manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties,
-//pop up dialogs, show/hide the loading bar, etc. You can have multiple tray managers in one application.
--------------------------------------------------------------------------*/
-
-//! [fullsource]
+/** @file Week5-4-TrayDemo2.cpp
+ *  @brief Using Tray Manager with multiple lablels
+ *
+ * To use Trays, you have to create an TrayManager. This is the class through which you will create and
+ * manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties,
+ * pop up dialogs, show/hide the loading bar, etc. You can have multiple tray managers in one application.
+ *
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

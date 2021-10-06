@@ -1,9 +1,15 @@
+/** @file Week4-3-ManualObjectAnimationDemo.cpp
+ *  @brief Animation(Rotation) of a simple Quad
+ *
+ * Animation(Rotation) of a simple Quad
+ * Rendering operation using vertex buffers
+ * OT_POINT_LIST = 1, OT_LINE_LIST = 2, OT_LINE_STRIP = 3, OT_TRIANGLE_LIST = 4,
+ *  OT_TRIANGLE_STRIP = 5, OT_TRIANGLE_FAN = 6,...
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Animation(Rotation) of a simple Quad
-// Rendering operation using vertex buffers
-//  OT_POINT_LIST = 1, OT_LINE_LIST = 2, OT_LINE_STRIP = 3, OT_TRIANGLE_LIST = 4,
-//  OT_TRIANGLE_STRIP = 5, OT_TRIANGLE_FAN = 6,...
-//Hooman Salamat
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

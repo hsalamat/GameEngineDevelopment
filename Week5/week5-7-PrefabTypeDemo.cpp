@@ -1,10 +1,11 @@
-/*-------------------------------------------------------------------------
-//To use Trays, you have to create an TrayManager. This is the class through which you will create and 
-//manage all your widgets, manipulate the cursor, change the backdrop image, adjust tray properties, 
-//pop up dialogs, show/hide the loading bar, etc. You can have multiple tray managers in one application.
--------------------------------------------------------------------------*/
-
-//! [fullsource]
+/** @file Week5-7-PrefabTypeDemo.cpp
+ *  @brief Using Scene Manager PrefabType to create 
+ *
+ *  How to use PrefabType
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -51,7 +52,7 @@ void BasicTutorial1::setup()
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(scnMgr);
 
-    // -- tutorial section start --
+
     //! [turnlights]
     scnMgr->setAmbientLight(ColourValue(0.5, 0.5, 0.5));
     //! [turnlights]
@@ -119,7 +120,6 @@ void BasicTutorial1::setup()
 
     scnMgr->showBoundingBoxes(true);
 
-    // -- tutorial section end --
 }
 
 

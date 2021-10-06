@@ -1,5 +1,5 @@
 //Week4-9-Material3Demo.cpp
-//Create a new material called MyMaterial3 first!
+//Create a new material called MyMaterial4 first!
 //Inside the texture unit block, add a line that tells Ogre 3D to use the clamp mode
 //We changed the texture mode to clamp.This mode uses the border pixels of a texture to fill
 //all texture coordinates that are greater than 1. In practice, this means the border of an image

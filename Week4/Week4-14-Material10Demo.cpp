@@ -3,6 +3,8 @@
 //We used another attribute to make the texture scroll.Besides the name, this attribute is
 //almost similar to the scroll attribute, with the small, but important, difference that now the
 //offset we set is per second.
+// //Change the material to Material11. 
+// It uses the attribute rotate_anim which rotates the texture with the given speed.
 //Hooman Salamat
 
 #include "Ogre.h"

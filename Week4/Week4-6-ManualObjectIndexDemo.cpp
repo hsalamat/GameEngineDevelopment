@@ -1,7 +1,7 @@
 
 //create a quad and attach to it a
 //material that simply renders everything in white.
-//Noe that how you can convert your manual object to a mesh
+//Note that how you can convert your manual object to a mesh
 //Hooman Salamat
 
 #include "Ogre.h"
@@ -153,6 +153,9 @@ void OgreTutorial::createScene()
     Ogre::Entity* ent = scnMgr->createEntity("Quad");
     TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode");
     TriangleNode->attachObject(ent);
+    
+    //you could have simply add a manual object to a scene node, it doesn't have to be an entity
+    //TriangleNode->attachObject(ManualObject);
    
     // -- tutorial section end --
 }

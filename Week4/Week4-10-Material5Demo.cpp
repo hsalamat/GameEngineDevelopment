@@ -1,5 +1,5 @@
 //Week4-10-Material4Demo.cpp
-//Create a new material called MyMaterial4 first!
+//Create a new material called MyMaterial5 first!
 //We again changed the texture mode—this time to mirroring.Mirror is a simple, yet effective,
 //mode when used for texturing big areas like a stone wall.Each time the texture coordinates
 //are bigger than 1, the texture gets flippedand then used as it is in wrap mode.
@@ -62,7 +62,7 @@ public:
 
 
 OgreTutorial::OgreTutorial()
-    : ApplicationContext("week4-9-Material5Demo")
+    : ApplicationContext("week4-10-Material51Demo")
 {
 }
 

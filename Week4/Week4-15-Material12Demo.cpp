@@ -165,12 +165,12 @@ void OgreTutorial::createScene()
 
     Ogre::Entity* ent = scnMgr->createEntity("Quad");
 
-    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode");
+    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode", Ogre::Vector3(-5, 0, 0));
     TriangleNode->attachObject(ent);
 
     ent = scnMgr->createEntity("Quad");
     ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial12"));
-    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("Node2", Ogre::Vector3(15, 0, 0));
+    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("Node2", Ogre::Vector3(5, 0, 0));
     TriangleNode->attachObject(ent);
 
     // -- tutorial section end --

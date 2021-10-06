@@ -105,7 +105,7 @@ void OgreTutorial::createScene()
     //
     Entity* lightEnt = scnMgr->createEntity("LightEntity", "sphere.mesh");
     SceneNode* lightNode = scnMgr->createSceneNode("LightNode");
-    lightNode->attachObject(lightEnt);
+    //lightNode->attachObject(lightEnt);
     lightNode->attachObject(light1);
     lightNode->setScale(0.01f, 0.01f, 0.01f);
 

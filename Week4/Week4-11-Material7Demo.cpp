@@ -1,8 +1,15 @@
-//Week4-11-Material5Demo.cpp
+//Week4-11-Material7Demo.cpp
 //The border mode doesn't create multiple copies of our
 //texture through mirroring or wrapping.When texture coordinates are greater one, this mode
 //paints everything in the defined border color—the default obviously is black, as black can be
 //seen as the zero value for colors.
+// To change the color:
+// texture_unit 
+//       {
+//            tex_address_mode border
+//                tex_border_colour 0.0 0.0 1.0
+//                texture leaf.png
+//
 //Hooman Salamat
 
 #include "Ogre.h"

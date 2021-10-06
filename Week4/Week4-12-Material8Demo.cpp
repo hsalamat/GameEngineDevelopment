@@ -1,4 +1,4 @@
-//Week4-12-Material6Demo.cpp
+//Week4-12-Material8Demo.cpp
 //We are only seeing a part of the texture because our quad only has a texture coordinate
 //that is going up to 0.2; this means four - fifths of the texture isn't rendered onto our quad.
 //Hooman Salamat
