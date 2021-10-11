@@ -1,13 +1,16 @@
-//Week6-4-FieldOfGrassDemo
-//Now that we have one blade of grass, let's build a complete field of grass.
-//we used a new function from a manual object which converts the manual object
-//into a mesh we can instantiate using the createEntity() function of the scene manager.
-//To be able to use the new entity, we need a name that will be used later as a parameter
-//for the createEntity() function.We used BladesOfGrass as a descriptive name.We
-//want several instances of our grass, so we created two for loops, each running 50 times.
-//Interaction: 
-//use WSAD to get closer to the grass field
-//Hooman Salamat
+/** @file Week6-4-FieldOfGrassDemo
+ *  @brief Build a complete field of grass
+ *
+ * Now that we have one blade of grass, let's build a complete field of grass.
+ * we used a new function from a manual object which converts the manual object
+ * into a mesh we can instantiate using the createEntity() function of the scene manager.
+ * To be able to use the new entity, we need a name that will be used later as a parameter
+ * for the createEntity() function. We used BladesOfGrass as a descriptive name.We
+ * want several instances of our grass, so we created two for loops, each running 50 times.
+ *  @attention Interaction: use WSAD to get closer to the grass field
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

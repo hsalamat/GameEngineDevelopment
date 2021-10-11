@@ -1,6 +1,28 @@
-//Week6-0-SceneManagerDemo
-
-//Hooman Salamat
+/** @file Week6-0-OctreeSceneManagerDemo
+ *  @brief create a scene using Octree
+ * each node has a maximum of eight children, hence the name Octree. 
+ * The beauty of this algorithm is that we can discard a lot of the scene in the first few steps.
+ * https://commons.wikimedia.org/wiki/File:Octree2.svg
+ * if we have a 3D scene with two objects in it, we can enclose this scene with a cube.
+ * If we divide this cube at half of its width, height, and depth, we get eight new cubes, each
+ * enclosing an eighth of the scene. These eight cubes can be thought of as the eight children
+ * of the original cube.
+ * Now the two objects of the scene are in the right upper-front cube. The seven other
+ * cubes are empty and are therefore leaves. We will divide the cube that contains the
+ * two objects again.
+ * Now each cube has either one or no object enclosed and is a leaf.
+ * To determine which objects have to be rendered, we start with the
+ * root node of the Octree. If the view frustum intersects the cube, we continue.
+ * This should always be the case, because the Octree on level 0 encloses the complete scene with the
+ * camera. We then continue with level one of the Octree, meaning the root node's children.
+ * We test the view frustum against each child, and if they intersect, we continue with the
+ * children of this cube. Also, if the cube is completely inside the frustum, we don't need to go
+ * any deeper because we know all children of the cube are in the frustum as well. We do this
+ * till we have reached a leaf, and then continue with the next child till we only have leaves left.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

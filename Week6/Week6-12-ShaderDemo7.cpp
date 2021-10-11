@@ -1,13 +1,18 @@
-/** @file Week6-7-ShaderDemo2.cpp
- *  @brief Using Vertex/Fragment Shader
+/** @file week6-12-ShaderDemo8.cpp
+ *  @brief Using NVIDIA cg - Simple Animation
  *
- *  @attention Run this with GLSL 3plus renderer!
- * The new vertex shader is the same as the ones we've seen before; just add a new
- * parameter in the default_params block called pulseTime that gets the value
- * from the time keyword
+ *  @attention For cg, you will have to use the GL rendering (Do not use GL3+ or DirectX11)
+ * let's replace the quad with the Sinbad model. We created an instance of a
+ * model, attached it to a scene node, and changed the material to MyMaterial14.
+ * Adding a pulse to our model is quite easy and only changed the material to MyMaterial17.
+ * We used the sine of the time with two added to get
+ * a value between 1 and 3, with which we multiplied the x part of each translated vertex of the
+ * model.In action, this changes the position of each single vertex in each frame a bit, creating the effect of pulsing.
+ *
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
+
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -66,7 +71,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("week6-7-ShaderDemo2")
+    : ApplicationContext("week6-12-ShaderDemo8")
 {
 }
 
@@ -129,7 +134,7 @@ void Game::createScene()
 
     TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("Node1");
     Ogre::Entity* ent = scnMgr->createEntity("Entity1", "Sinbad.mesh");
-    ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial20"));
+    ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial17"));
     TriangleNode->attachObject(ent);
 
 
@@ -207,7 +212,6 @@ int main(int argc, char** argv)
     return 0;
 }
 
-//! [fullsource]
 
 
 

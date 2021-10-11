@@ -1,10 +1,10 @@
-/** @file Week6-7-ShaderDemo2.cpp
- *  @brief Using Vertex/Fragment Shader
+/** @file Week6-11-ShaderDemo6.cpp
+ *  @brief Using NVIDIA cg - Colors
  *
- *  @attention Run this with GLSL 3plus renderer!
- * The new vertex shader is the same as the ones we've seen before; just add a new
- * parameter in the default_params block called pulseTime that gets the value
- * from the time keyword
+ *  @attention For cg, you will have to use the GL rendering (Do not use GL3+ or DirectX11)
+ * we are adding color to a vertex using three float values for red, green, and blue.
+ * then we replaced the texture coordinates with
+ * color parameters—this time we wanted colors not textures. 
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -66,7 +66,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("week6-7-ShaderDemo2")
+    : ApplicationContext("Week6-11-ShaderDemo6")
 {
 }
 
@@ -127,11 +127,38 @@ void Game::createScene()
 
 
 
-    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("Node1");
-    Ogre::Entity* ent = scnMgr->createEntity("Entity1", "Sinbad.mesh");
-    ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial20"));
-    TriangleNode->attachObject(ent);
+    Ogre::ManualObject* manual = NULL;
+    manual = scnMgr->createManualObject("Quad");
+    manual->setDynamic(false);
+    //Change the material name in the application from BaseWhiteNoLighting to remove material
+    manual->begin("MyMaterial16", RenderOperation::OT_TRIANGLE_LIST);
 
+    manual->position(5.0, 0.0, 0.0);
+    manual->colour(0, 0, 1);
+    manual->position(-5.0, 10.0, 0.0);
+    manual->colour(0, 1, 0);
+    manual->position(-5.0, 0.0, 0.0);
+    manual->colour(0, 1, 0);
+    manual->position(5.0, 10.0, 0.0);
+    manual->colour(0, 0, 1);
+
+    manual->index(0);
+    manual->index(1);
+    manual->index(2);
+
+    manual->index(0);
+    manual->index(3);
+    manual->index(1);
+
+
+    manual->end();
+
+    manual->convertToMesh("Quad");
+
+    Ogre::Entity* ent = scnMgr->createEntity("Quad");
+
+    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode");
+    TriangleNode->attachObject(ent);
 
 
     // -- tutorial section end --
@@ -217,4 +244,4 @@ int main(int argc, char** argv)
 
 
 
-	
+

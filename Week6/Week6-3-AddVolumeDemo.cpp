@@ -1,16 +1,20 @@
-//Week6-3-AddVolumeDemo
-//Adding volume to the blades of grass
-//We have managed to render some blades of grass, but when moving the camera, it quickly
-//becomes clear that the blades are only a 2D image and don't have any volume themselves.
-//To fix this problem, we simply created two new quads, rotated
-//them, and then stuck them into each other.
-//think of it as a circle divided into six parts.Between two quads, there is an angle of 60 degrees.Three quads
-//intersecting each other at the center means we have six angles of 60 degrees, making a
-//total of 360 degree. How did we calculate the new positions of the points for the other
-//two quads ? It's simple trigonometry. To calculate the y value, we use sines and for the x
-//value, cosines.This technique that we used creates a plane and renders a texture onto it
-//to simulate a more detailed model, this is a wildly used technique in video games called billboarding.
-//Hooman Salamat
+/** @file Week6-3-AddVolumeDemo
+ *  @brief Adding volume to the blades of grass
+ *
+ * We have managed to render some blades of grass, but when moving the camera, it quickly
+ * becomes clear that the blades are only a 2D image and don't have any volume themselves.
+ * To fix this problem, we simply created two new quads, rotated
+ * them, and then stuck them into each other.
+ * think of it as a circle divided into six parts.Between two quads, there is an angle of 60 degrees.Three quads
+ * intersecting each other at the center means we have six angles of 60 degrees, making a
+ * total of 360 degree. How did we calculate the new positions of the points for the other
+ * two quads ? It's simple trigonometry. To calculate the y value, we use sines and for the x
+ * value, cosines.This technique that we used creates a plane and renders a texture onto it
+ * to simulate a more detailed model, this is a wildly used technique in video games called billboarding.
+
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

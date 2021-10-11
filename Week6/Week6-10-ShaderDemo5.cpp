@@ -1,10 +1,17 @@
-/** @file Week6-7-ShaderDemo2.cpp
- *  @brief Using Vertex/Fragment Shader
+/** @file Week6-9-ShaderDemo4.cpp
+ *  @brief Using NVIDIA cg - Textures
  *
- *  @attention Run this with GLSL 3plus renderer!
- * The new vertex shader is the same as the ones we've seen before; just add a new
- * parameter in the default_params block called pulseTime that gets the value
- * from the time keyword
+ *  @attention For cg, you will have to use the GL rendering (Do not use GL3+ or DirectX11)
+ * Step 1: we just added a texture unit with the rock texture, nothing fancy.
+ * Step 2: we added a float2 for saving the texture coordinates; also we are using sampler2D for the first time.
+ * sampler2D is just the name for a two - dimensional texture lookup function, and because
+ * it doesn't change per fragment and comes from outside the CG program, we declared it uniform.
+ * Step 3: we used the tex2D function, which takes a sampler2D and float2 as the
+ * input parameterand returns a color as float4.This function uses the float2 as the
+ * position to retrieve a color from the sampler2D objectand returns this color.Basically, it's
+ * just a lookup in the texture for the given coordinates.
+ * Step 4: we added two texture coordinates to the vertex shader—one as incoming and one as outgoing.
+ * Step 5: assigned the incoming to the outgoing parameter.The magic happens in the render pipeline.
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -66,7 +73,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("week6-7-ShaderDemo2")
+    : ApplicationContext("Week6-10-ShaderDemo5")
 {
 }
 
@@ -127,11 +134,38 @@ void Game::createScene()
 
 
 
-    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("Node1");
-    Ogre::Entity* ent = scnMgr->createEntity("Entity1", "Sinbad.mesh");
-    ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial20"));
-    TriangleNode->attachObject(ent);
+    Ogre::ManualObject* manual = NULL;
+    manual = scnMgr->createManualObject("Quad");
+    manual->setDynamic(false);
+    //Change the material name in the application from BaseWhiteNoLighting to remove material
+    manual->begin("MyMaterial14", RenderOperation::OT_TRIANGLE_LIST);
 
+    manual->position(5.0, 0.0, 0.0);
+    manual->textureCoord(0.0, 1.0);
+    manual->position(-5.0, 10.0, 0.0);
+    manual->textureCoord(1.0, 0.0);
+    manual->position(-5.0, 0.0, 0.0);
+    manual->textureCoord(1.0, 1.0);
+    manual->position(5.0, 10.0, 0.0);
+    manual->textureCoord(0.0, 0.0);
+
+    manual->index(0);
+    manual->index(1);
+    manual->index(2);
+
+    manual->index(0);
+    manual->index(3);
+    manual->index(1);
+
+
+    manual->end();
+
+    manual->convertToMesh("Quad");
+
+    Ogre::Entity* ent = scnMgr->createEntity("Quad");
+
+    TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode");
+    TriangleNode->attachObject(ent);
 
 
     // -- tutorial section end --
@@ -217,4 +251,4 @@ int main(int argc, char** argv)
 
 
 
-	
+

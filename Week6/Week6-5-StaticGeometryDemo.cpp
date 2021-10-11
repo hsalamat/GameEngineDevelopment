@@ -1,15 +1,18 @@
-//Week6-5-StaticGeometryDemo
-//We created the same scene we had before, but this time it runs faster.Why ? The sole reason
-//why it runs faster is static geometry
-//When rendering our 2500 grass entities, Ogre 3D has to calculate the world position of every grass entity for each
-//frame.That's a lot of operations per frame, but what's even worse is that each grass entity is
-//sent separately to the GPU for rendering.
-//we created an instance of the static geometry class using the scene manager. However, inside the for loop, we added
-//the created entities, not to a scene node like we are used to doing it.Here, we added it
-//directly to the static geometry and gave as a second parameter the position we want the entity to be
-//Interaction: 
-//use WSAD to get closer to the grass field
-//Hooman Salamat
+/** @file Week6-5-StaticGeometryDemo
+ *  @brief Build a complete field of grass
+ *
+ * We created the same scene we had before, but this time it runs faster.Why ? The sole reason
+ * why it runs faster is static geometry When rendering our 2500 grass entities, 
+ * Ogre 3D has to calculate the world position of every grass entity for each
+ * frame.That's a lot of operations per frame, but what's even worse is that each grass entity is
+ * sent separately to the GPU for rendering.
+ * we created an instance of the static geometry class using the scene manager. However, inside the for loop, we added
+ * the created entities, not to a scene node like we are used to doing it.Here, we added it
+ * directly to the static geometry and gave as a second parameter the position we want the entity to be
+ *  @attention Interaction: use WSAD to get closer to the grass field
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -112,7 +115,6 @@ void Game::setup()
 
 void Game::createScene()
 {
-    // -- tutorial section start --
 
     Ogre::SceneNode* node = mScnMgr->createSceneNode("Node1");
     mScnMgr->getRootSceneNode()->addChild(node);
@@ -240,8 +242,6 @@ void Game::createScene()
     }
 
     field->build();
-
-    // -- tutorial section end --
 }
 
 void Game::createCamera()
@@ -332,4 +332,3 @@ int main(int argc, char** argv)
     return 0;
 }
 
-//! [fullsource]

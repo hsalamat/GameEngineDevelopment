@@ -1,8 +1,23 @@
-//Week6-1-ResourceManagerDemo
-//The term level is normally used to describe the interiors of building, dungeons or industrial complexes in which many games take place.Levels are different from exteriors in that they typically consist of regular geometry(hallways, staircases, etc.) rather than terrain.Level design tools typically allow the definition of the level's geometry as well as the placement of entities (furniture, monsters, etc.) and light sources.
-//While levels can be displayed in any scene manager, Ogre provides the BSP scene manager which employs BSP cullingand collision management to render levels efficiently.This scene manager is no longer subject to legal restrictions since the release of GTKRadiantand q3map2 under the GNU GPL by id Software.
-//BSP levels are generated from Quake .map files, created via a map editor.
-//Hooman Salamat
+/** @file Week6-1-ResourceManagerDemo
+ *  @brief BSP stands for binary space partition and is a technique for storing level information used by a lot of old ego shooter games.
+ * setWorldGeometry() is a special function call telling the BspSceneManager to load a
+ * map saved in the bsp file format. As a map, we use a BSP file that was stored inside the .pk3 file—that's the reason why we needed to load this archive in the first place.
+ * The term level is normally used to describe the interiors of building,
+ * dungeons or industrial complexes in which many games take place.
+ * Levels are different from exteriors in that they typically consist of
+ * regular geometry(hallways, staircases, etc.) rather than terrain.
+ * Level design tools typically allow the definition of the level's geometry
+ * as well as the placement of entities (furniture, monsters, etc.) and light sources.
+ * While levels can be displayed in any scene manager, Ogre provides the BSP scene manager
+ *  which employs BSP culling and collision management to render levels efficiently.
+ * This scene manager is no longer subject to legal restrictions since the release of
+ * GTKRadiantand q3map2 under the GNU GPL by id Software.
+ * BSP levels are generated from Quake .map files, created via a map editor.
+ * @attention make sure you change the path in quakemap.cfg in your project folder
+ * @note use WASD to move
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -148,7 +163,8 @@ void Game::createScene()
     String mMap;
 
     //This is the group which should be used by SceneManagers implementing world geometry 
-    //when looking for their resources. Defaults to the DEFAULT_RESOURCE_GROUP_NAME but this can be altered
+    //when looking for their resources. Defaults to the DEFAULT_RESOURCE_GROUP_NAME 
+    // but this can be altered
     // Pick a new resource group so Q3Shader parser is correctly registered
     ResourceGroupManager::getSingleton().setWorldResourceGroupName("BSPWorld");
 
@@ -164,14 +180,13 @@ void Game::createScene()
     ResourceGroupManager::getSingleton().addResourceLocation(mArchive, "Zip",
         ResourceGroupManager::getSingleton().getWorldResourceGroupName(), true);
 
-    //load a resource
-    // associate the world geometry with the world resource group, and then load the group
+    ///load a resource associate the world geometry with the world resource group, and then load the group
     ResourceGroupManager& rgm = ResourceGroupManager::getSingleton();
     rgm.linkWorldGeometryToResourceGroup(rgm.getWorldResourceGroupName(), mMap, mScnMgr);
 
-    //The function 'initialiseResourceGroup' parses scripts if any material in the locations.
+    ///The function 'initialiseResourceGroup' parses scripts if any material in the locations.
     rgm.initialiseResourceGroup(rgm.getWorldResourceGroupName());
-    //Files that can be loaded are loaded
+    ///Files that can be loaded are loaded
     //rgm.loadResourceGroup(rgm.getWorldResourceGroupName(), false);
 
     mScnMgr = mRoot->createSceneManager("BspSceneManager");
@@ -247,10 +262,10 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         getRoot()->queueEndRendering();
         break;
     case 'w':
-        translate = Ogre::Vector3(0, 0, -1);
+        translate = Ogre::Vector3(0, 0, 1);
         break;
     case 's':
-        translate = Ogre::Vector3(0, 0, 1);
+        translate = Ogre::Vector3(0, 0, -1);
         break;
     case 'a':
         translate = Ogre::Vector3(-1, 0, 0);

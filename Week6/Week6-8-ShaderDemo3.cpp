@@ -1,11 +1,15 @@
-//Week6-8-OurFirstShaderDemo.cpp
-//IMPORTANT: For cg, you will have to use the GL rendering (Do not use GL3+ or DirectX11)
-//we created the material13cg in our material file.First, we are going to define the fragment shader.
-//The vertex shader contains the matrix that we will use for transforming our quad into camera space.
-//Copy MyMaterials.material from the Github to "\GameEngineDevelopment\ogre-sdk-vxxx.xx\Samples\Media\materials\scripts"
-//Now we need to write the shader itself. Copy MyShaders.cg from the Github to
-//the "GameEngineDevelopment\ogre-sdk-vxx.xx\Samples\Media\materials\programs\Cg" folder of your Ogre 3D SDK.
-//Hooman Salamat
+/** @file Week6-8-OurFirstShaderDemo.cpp
+ *  @brief Using NVIDIA cg
+ *
+ *  @attention For cg, you will have to use the GL rendering (Do not use GL3+ or DirectX11)
+ * we created the material13cg in our material file.First, we are going to define the fragment shader.
+ * The vertex shader contains the matrix that we will use for transforming our quad into camera space.
+ * Now we need to write the shader itself. We copied MyShaders.cg  to
+ * the "GameEngineDevelopment\ogre-sdk-vxx.xx\Samples\Media\materials\programs\Cg" folder of your Ogre 3D SDK.
+
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -43,7 +47,7 @@ public:
     }
 };
 
-class OgreTutorial
+class Game
     : public ApplicationContext
     , public InputListener
 {
@@ -51,8 +55,8 @@ private:
     SceneManager* scnMgr;
     Root* root;
 public:
-    OgreTutorial();
-    virtual ~OgreTutorial() {}
+    Game();
+    virtual ~Game() {}
 
     void setup();
     void createScene();
@@ -63,13 +67,13 @@ public:
 };
 
 
-OgreTutorial::OgreTutorial()
+Game::Game()
     : ApplicationContext("week6-8-ShaderCgDemo3")
 {
 }
 
 
-void OgreTutorial::setup()
+void Game::setup()
 {
     // do not forget to call the base first
     ApplicationContext::setup();
@@ -87,7 +91,7 @@ void OgreTutorial::setup()
     createFrameListener();
 }
 
-void OgreTutorial::createScene()
+void Game::createScene()
 {
 
     // -- tutorial section start --
@@ -162,7 +166,7 @@ void OgreTutorial::createScene()
     // -- tutorial section end --
 }
 
-void OgreTutorial::createCamera()
+void Game::createCamera()
 {
 
     //! [camera]
@@ -182,7 +186,7 @@ void OgreTutorial::createCamera()
     //! [camera]
 }
 
-bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
+bool Game::keyPressed(const KeyboardEvent& evt)
 {
     switch (evt.keysym.sym)
     {
@@ -207,7 +211,7 @@ bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
     return true;
 }
 
-void OgreTutorial::createFrameListener()
+void Game::createFrameListener()
 {
     Ogre::FrameListener* FrameListener = new ExampleFrameListener(TriangleNode);
     mRoot->addFrameListener(FrameListener);
@@ -218,7 +222,7 @@ int main(int argc, char** argv)
 {
     try
     {
-        OgreTutorial app;
+        Game app;
         app.initApp();
         app.getRoot()->startRendering();
         app.closeApp();

@@ -1,12 +1,12 @@
-//Week6-2-ModelDemo
-//Create Our own Model
-//Make sure you choose GL3+ (and not DirectX!)
-//We painted our plane in a different color, this time a grass green; also, we created a quad
-//and put an image of some blades of grass on it
-//use the material BaseWhiteNoLighting instead of the
-//grass material.With this material, you don't need texture coordinates, as you can just use
-//the position() function and experiment.Everything you create will be rendered as white.
-//Hooman Salamat
+/** @file Week6-2-ModelDemo
+ *  @brief creating a model for displaying blades of grass
+ * 
+ * Make sure you choose GL3+ (and not DirectX!)
+ * We painted our plane in a different color, this time a grass green; also, we created a quad
+ * and put an image of some blades of grass on it use the grass material.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
