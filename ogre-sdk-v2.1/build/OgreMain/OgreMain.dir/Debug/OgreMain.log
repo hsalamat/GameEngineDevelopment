@@ -32,8 +32,8 @@
   OgreDefaultHardwareBufferManager.cpp
   OgreDefaultSceneQueries.cpp
   OgreDeflate.cpp
-  OgreDepthBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreDeflate.cpp(411,34): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  OgreDepthBuffer.cpp
   OgreDistanceLodStrategy.cpp
   OgreDualQuaternion.cpp
   OgreDynLib.cpp
@@ -84,18 +84,18 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgreMeshSerializer.cpp
   OgreMeshSerializerImpl.cpp
   OgreMovableObject.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMesh.cpp(1339,45): warning C4244: 'initializing': conversion from '__int64' to 'unsigned short', possible loss of data
   OgreMovablePlane.cpp
   OgreMurmurHash3.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  OgreNode.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(100,30): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  OgreNode.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(156,31): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMurmurHash3.cpp(261,31): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
   OgreNumerics.cpp
   OgreOptimisedUtil.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreMesh.cpp(1339,45): warning C4244: 'initializing': conversion from '__int64' to 'unsigned short', possible loss of data
   OgreOptimisedUtilGeneral.cpp
   OgreOptimisedUtilSSE.cpp
   OgreParticle.cpp
@@ -119,11 +119,11 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgrePredefinedControllers.cpp
   OgrePrefabFactory.cpp
   OgreProfiler.cpp
-  OgreQuaternion.cpp
-  OgreRectangle2D.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreProfiler.cpp(261,53): warning C4244: '=': conversion from 'uint64_t' to 'Ogre::ulong', possible loss of data
+  OgreQuaternion.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreProfiler.cpp(328,54): warning C4244: 'initializing': conversion from 'uint64_t' to 'Ogre::ulong', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreProfiler.cpp(328,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'const Ogre::ulong', possible loss of data
+  OgreRectangle2D.cpp
   OgreRenderQueue.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRenderQueue.cpp(234,60): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint8', possible loss of data
   OgreRenderQueueInvocation.cpp
@@ -134,9 +134,9 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgreRenderSystemCapabilitiesSerializer.cpp
   OgreRenderTarget.cpp
   OgreRenderTexture.cpp
-  OgreRenderToVertexBuffer.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRenderTarget.cpp(290,44): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRenderTarget.cpp(298,32): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+  OgreRenderToVertexBuffer.cpp
   OgreRenderWindow.cpp
   OgreResource.cpp
   OgreResourceBackgroundQueue.cpp
@@ -146,41 +146,41 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgreRoot.cpp
   OgreRotationSpline.cpp
   OgreSceneLoaderManager.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreSceneLoaderManager.cpp(95,5): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
   OgreSceneManager.cpp
   OgreSceneManagerEnumerator.cpp
   OgreSceneNode.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreSceneLoaderManager.cpp(95,5): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreSceneNode.cpp(369,84): warning C4244: 'argument': conversion from '__int64' to 'unsigned short', possible loss of data
   OgreSceneQuery.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(804,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
   OgreScriptCompiler.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(887,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(896,38): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
   OgreScriptLexer.cpp
   OgreScriptParser.cpp
   OgreScriptTranslator.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(804,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(887,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreRoot.cpp(896,38): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
   OgreSerializer.cpp
   OgreShadowCameraSetup.cpp
   OgreShadowCameraSetupFocused.cpp
+  OgreShadowCameraSetupLiSPSM.cpp
+  OgreShadowCameraSetupPSSM.cpp
+  OgreShadowCameraSetupPlaneOptimal.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreSceneManager.cpp(2112,68): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-  OgreShadowCameraSetupLiSPSM.cpp
-  OgreShadowCameraSetupPSSM.cpp
+  OgreShadowCaster.cpp
+  OgreShadowRenderer.cpp
+  OgreShadowTextureManager.cpp
+  OgreShadowVolumeExtrudeProgram.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreScriptTranslator.cpp(5106,43): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreScriptTranslator.cpp(5107,45): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreSceneManager.cpp(4230,73): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
           with
           [
               _Ty=Ogre::ushort
           ]
-  OgreShadowCameraSetupPlaneOptimal.cpp
-  OgreShadowCaster.cpp
-  OgreShadowRenderer.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreScriptTranslator.cpp(5106,43): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreScriptTranslator.cpp(5107,45): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-  OgreShadowTextureManager.cpp
-  OgreShadowVolumeExtrudeProgram.cpp
   OgreSimpleRenderable.cpp
   OgreSimpleSpline.cpp
   OgreSkeleton.cpp
@@ -192,19 +192,19 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgreStreamSerialiser.cpp
   OgreString.cpp
   OgreStringConverter.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreStringConverter.cpp(267,25): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
   OgreStringInterface.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreStringConverter.cpp(267,25): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
   OgreSubEntity.cpp
   OgreSubMesh.cpp
   OgreTagPoint.cpp
   OgreTangentSpaceCalc.cpp
   OgreTechnique.cpp
   OgreTexture.cpp
+  OgreTextureManager.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreTexture.cpp(196,40): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreTexture.cpp(300,38): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreTexture.cpp(301,41): warning C4267: '=': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreTexture.cpp(425,62): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
-  OgreTextureManager.cpp
   OgreTextureUnitState.cpp
   OgreTimer.cpp
   OgreUnifiedHighLevelGpuProgram.cpp
@@ -215,17 +215,17 @@ C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Ogre
   OgreWireBoundingBox.cpp
   OgreWorkQueue.cpp
   OgreDDSCodec.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreDDSCodec.cpp(403,83): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreDDSCodec.cpp(405,75): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
   OgreETCCodec.cpp
-  OgreZip.cpp
-  OgreFileSystemLayer.cpp
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreDDSCodec.cpp(403,84): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
-C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreDDSCodec.cpp(405,76): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreWorkQueue.cpp(597,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreWorkQueue.cpp(627,77): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+  OgreZip.cpp
+  OgreFileSystemLayer.cpp
+  OgreDefaultWorkQueueStandard.cpp
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreZip.cpp(639,19): warning C4267: 'return': conversion from 'size_t' to 'zzip_ssize_t', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreZip.cpp(677,22): warning C4267: 'return': conversion from 'size_t' to 'zzip_off_t', possible loss of data
 C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\OgreMain\src\OgreZip.cpp(690,44): warning C4267: 'return': conversion from 'size_t' to 'zzip_off_t', possible loss of data
-  OgreDefaultWorkQueueStandard.cpp
      Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreMain_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreMain_d.exp
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OgreMain.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreMain_d.dll

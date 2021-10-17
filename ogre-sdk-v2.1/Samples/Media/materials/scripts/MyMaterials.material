@@ -495,6 +495,25 @@ material Comps/Comp1
 }
 
 
+vertex_program MyVertexShader21 glsl
+ {
+    source MyShadersVS21.glsl  
+    syntax glsl150
+    profiles glsl                   
+ 
+
+    default_params                    
+    {        
+        param_named_auto worldViewMatrix worldviewproj_matrix        
+    }
+}
+            
+fragment_program MyFragmentShader21 glsl  
+{
+    source MyShadersFS21.glsl   
+    syntax glsl150  
+    profiles glsl
+}
 
 material Comps/Comp2
 {
@@ -502,23 +521,29 @@ material Comps/Comp2
     {
         pass
         {
-            fragment_program_ref MyFragmentShader5
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
             {
             }
-            
-            texture_unit
+
+            fragment_program_ref MyFragmentShader21
             {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set 0
             }
         }
     }
 }
 
 
-fragment_program MyFragmentShader6 cg  
+
+fragment_program MyFragmentShader31 glsl  
 {
-    source MyShaders.cg    
-    entry_point MyFragmentShader6 
-    profiles ps_1_1  arbfp1
+    source MyShadersFS31.glsl   
+    syntax glsl150  
+    profiles glsl
 }
 
 material Comps/Comp3
@@ -527,47 +552,63 @@ material Comps/Comp3
     {
         pass
         {
-            fragment_program_ref MyFragmentShader6
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
             {
             }
-            
-            texture_unit
+
+            fragment_program_ref MyFragmentShader31
             {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set 0
             }
         }
     }
 }
 
 
-fragment_program MyFragmentShader7 cg  
+fragment_program MyFragmentShader71 glsl  
 {
-    source MyShaders.cg    
-    entry_point MyFragmentShader7 
-    profiles ps_1_1  arbfp1
+    source MyShadersFS71.glsl   
+    syntax glsl150  
+    profiles glsl
 }
+
 
 material Comps/Comp4
 {
     technique
     {
-        pass
+         pass
         {
-            fragment_program_ref MyFragmentShader7
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
             {
             }
-            
-            texture_unit
+
+            fragment_program_ref MyFragmentShader71
             {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set 0
             }
         }
     }
 }
 
-fragment_program MyFragmentShader8 cg  
+
+
+
+
+
+fragment_program MyFragmentShader81 glsl  
 {
-    source MyShaders.cg    
-    entry_point MyFragmentShader8
-    profiles ps_1_1  arbfp1
+    source MyShadersFS81.glsl   
+    syntax glsl150  
+    profiles glsl
 }
 
 material Comps/Comp5
@@ -576,26 +617,29 @@ material Comps/Comp5
     {
         pass
         {
-            fragment_program_ref MyFragmentShader8
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
             {
             }
-            
-            texture_unit
+
+            fragment_program_ref MyFragmentShader81
+            {
+            }
+
+            texture_unit 
             {
             }
         }
     }
 }
 
-fragment_program MyFragmentShader9 cg  
+fragment_program MyFragmentShader91 glsl  
 {
-    source MyShaders.cg    
-    entry_point MyFragmentShader9
-    profiles ps_1_1  arbfp1
-    
+    source MyShadersFS91.glsl   
+    syntax glsl150  
+    profiles glsl
     default_params                    
     {        
-        param_named numpixels float 1000 
+        param_named numpixels float 25 
     }
 }
 
@@ -605,30 +649,34 @@ material Comps/Comp6
     {
         pass
         {
-            fragment_program_ref MyFragmentShader9
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
             {
             }
-            
-            texture_unit
+
+            fragment_program_ref MyFragmentShader91
+            {
+            }
+
+            texture_unit 
             {
             }
         }
     }
 }
 
-fragment_program MyFragmentShader10 cg  
+
+
+fragment_program MyFragmentShader10 glsl  
 {
-    source MyShaders.cg    
-    entry_point MyFragmentShader10
-    profiles ps_1_1  arbfp1
-    
+    source MyShadersFS10.glsl   
+    syntax glsl150  
+    profiles glsl
     default_params                    
     {        
-        param_named factors float4 1 1 1 0
+        param_named factors float4 1 1 1 0 
     }
-    
-    
 }
+
 
 material Comps/Comp7
 {
@@ -636,21 +684,20 @@ material Comps/Comp7
     {
         pass
         {
+            vertex_program_ref Ogre/Compositor/StdQuad_Tex2a_vp
+            {
+            }
+
             fragment_program_ref MyFragmentShader10
             {
             }
-            
-            texture_unit
+
+            texture_unit 
             {
             }
         }
     }
 }
-
-
-
-
-
 
 
 
