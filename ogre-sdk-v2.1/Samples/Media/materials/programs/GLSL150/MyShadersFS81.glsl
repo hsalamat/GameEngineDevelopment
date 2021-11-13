@@ -9,7 +9,7 @@ void main()
 {
 
     //means each axis, x and y, will have 50 pixels.        
-    float num = 50.0;
+    float num = 25.0;
 
     // stepsize, which is 1 divided by the number of pixels. We need this value to
     //calculate the texture coordinates.

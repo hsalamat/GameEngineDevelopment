@@ -1,18 +1,30 @@
-/** @file BoxEmitterDemo
- *  @brief we have created MySmoke13 particle system (MyParticles.particle under media/particle folder)
-    Only emitting from one point is boring, using a box is much more fun.
-    1. Change the emitter type from Point to Box:
-    emitter Box
+/** @file TwoWayChangingDemo
+ *  @brief we have created MySmoke8 particle system (MyParticles.particle under media/particle folder)
+ *  change depending on the lifetime of a particle. we used this affector to first
+    change the particle from white to black and then when it is two seconds away from dying,
+    we changed the black to white
+    1. We don't want our particle to live 100 seconds for this example, so change the
+    lifetime to 4:
+    emitter Point
     {
-    2. Define the box in which the particles should be created:
-    height 50
-    width 50
-    depth 50
-    3. Let the emitter create 10 particles per second and they should move up with a
-    speed of 20:
-    emission_rate 10
-    direction 0 1 0
+    emission_rate 30
+    direction 1 0 0
     velocity 20
+    time_to_live 4
+    }
+    2. Because we want a slightly different behavior, we are going to use the second
+    available colorfader. This should fade each color channel by one unit per second:
+    affector ColorFader2
+    {
+    red1 -1
+    green1 -1
+    blue1 -1
+    3. Now, when the particle only has two seconds to live, instead of subtracting the color
+    channel, add the same value we removed beforehand:
+    state_change 2
+    red2 +1
+    green2 +1
+    blue2 +1
     }
  *  @author Hooman Salamat
  *  @bug No known bugs.
@@ -136,7 +148,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke13");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke8");
 
     SinbadNode->attachObject(partSystem);
 
@@ -155,7 +167,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 0, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

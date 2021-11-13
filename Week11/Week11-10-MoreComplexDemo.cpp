@@ -1,34 +1,23 @@
-/** @file MoreParametersDemo
- *  @brief we have created MySmoke2 particle system (MyParticles.particle under media/particle folder)
-    particle_system MySmoke2
+/** @file MoreComplexDemo
+ *  @brief we have created MySmoke9 particle system (MyParticles.particle under media/particle folder)
+ *  using complex color manipulation
+    1. We are going to use a new affector called ColorInterpolator:
+    affector ColorInterpolator
     {
-        material        	Examples/Smoke
-        particle_width  	10
-        particle_height 	10
-        quota           	500
-        billboard_type  	point
-
-        emitter Point
-        {
-            emission_rate 3
-            direction 1 0 0
-            velocity 20
-
-            angle 30
-            time_to_live 10
-            colour 1 0 0 1
-        }
-    }
-
- *  The parameter angle defines how many
- *  degrees each created particle can differentiate from the given direction. Ogre 3D used
- *  a random generator to generate the direction, which is in the given range. Because the
- *  direction can be moved up to 30 degrees, some of our particles can fly into the ground.
- *  The parameter time_to_live sets the lifetime of each particle, in our case, to 10 seconds.
- *  The default is 5. And with this, we doubled the life expectations of each particle so we can
- *  observe their behavior longer.
- *  The color parameter sets the vertex color of the particles to the given color vector, in our
- *  case, red.
+    2. We then define which color the pixel should have at its creation. We will use white:
+    time0 0
+    color0 1 1 1
+    3. When the particle has lived for one quarter of its lifetime, it should be red:
+    time1 0.25
+    color1 1 0 0
+    4. In the second quarter of its lifetime, we want it to be green:
+    time2 0.5
+    color2 0 1 0
+    5. At three quarters, it should be blue and at the end, white again:
+    time3 0.75
+    color3 0 0 1
+    time4 1
+    color4 1 1 1
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -151,7 +140,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke2");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke9");
 
     SinbadNode->attachObject(partSystem);
 
@@ -170,7 +159,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

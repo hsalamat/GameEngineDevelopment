@@ -1,54 +1,21 @@
-/** @file FireworkDemo
- *  @brief we have created Firework particle system (MyParticles.particle under media/particle folder)
-    1. Create a particle system that bursts different-colored particles in all directions
-    at a steady interval:
-    particle_system Firework
-    {
-    material Examples/Smoke
-    particle_width 10
-    particle_height 10
-    quota 5000
-    billboard_type point
+/** @file Adding Affectors Demo
+ *  @brief we have created MySmoke5 particle system (MyParticles.particle under media/particle folder)
+ *  adding affectors to a particle system
+    1. To show what an affector does, we need a simple Point emitter that emits 30
+    particles per second with a speed of 20 units and 100 seconds of life:
     emitter Point
     {
-    emission_rate 100
-    direction 0 1 0
-    velocity 50
-    angle 360
-    duration 0.1
-    repeat_delay 1
-    color_range_start 0 0 0
-    color_range_end 1 1 1
+    emission_rate 30
+    direction 1 0 0
+    velocity 20
+    time_to_live 100
     }
+    2. During the whole lifetime of a particle, we want it to grow five times its size per
+    second. For this, we add a Scaler affector:
+    affector Scaler
+    {
+    rate 5
     }
-    2. Create five instances of this particle system:
-    Ogre::ParticleSystem* partSystem1 = _sceneManager->createParticleS
-    ystem("Firework1","Firework");
-    Ogre::ParticleSystem* partSystem2 = _sceneManager->createParticleS
-    ystem("Firework2","Firework");
-    Ogre::ParticleSystem* partSystem3 = _sceneManager->createParticleS
-    ystem("Firework3","Firework");
-    Ogre::ParticleSystem* partSystem4 = _sceneManager->createParticleS
-    ystem("Firework4","Firework");
-    Ogre::ParticleSystem* partSystem5 = _sceneManager->createParticleS
-    ystem("Firework5","Firework");
-    3. Then five nodes at different positions in the sky:
-    Ogre::SceneNode* node1 = _sceneManager->getRootSceneNode()->create
-    ChildSceneNode(Ogre::Vector3(0,10,0));
-    Ogre::SceneNode* node2 = _sceneManager->getRootSceneNode()->create
-    ChildSceneNode(Ogre::Vector3(10,11,0));
-    Ogre::SceneNode* node3 = _sceneManager->getRootSceneNode()->create
-    ChildSceneNode(Ogre::Vector3(20,9,0));
-    Ogre::SceneNode* node4 = _sceneManager->getRootSceneNode()->create
-    ChildSceneNode(Ogre::Vector3(-10,11,0));
-    Ogre::SceneNode* node5 = _sceneManager->getRootSceneNode()->create
-    ChildSceneNode(Ogre::Vector3(-20,19,0));
-    4. Finally, attach the particle systems to their nodes:
-    node1->attachObject(partSystem1);
-    node2->attachObject(partSystem2);
-    node3->attachObject(partSystem3);
-    node4->attachObject(partSystem4);
-    node5->attachObject(partSystem5);
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -171,7 +138,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "Firework");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke5");
 
     SinbadNode->attachObject(partSystem);
 
@@ -190,7 +157,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

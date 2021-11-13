@@ -90,7 +90,7 @@ particle_system MySmoke5
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		
 		time_to_live 100	
@@ -115,7 +115,7 @@ particle_system MySmoke6
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		time_to_live 100	
 	}
@@ -142,7 +142,7 @@ particle_system MySmoke7
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		time_to_live 100	
 	}
@@ -169,7 +169,7 @@ particle_system MySmoke8
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		time_to_live 4	
 	}
@@ -203,7 +203,7 @@ particle_system MySmoke9
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		time_to_live 4	
 	}
@@ -240,7 +240,7 @@ particle_system MySmoke10
 	emitter Point
 	{		
 		emission_rate 30
-		direction 1 0 0
+		direction 0 1 0
 		velocity 20
 		time_to_live 4	
 	}
@@ -275,7 +275,7 @@ particle_system MySmoke11
 	
 	affector DeflectorPlane  
 	{
-		plane_point 0 20 0
+		plane_point 0 40 0
 		plane_normal 0 -1 0
 		bounce 1.0
 	}
@@ -302,7 +302,7 @@ particle_system MySmoke12
 	
 	affector DeflectorPlane  
 	{
-		plane_point 0 20 0
+		plane_point 0 40 0
 		plane_normal 0 -1 0
 		bounce 1.0
 	}

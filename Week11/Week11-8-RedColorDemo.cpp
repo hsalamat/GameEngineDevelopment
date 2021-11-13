@@ -1,21 +1,13 @@
-/** @file Adding Affectors Demo
- *  @brief we have created MySmoke5 particle system (MyParticles.particle under media/particle folder)
- *  adding affectors to a particle system
-    1. To show what an affector does, we need a simple Point emitter that emits 30
-    particles per second with a speed of 20 units and 100 seconds of life:
-    emitter Point
-    {
-    emission_rate 30
-    direction 1 0 0
-    velocity 20
-    time_to_live 100
-    }
-    2. During the whole lifetime of a particle, we want it to grow five times its size per
-    second. For this, we add a Scaler affector:
-    affector Scaler
-    {
-    rate 5
-    }
+/** @file RedColorDemo
+ *  @brief we have created MySmoke7 particle system (MyParticles.particle under media/particle folder)
+ *  Change the colorfader code so the particles fade from white to red.
+    affector ColorFader
+    affector ColourFader
+        {
+            green -0.25
+            blue -0.25
+
+        }
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -138,7 +130,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke5");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke7");
 
     SinbadNode->attachObject(partSystem);
 
@@ -157,7 +149,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

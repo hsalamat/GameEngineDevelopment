@@ -1,19 +1,34 @@
-/** @file OurFirstParticleSystemDemo
- *  @brief attach a smoke particle system to Sinbad
- *  We used an already defined particle script to create a particle system, which we attached
- *  to the same node that our entity was attached to. This way, the particle system follows our
- *  entity around when it moves.
- *  A particle system consists of two to three different constructs—an emitter, a particle, and
- *  an affector (optional). The most important of these three is the particle itself, as the name
- *  particle system suggests. A particle displays a color or textures using a quad or the point
- *  render capability of the graphics cards. When the particle uses a quad, this quad is always
- *  rotated to face the camera. Each particle has a set of parameters, including a time to live,
- *  direction, and velocity.
- *  An emitter creates a predefined number of particles per second and can be seen as the
- *  source of the particles. Affectors, on the other hand, don't create particles but change some
- *  of their parameters. We haven't seen any affectors in this scene, but we will later. An affector
- *  could change the direction, velocity, or color of the particles created by the emitter.
- *  @attention: Particle systems are defined in .particle files under media/particle folder.
+/** @file MoreParametersDemo
+ *  @brief we have created MySmoke2 particle system (MyParticles.particle under media/particle folder)
+    particle_system MySmoke2
+    {
+        material        	Examples/Smoke
+        particle_width  	10
+        particle_height 	10
+        quota           	500
+        billboard_type  	point
+
+        emitter Point
+        {
+            emission_rate 3
+            direction 1 0 0
+            velocity 20
+
+            angle 30
+            time_to_live 10
+            colour 1 0 0 1
+        }
+    }
+
+ *  The parameter angle defines how many
+ *  degrees each created particle can differentiate from the given direction. Ogre 3D used
+ *  a random generator to generate the direction, which is in the given range. Because the
+ *  direction can be moved up to 30 degrees, some of our particles can fly into the ground.
+ *  The parameter time_to_live sets the lifetime of each particle, in our case, to 10 seconds.
+ *  The default is 5. And with this, we doubled the life expectations of each particle so we can
+ *  observe their behavior longer.
+ *  The color parameter sets the vertex color of the particles to the given color vector, in our
+ *  case, red.
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -43,7 +58,6 @@ public:
 
     bool frameStarted(const Ogre::FrameEvent& evt)
     {
-
         _node->translate(translate * evt.timeSinceLastFrame);
         translate = Ogre::Vector3(0, 0, 0);
         return true;
@@ -71,7 +85,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week9-1-OurFirstParticleSystemDemo")
+    : ApplicationContext("Week11-3-OurFirstParticleSystemDemo")
 {
 }
 
@@ -137,7 +151,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "Examples/Smoke");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke2");
 
     SinbadNode->attachObject(partSystem);
 
@@ -156,7 +170,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 0, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

@@ -1,17 +1,19 @@
-/** @file AddingIntervalDemo
- *  @brief we have created MySmoke4 particle system (MyParticles.particle under media/particle folder)
- *  adding intervals to a particle system
-    1. Remove the added parameters of the point emitter and only keep the
-    emission_rate, direction, and velocity:
-    emitter Point
+/** @file CreateParticleSystemDemo
+ *  @brief we have created MySmoke1 particle system (MyParticles.particle under media/particle folder)
+    particle_system MySmoke1
     {
-    emission_rate 30
-    direction 1 0 0
-    velocity 20
-    2. Then add the parameters that define how long a particle should be emitted
-    and how long to wait before starting over:
-    duration 1
-    repeat_delay 1
+        material        	Examples/Smoke
+        particle_width  	10
+        particle_height 	10
+        quota           	500  --> We want a maximum of 500 particles at the same time
+        billboard_type  	point --> each particle should be a point that always faces the camera
+
+        emitter Point
+        {
+            emission_rate 3  --> emits the particles from a single point at a rate of 3 particles per second
+            direction 1 0 0  --> emitted in the direction (1,0,0)
+            velocity 20  --> 20 units per second
+        }
     }
  *  @author Hooman Salamat
  *  @bug No known bugs.
@@ -69,7 +71,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week9-1-OurFirstParticleSystemDemo")
+    : ApplicationContext("Wee11-2-CreateParticleSystemDemo")
 {
 }
 
@@ -135,7 +137,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke4");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke1");
 
     SinbadNode->attachObject(partSystem);
 

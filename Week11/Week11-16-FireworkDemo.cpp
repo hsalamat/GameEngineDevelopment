@@ -1,12 +1,54 @@
-/** @file ChangingColorDemo
- *  @brief we have created MySmoke6 particle system (MyParticles.particle under media/particle folder)
- *  add a ColorFader affector that subtracts 0.25 of each color channel per second
-    affector ColorFader
+/** @file FireworkDemo
+ *  @brief we have created Firework particle system (MyParticles.particle under media/particle folder)
+    1. Create a particle system that bursts different-colored particles in all directions
+    at a steady interval:
+    particle_system Firework
     {
-    red -0.25
-    green -0.25
-    blue -0.25
+    material Examples/Smoke
+    particle_width 10
+    particle_height 10
+    quota 5000
+    billboard_type point
+    emitter Point
+    {
+    emission_rate 100
+    direction 0 1 0
+    velocity 50
+    angle 360
+    duration 0.1
+    repeat_delay 1
+    color_range_start 0 0 0
+    color_range_end 1 1 1
     }
+    }
+    2. Create five instances of this particle system:
+    Ogre::ParticleSystem* partSystem1 = _sceneManager->createParticleS
+    ystem("Firework1","Firework");
+    Ogre::ParticleSystem* partSystem2 = _sceneManager->createParticleS
+    ystem("Firework2","Firework");
+    Ogre::ParticleSystem* partSystem3 = _sceneManager->createParticleS
+    ystem("Firework3","Firework");
+    Ogre::ParticleSystem* partSystem4 = _sceneManager->createParticleS
+    ystem("Firework4","Firework");
+    Ogre::ParticleSystem* partSystem5 = _sceneManager->createParticleS
+    ystem("Firework5","Firework");
+    3. Then five nodes at different positions in the sky:
+    Ogre::SceneNode* node1 = _sceneManager->getRootSceneNode()->create
+    ChildSceneNode(Ogre::Vector3(0,10,0));
+    Ogre::SceneNode* node2 = _sceneManager->getRootSceneNode()->create
+    ChildSceneNode(Ogre::Vector3(10,11,0));
+    Ogre::SceneNode* node3 = _sceneManager->getRootSceneNode()->create
+    ChildSceneNode(Ogre::Vector3(20,9,0));
+    Ogre::SceneNode* node4 = _sceneManager->getRootSceneNode()->create
+    ChildSceneNode(Ogre::Vector3(-10,11,0));
+    Ogre::SceneNode* node5 = _sceneManager->getRootSceneNode()->create
+    ChildSceneNode(Ogre::Vector3(-20,19,0));
+    4. Finally, attach the particle systems to their nodes:
+    node1->attachObject(partSystem1);
+    node2->attachObject(partSystem2);
+    node3->attachObject(partSystem3);
+    node4->attachObject(partSystem4);
+    node5->attachObject(partSystem5);
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -129,11 +171,27 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke6");
+    //Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "Firework");
 
-    SinbadNode->attachObject(partSystem);
+    //SinbadNode->attachObject(partSystem);
 
+    Ogre::ParticleSystem* partSystem1 = mScnMgr->createParticleSystem("Firework1", "Firework");
+    Ogre::ParticleSystem* partSystem2 = mScnMgr->createParticleSystem("Firework2", "Firework");
+    Ogre::ParticleSystem* partSystem3 = mScnMgr->createParticleSystem("Firework3", "Firework");
+    Ogre::ParticleSystem* partSystem4 = mScnMgr->createParticleSystem("Firework4", "Firework");
+    Ogre::ParticleSystem* partSystem5 = mScnMgr->createParticleSystem("Firework5", "Firework");
 
+    Ogre::SceneNode* node1 = mScnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(0, 10, 0));
+    Ogre::SceneNode* node2 = mScnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(10, 11, 0));
+    Ogre::SceneNode* node3 = mScnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(20, 9, 0));
+    Ogre::SceneNode* node4 = mScnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(-10, 11, 0));
+    Ogre::SceneNode* node5 = mScnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(-20, 19, 0));
+
+    node1->attachObject(partSystem1);
+    node2->attachObject(partSystem2);
+    node3->attachObject(partSystem3);
+    node4->attachObject(partSystem4);
+    node5->attachObject(partSystem5);
     // -- tutorial section end --
 }
 
@@ -148,7 +206,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

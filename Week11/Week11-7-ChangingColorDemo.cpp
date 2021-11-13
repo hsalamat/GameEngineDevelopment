@@ -1,23 +1,12 @@
-/** @file MoreComplexDemo
- *  @brief we have created MySmoke9 particle system (MyParticles.particle under media/particle folder)
- *  using complex color manipulation
-    1. We are going to use a new affector called ColorInterpolator:
-    affector ColorInterpolator
+/** @file ChangingColorDemo
+ *  @brief we have created MySmoke6 particle system (MyParticles.particle under media/particle folder)
+ *  add a ColorFader affector that subtracts 0.25 of each color channel per second
+    affector ColorFader
     {
-    2. We then define which color the pixel should have at its creation. We will use white:
-    time0 0
-    color0 1 1 1
-    3. When the particle has lived for one quarter of its lifetime, it should be red:
-    time1 0.25
-    color1 1 0 0
-    4. In the second quarter of its lifetime, we want it to be green:
-    time2 0.5
-    color2 0 1 0
-    5. At three quarters, it should be blue and at the end, white again:
-    time3 0.75
-    color3 0 0 1
-    time4 1
-    color4 1 1 1
+    red -0.25
+    green -0.25
+    blue -0.25
+    }
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -140,7 +129,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke9");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke6");
 
     SinbadNode->attachObject(partSystem);
 
@@ -159,7 +148,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

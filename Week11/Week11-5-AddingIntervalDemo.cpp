@@ -1,7 +1,18 @@
-/** @file DeflectorDemo2
- *  @brief we have created MySmoke12 particle system (MyParticles.particle under media/particle folder)
- *  a second plane at point (0,0,0) deflects the particles that are
- *  deflected by the first plane. Also add the ColorInterpolator affector
+/** @file AddingIntervalDemo
+ *  @brief we have created MySmoke4 particle system (MyParticles.particle under media/particle folder)
+ *  adding intervals to a particle system
+    1. Remove the added parameters of the point emitter and only keep the
+    emission_rate, direction, and velocity:
+    emitter Point
+    {
+    emission_rate 30
+    direction 1 0 0
+    velocity 20
+    2. Then add the parameters that define how long a particle should be emitted
+    and how long to wait before starting over:
+    duration 1
+    repeat_delay 1
+    }
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -58,7 +69,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week9-1-OurFirstParticleSystemDemo")
+    : ApplicationContext("Week11-5-OurFirstParticleSystemDemo")
 {
 }
 
@@ -124,7 +135,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke12");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke4");
 
     SinbadNode->attachObject(partSystem);
 
@@ -143,7 +154,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 30, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window

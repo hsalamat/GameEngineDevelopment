@@ -1,20 +1,19 @@
-/** @file CreateParticleSystemDemo
- *  @brief we have created MySmoke1 particle system (MyParticles.particle under media/particle folder)
-    particle_system MySmoke1
-    {
-        material        	Examples/Smoke
-        particle_width  	10
-        particle_height 	10
-        quota           	500  --> We want a maximum of 500 particles at the same time
-        billboard_type  	point --> each particle should be a point that always faces the camera
-
-        emitter Point
-        {
-            emission_rate 3  --> emits the particles from a single point at a rate of 3 particles per second
-            direction 1 0 0  --> emitted in the direction (1,0,0)
-            velocity 20  --> 20 units per second
-        }
-    }
+/** @file OurFirstParticleSystemDemo
+ *  @brief attach a smoke particle system to Sinbad
+ *  We used an already defined particle script to create a particle system, which we attached
+ *  to the same node that our entity was attached to. This way, the particle system follows our
+ *  entity around when it moves.
+ *  A particle system consists of two to three different constructs—an emitter, a particle, and
+ *  an affector (optional). The most important of these three is the particle itself, as the name
+ *  particle system suggests. A particle displays a color or textures using a quad or the point
+ *  render capability of the graphics cards. When the particle uses a quad, this quad is always
+ *  rotated to face the camera. Each particle has a set of parameters, including a time to live,
+ *  direction, and velocity.
+ *  An emitter creates a predefined number of particles per second and can be seen as the
+ *  source of the particles. Affectors, on the other hand, don't create particles but change some
+ *  of their parameters. We haven't seen any affectors in this scene, but we will later. An affector
+ *  could change the direction, velocity, or color of the particles created by the emitter.
+ *  @attention: Particle systems are defined in .particle files under media/particle folder.
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -44,6 +43,7 @@ public:
 
     bool frameStarted(const Ogre::FrameEvent& evt)
     {
+
         _node->translate(translate * evt.timeSinceLastFrame);
         translate = Ogre::Vector3(0, 0, 0);
         return true;
@@ -71,7 +71,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week9-1-OurFirstParticleSystemDemo")
+    : ApplicationContext("Wee11-1-OurFirstParticleSystemDemo")
 {
 }
 
@@ -137,7 +137,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke1");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "Examples/Smoke");
 
     SinbadNode->attachObject(partSystem);
 

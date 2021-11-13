@@ -1,19 +1,12 @@
-/** @file AddingRandomnessDemo
- *  @brief we have created MySmoke10 particle system (MyParticles.particle under media/particle folder)
- *  Adding randomness can improve the visual quality of a scene
-    1. Remove the ColorInterpolator affector.
-    2. Add a different affector called DirectionRandomiser:
-    affector DirectionRandomiser
-    {
-    3. First we define how much influence the affector should have on each axis of
-    our particles:
-    randomness 100
-    4. Then we say how many of our particles should be affected each time the affector is
-    applied. 1.0 stands for 100 percent and 0 for 0 percent. Then we define if we want
-    our particles to keep their velocity or if it should also be changed:
-    scope 1
-    keep_velocity true
-    }
+/** @file OtherParametersDemo
+ *  @brief we have created MySmoke3 particle system (MyParticles.particle under media/particle folder)
+ *  Add some parameters to our particle system to see the effect they have.
+    1. Change time_to_live to be a range with a minimum and maximum:
+     time_to_live_min 1
+     time_to_live_max 10
+    2. Do the same for the color:
+     color_range_start 1 0 0
+     color_range_end 0 0 1
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -136,7 +129,7 @@ void Game::createScene()
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
     SinbadNode->attachObject(ent);
 
-    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke10");
+    Ogre::ParticleSystem* partSystem = mScnMgr->createParticleSystem("Smoke", "MySmoke3");
 
     SinbadNode->attachObject(partSystem);
 
@@ -155,7 +148,7 @@ void Game::createCamera()
     cam->setNearClipDistance(5); // specific to this sample
     cam->setAutoAspectRatio(true);
     camNode->attachObject(cam);
-    camNode->setPosition(0, 0, 25);
+    camNode->setPosition(0, 20, 100);
     camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_LOCAL);
 
     // and tell it to render into the main window
