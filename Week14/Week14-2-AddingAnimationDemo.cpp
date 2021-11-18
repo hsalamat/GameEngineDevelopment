@@ -1,6 +1,14 @@
-//Week11-2-Adding Animation
-
-//Hooman Salamat
+/** @file Week14-2-AddingAnimationDemo
+ *  @brief Adding animation to our Camera Movement Demo
+ *  we add two new member variables in Frame Listener for animating the model. The first member variable
+ *  was simply a pointer to the entity we want to animate. The second was a pointer to
+ *  Ogre::AnimationState, which is used by Ogre 3D for representing a single animation and
+ *  its associated information. Each entity stores all the animations it has and 
+ *  we can query them using a string identifier and getAnimationState().
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -22,10 +30,17 @@ private:
     Ogre::SceneNode* _camNode;
     float _movementspeed;
     float _mousespeed;
+
+    //! step1
+    //! For our animation, we need to add new member variables in the FrameListener.
+    //! Add a pointer holding the entity we want to animate and a pointer to the used animation state :
     Ogre::Entity* _ent;
     Ogre::AnimationState* _aniState;
+
 public:
 
+    //! step2
+    //! Then change the constructor of the FrameListener to get the entity pointer as a new parameter :
     ExampleFrameListener(Ogre::SceneNode* sceneNode, Ogre::Entity* ent, Ogre::SceneNode* camNode)
     {
         _sceneNode = sceneNode;
@@ -33,9 +48,16 @@ public:
         _movementspeed = 2.0f;
         _mousespeed = 0.002f;
 
+        //! step3
+        //! retrieve the animation state called Dance from the entity 
+        //! and store it in the member variable we created for this purpose.
+        //! Finally, set the animation to be enabled and loop it :
         _ent = ent;
+        //!getAnimationState returns a pointer to this animation represented as an AnimationState or if the
+        //animation doesn't exist, it will return a null pointer.
         _aniState = _ent->getAnimationState("Dance");
         _aniState->setEnabled(true);
+        //play again and again
         _aniState->setLoop(true);
     }
 
@@ -51,7 +73,9 @@ public:
         //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
 
-        //you can multiply 2.0 or 0.5 to the time passed since last frame and the model will be animated faster and slower
+        //! step4
+        //! Next, we need to tell the animation how much time has passed since it was last updated
+        //! you can multiply 2.0 or 0.5 to the time passed since last frame and the model will be animated faster and slower
         _aniState->addTime(evt.timeSinceLastFrame * 1.0f);
                 
         return true;

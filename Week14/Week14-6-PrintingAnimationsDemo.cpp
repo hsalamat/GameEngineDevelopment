@@ -1,6 +1,11 @@
-//Week14-6-PrintingAnimationsDemo
-
-//Hooman Salamat
+/** @file Week14-6-PrintingAnimationsDemo
+ *  @brief print all animations of a model into the console
+ *  @attention we are using SliceHorizontal animation state as our second animation
+ *  @note Arrows keys to move Sinbad
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

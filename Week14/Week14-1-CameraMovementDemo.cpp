@@ -1,6 +1,10 @@
-//Week14-1-CameraMovement
-
-//Hooman Salamat
+/** @file Week14-1-CameraMovementDemo
+ *  @brief Camera Movement Demo
+ *  we are using this code as our base demo for animation
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

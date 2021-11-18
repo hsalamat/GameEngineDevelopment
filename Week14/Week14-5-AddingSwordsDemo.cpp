@@ -1,6 +1,20 @@
-//Week14-5-AddingSwordsDemo
-
-//Hooman Salamat
+/** @file Week14-5-AddingSwordDemo
+ *  @brief Adding swords to our animation
+ *  We created two instances of the sword model and attached them to bones. 
+ *  interesting part is the function called attachObjectToBone()
+ *  For animations, almost everything has a skeleton to support it. 
+ *  With the help of this skeleton and some muscles, animals and humans can move parts of their body in certain directions
+ *  The skeleton consists of bones and joints. The joints connect two bones and define in which direction the bones can move.
+ *  The bones are assigned which triangle they affect when moved. Each bone only affects a
+ *  part of the model: the bone for the left arm only modifies the triangles of the model which
+ *  represent the left arm; all other triangles aren't modified.
+ *  @attention Like animations, the bones have names too. 
+ *  Ogre 3D lets us use these bones as a point to attach other entities to.
+ *  @note Arrows keys to move Sinbad
+ *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -41,8 +55,6 @@ public:
         _movementspeed = 2.0f;
         _mousespeed = 0.002f;
        
-        //step2. Then we need to change our animation states to prevent them from looping.
-        //This time, we are going to control when a new animation has to start and not Ogre 3D:
         _ent = ent;
         _aniState = _ent->getAnimationState("RunBase");
         _aniState->setEnabled(true);
@@ -217,14 +229,14 @@ void Game::createScene()
     mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
     mSinbadNode->setPosition(0, 4.0, 0);
 
-    //step1: create two instances of the sword model and name them Sword1and Sword2:
+    //!step1
+    //! create two instances of the sword model and name them Sword1and Sword2:
     Ogre::Entity* sword1 = mScnMgr->createEntity("Sword1", "Sword.mesh");
     Ogre::Entity* sword2 = mScnMgr->createEntity("Sword2", "Sword.mesh");
     //Now attach the sword to the model using a bone name:
     //It works if I use one of them at a time!
     //mSinbadEnt->attachObjectToBone("Handle.L", sword1);
     mSinbadEnt->attachObjectToBone("Handle.R", sword2);
-
 }
 
 void Game::createCamera()

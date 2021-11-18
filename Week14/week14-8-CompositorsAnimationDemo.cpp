@@ -1,7 +1,9 @@
-/** @file Week14-4-CombineUsercontrolWithAnimationDemo
- *  @brief Combining user control and animation With arraow keys
- *  we can move Sinbad and the right animation gets played each time we move him.
- *  @note WASD to move the camera, P to stop, space bar to see in th wireframe
+/** @file Week14-8-CompositorsAnimationDemo
+ *  @brief add our previous animation to our Compositors Demo
+ *  we have created three compositors, which we are now going to add to our
+ *  application with the capability to turn each one off and on using keyboard input.
+ *  @note: use keyboard input to switch the compositors on and off. 
+ *  Use OpenGL 3+
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -10,6 +12,7 @@
 #include "OgreApplicationContext.h"
 #include "OgreInput.h"
 #include "OgreRTShaderSystem.h"
+#include <OgreCompositorManager.h>
 #include <iostream>
 
 using namespace Ogre;
@@ -19,15 +22,10 @@ Ogre::Vector3 translate(0, 0, 0);
 float rotX = 0.0f;
 float rotY = 0.0f;
 
-//!step1
-//! we need four new local variables, one to indicate
-//! if we have moved our model for this frame and a second one to store the direction
-//! in which we have moved our model. Third one for controlling the
-//! movement speed and forth one saving our rotation :
 bool walked = false;
 Ogre::Vector3 SinbadTranslate(0, 0, 0);
-//! we want to move at 50 units per second 
-float WalkingSpeed = 50.0f;
+//we want to move at 50 units per second 
+float WalkingSpeed = 10.0f;
 float SinbadRotation = 0.0f;
 
 class ExampleFrameListener : public Ogre::FrameListener
@@ -49,16 +47,16 @@ public:
         _camNode = camNode;
         _movementspeed = 2.0f;
         _mousespeed = 0.002f;
-       
-        //!step2 
-        //! Then we need to change our animation states to prevent them from looping.
-        //! This time, we are going to control when a new animation has to start and not Ogre 3D:
+
         _ent = ent;
         _aniState = _ent->getAnimationState("RunBase");
         _aniState->setEnabled(true);
         _aniState->setLoop(false);
 
-        _aniStateTop = _ent->getAnimationState("RunTop");
+        //Dance,DrawSwords,HandsClosed,HandsRelaxed,IdleBase,IdleTop,JumpEnd,JumpLoop
+        //JumpStart,RunBase,RunTop,SliceHorizontal,SliceVertical
+
+        _aniStateTop = _ent->getAnimationState("SliceHorizontal");
         _aniStateTop->setEnabled(true);
         _aniStateTop->setLoop(false);
     }
@@ -74,17 +72,6 @@ public:
         //_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
         //_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
         _camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
-
-
-
-        //!step4 
-        //! After the key handling, we need to check if we walked this frame. We need to check 
-        //! if the animation has ended. When this is true, we restart the animation. 
-        //! If we didn't walk this frame, we need to set both animation states to zero.
-        //! Otherwise, our model would be frozen in an animation half way done and this
-        //! doesn't look exactly good. So if we don't walk this frame, we set the two animations
-        //! back to the starting position. Also, we disable both animations since we aren't
-        //! moving the model of this frame and because we don't need animations:
 
         if (walked)
         {
@@ -115,7 +102,7 @@ public:
 
         _aniState->addTime(evt.timeSinceLastFrame);
         _aniStateTop->addTime(evt.timeSinceLastFrame);
-                
+
         return true;
     }
 };
@@ -126,28 +113,43 @@ class Game
 {
 private:
     SceneNode* mSinbadNode;
+    Ogre::Entity* mSinbadEnt;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
-    Camera* mCam;
+    Camera* mCamera;
+    Ogre::Viewport* mViewport;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    bool _keepRunning;
+    bool comp1, comp2, comp3;
+    bool down1, down2, down3;
 public:
     Game();
     virtual ~Game() {}
 
     void setup();
-    bool keyPressed(const KeyboardEvent& evt);
     void createScene();
     void createCamera();
-    bool mouseMoved(const MouseMotionEvent& evt);
+    bool keyPressed(const KeyboardEvent& evt);
+    bool mouseMoved(const MouseMotionEvent& e);
     void createFrameListener();
+    void renderOneFrame();
+    bool keepRunning();
 };
 
 
 Game::Game()
-    : ApplicationContext("Week14-4-CombineUserControlAnimationDemo")
+    : ApplicationContext("Week14-8-CompositionAnimationDemo")
 {
+    _keepRunning = true;
+
+    comp1 = false;
+    comp2 = false;
+    comp3 = false;
+
+    down1 = false;
+    down2 = false;
+    down3 = false;
 }
 
 
@@ -161,53 +163,70 @@ void Game::setup()
     mRoot = getRoot();
     mScnMgr = mRoot->createSceneManager();
 
-
     // register our scene with the RTSS
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(mScnMgr);
 
     mPolyMode = Ogre::PolygonMode::PM_SOLID;
 
-    createScene();
     createCamera();
+    createScene();
     createFrameListener();
+
+    Ogre::CompositorManager::getSingleton().addCompositor(mViewport, "Compositor2");
+    Ogre::CompositorManager::getSingleton().addCompositor(mViewport, "Compositor3");
+    Ogre::CompositorManager::getSingleton().addCompositor(mViewport, "Compositor7");
 }
 
 void Game::createScene()
 {
+
     // -- tutorial section start --
-
-    Ogre::SceneNode* node = mScnMgr->createSceneNode("Node1");
-    mScnMgr->getRootSceneNode()->addChild(node);
-
     //! [turnlights]
     mScnMgr->setAmbientLight(ColourValue(0.5, 0.5, 0.5));
-    mScnMgr->setShadowTechnique(ShadowTechnique::SHADOWTYPE_STENCIL_ADDITIVE);
-    //! [turnlights]
+
 
     //! [newlight]
-    //
     Light* light1 = mScnMgr->createLight("Light1");
     light1->setType(Ogre::Light::LT_DIRECTIONAL);
     // Set Light Color
     light1->setDiffuseColour(1.0f, 1.0f, 1.0f);
     // Set Light Reflective Color
-    light1->setSpecularColour(1.0f, 1.0f, 0.0f);
+    light1->setSpecularColour(1.0f, 0.0f, 0.0f);
     // Set Light (Range, Brightness, Fade Speed, Rapid Fade Speed)
-    //light1->setAttenuation(10, 0.5, 0.045, 0.0);
+    light1->setAttenuation(10, 0.5, 0.045, 0.0);
 
     //
     Entity* lightEnt = mScnMgr->createEntity("LightEntity", "sphere.mesh");
-    SceneNode* lightNode = node->createChildSceneNode("LightNode");
-    lightNode->attachObject(lightEnt);
+    SceneNode* lightNode = mScnMgr->createSceneNode("LightNode");
+    //lightNode->attachObject(lightEnt);
     lightNode->attachObject(light1);
     lightNode->setScale(0.01f, 0.01f, 0.01f);
+    mScnMgr->getRootSceneNode()->addChild(lightNode);
+    lightNode->setPosition(0, 4, 10);
 
-    //! [newlight]
 
-    //! [lightDirection]
-    lightNode->setDirection(1, -1, 0);
-    //! [lightDirection]
+
+    mSinbadNode = mScnMgr->getRootSceneNode()->createChildSceneNode("Node1");
+    mSinbadEnt = mScnMgr->createEntity("Entity1", "Sinbad.mesh");
+    //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
+    mSinbadEnt->setCastShadows(true);
+    mSinbadNode->attachObject(mSinbadEnt);
+
+    Ogre::Entity* sword1 = mScnMgr->createEntity("Sword1", "Sword.mesh");
+    Ogre::Entity* sword2 = mScnMgr->createEntity("Sword2", "Sword.mesh");
+    //Now attach the sword to the model using a bone name:
+    //It works if I use one of them at a time!
+    //mSinbadEnt->attachObjectToBone("Handle.L", sword1);
+    mSinbadEnt->attachObjectToBone("Handle.R", sword2);
+
+    //Step1: get all the animations that the model has as a set :
+    Ogre::AnimationStateSet* set = mSinbadEnt->getAllAnimationStates();
+    Ogre::AnimationStateIterator iter = set->getAnimationStateIterator();
+    while (iter.hasMoreElements())
+    {
+        std::cout << iter.getNext()->getAnimationName() << std::endl;
+    }
 
 
     //The first thing we'll do is create an abstract Plane object. This is not the mesh, it is more of a blueprint.
@@ -216,7 +235,7 @@ void Game::createScene()
     MeshManager::getSingleton().createPlane(
         "ground", RGN_DEFAULT,
         plane,
-        1500, 1500, 200, 200,
+        1500, 1500, 20, 20,
         true,
         1, 5, 5,
         Vector3::UNIT_Z);
@@ -227,42 +246,35 @@ void Game::createScene()
     mScnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
     groundEntity->setCastShadows(false);
     //And finally we need to give our ground a material.
-    groundEntity->setMaterialName("Examples/BeachStones");
+    groundEntity->setMaterialName("Examples/Rockwall");
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
 
+    //Ogre::Light* light = _sceneManager->createLight("Light1");
+    //light->setType(Ogre::Light::LT_DIRECTIONAL);
+    //light->setDirection(Ogre::Vector3(1, -1, 0));
+
+    mScnMgr->setShadowTechnique(Ogre::SHADOWTYPE_STENCIL_ADDITIVE);
 }
 
 void Game::createCamera()
 {
+
     //! [camera]
     mCamNode = mScnMgr->getRootSceneNode()->createChildSceneNode();
 
     // create the camera
-    mCam = mScnMgr->createCamera("myCam");
-    mCam->setNearClipDistance(5); // specific to this sample
-    mCam->setAutoAspectRatio(true);
-    mCamNode->attachObject(mCam);
-    mCamNode->setPosition(0, 100, 200);
+    mCamera = mScnMgr->createCamera("myCam");
+    mCamera->setNearClipDistance(5); // specific to this sample
+    mCamera->setAutoAspectRatio(true);
+    mCamNode->attachObject(mCamera);
+    mCamNode->setPosition(0, 50, 100);
     mCamNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
 
     // and tell it to render into the main window
-    getRenderWindow()->addViewport(mCam);
+    mViewport = getRenderWindow()->addViewport(mCamera);
+    mViewport->setBackgroundColour(Ogre::ColourValue(0.0, 0.0, 0.0));
+    mCamera->setAspectRatio(Ogre::Real(mViewport->getActualWidth()) / Ogre::Real(mViewport->getActualHeight()));
 }
-
-
-void Game::createFrameListener()
-{
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
-    mRoot->addFrameListener(FrameListener);
-}
-
 
 bool Game::mouseMoved(const MouseMotionEvent& evt)
 {
@@ -271,23 +283,16 @@ bool Game::mouseMoved(const MouseMotionEvent& evt)
     return true;
 }
 
-//!step3 
-//! We will use the arrow keys for movement.
-//! When a key is pressed, we need to change the translation variable to save the direction in which
-//! we want to move the model and we need to set the rotation variable to rotate the
-//! model in such a way that it looks in the direction it moves :
-
 bool Game::keyPressed(const KeyboardEvent& evt)
 {
-
     translate = Ogre::Vector3(0, 0, 0);
     SinbadTranslate = Ogre::Vector3(0, 0, 0);
     walked = false;
-
     switch (evt.keysym.sym)
     {
     case SDLK_ESCAPE:
         getRoot()->queueEndRendering();
+        _keepRunning = false;
         break;
     case SDLK_UP:
         SinbadTranslate += Ogre::Vector3(0, 0, -1);
@@ -310,31 +315,69 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         walked = true;
         break;
     case 'w':
-        translate += Ogre::Vector3(0, 0, -1);
+        translate = Ogre::Vector3(0, 10, 0);
         break;
     case 's':
-        translate += Ogre::Vector3(0, 0, 1);
+        translate = Ogre::Vector3(0, -10, 0);
         break;
     case 'a':
-        translate += Ogre::Vector3(-1, 0, 0);
+        translate = Ogre::Vector3(-10, 0, 0);
         break;
     case 'd':
-        translate += Ogre::Vector3(1, 0, 0);
+        translate = Ogre::Vector3(10, 0, 0);
+        break;
+    case '1':
+        down1 = true;
+        down2 = false;
+        down3 = false;
+        comp1 = !comp1;
+        Ogre::CompositorManager::getSingleton().setCompositorEnabled(mViewport, "Compositor2", comp1);
+        break;
+    case '2':
+        down2 = true;
+        down1 = false;
+        down3 = false;
+        comp2 = !comp2;
+        Ogre::CompositorManager::getSingleton().setCompositorEnabled(mViewport, "Compositor3", comp2);
+        break;
+    case '3':
+        down3 = true;
+        down1 = false;
+        down2 = false;
+        comp3 = !comp3;
+        Ogre::CompositorManager::getSingleton().setCompositorEnabled(mViewport, "Compositor7", comp3);
         break;
     case 'p':
         translate = Ogre::Vector3(0, 0, 0);
-        break; 
+        break;
     case ' ':
         if (mPolyMode == Ogre::PolygonMode::PM_SOLID)
             mPolyMode = Ogre::PolygonMode::PM_WIREFRAME;
         else
             mPolyMode = Ogre::PolygonMode::PM_SOLID;
-         mCam->setPolygonMode(mPolyMode);
+        mCamera->setPolygonMode(mPolyMode);
         break;
     default:
         break;
     }
     return true;
+}
+
+void Game::createFrameListener()
+{
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    mRoot->addFrameListener(FrameListener);
+}
+
+void Game::renderOneFrame()
+{
+    //Ogre::WindowEventUtilities::messagePump();
+    mRoot->renderOneFrame();
+}
+
+bool Game::keepRunning()
+{
+    return _keepRunning;
 }
 
 
@@ -344,7 +387,11 @@ int main(int argc, char** argv)
     {
         Game app;
         app.initApp();
-        app.getRoot()->startRendering();
+        //app.getRoot()->startRendering();
+        while (app.keepRunning())
+        {
+            app.renderOneFrame();
+        }
         app.closeApp();
     }
     catch (const std::exception& e)
@@ -356,4 +403,13 @@ int main(int argc, char** argv)
     return 0;
 }
 
-//! [fullsource]
+
+
+
+
+
+
+
+
+
+

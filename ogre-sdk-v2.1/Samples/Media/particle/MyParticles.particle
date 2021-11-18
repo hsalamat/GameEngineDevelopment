@@ -18,8 +18,8 @@ particle_system MySmoke1
 particle_system MySmoke2
 {
 	material        	Examples/Smoke
-	particle_width  	10
-	particle_height 	10
+	particle_width  	5
+	particle_height 	5
 	quota           	500
 	billboard_type  	point
     
@@ -30,7 +30,7 @@ particle_system MySmoke2
 		velocity 20
 
 		angle 30
-		time_to_live 10
+		time_to_live 2
 		colour 1 0 0 1
 	}
 }
@@ -38,8 +38,8 @@ particle_system MySmoke2
 particle_system MySmoke3
 {
 	material        	Examples/Smoke
-	particle_width  	10
-	particle_height 	10
+	particle_width  	3
+	particle_height 	3
 	quota           	500
 	billboard_type  	point
     
