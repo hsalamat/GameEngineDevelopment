@@ -97,7 +97,7 @@ struct AutoProfile
 		DifferenceOfTime.QuadPart /= 1000; //the value is in milliseconds now
 
 		cout << RED << m_name << " Execution Time in milliseconds is: " << DifferenceOfTime.QuadPart << endl;		
-		VerboseDebugPrintF(0, "\nExecution Time in milliseconds is: %d\n", DifferenceOfTime.QuadPart);
+		VerboseDebugPrintF(0, "\nInformation: Execution Time in milliseconds is: %d\n", DifferenceOfTime.QuadPart);
 
 		//g_profileManager.storeSample(m_name, elapsedTime);
 

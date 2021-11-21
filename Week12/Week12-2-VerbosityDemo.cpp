@@ -1,13 +1,20 @@
-//Once you’ve gone to the trouble of adding a bunch of print statements to your
-//code in strategically chosen locations, it’s nice to be able to leave them there,
-//in case they’re needed again later.To permit this, most engines provide some
-//kind of mechanism for controlling the level of verbosity via the command line,
-//or dynamically at runtime.When the verbosity level is at its minimum value
-//(usually zero), only critical error messages are printed.When the verbosity is
-//higher, more of the print statements embedded in the code start to contribute
-//to the output.
-//The WIN32_LEAN_AND_MEAN symbol was introduced  as a way to exclude a bunch of Windows header files when you include windows.h. 
-//You can take a look at your windows.h file to see which ones they are.
+/** @file Week12-2-VerbosityDemo
+ *  @brief Verbosity Demo
+ *  Once you’ve gone to the trouble of adding a bunch of print statements to your
+ *  code in strategically chosen locations, it’s nice to be able to leave them there,
+ *  in case they’re needed again later.To permit this, most engines provide some
+ *  kind of mechanism for controlling the level of verbosity via the command line,
+ *  or dynamically at runtime.When the verbosity level is at its minimum value
+ *  (usually zero), only critical error messages are printed.When the verbosity is
+ *  higher, more of the print statements embedded in the code start to contribute
+ *  to the output.
+ *  The WIN32_LEAN_AND_MEAN symbol was introduced  as a way to exclude a bunch of Windows header files when you include windows.h.
+ *  You can take a look at your windows.h file to see which ones they are.
+ *  VSColoroutput https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include <iostream>
 #include <stdio.h> // for va_list et al
@@ -47,8 +54,7 @@ int DebugPrintF(const char* format, ...)
 int g_verbosity = 0;
 void VerboseDebugPrintF(int verbosity, const char* format, ...)
 {
-	// Only print when the global verbosity level is
-// high enough.
+	//! Only print when the global verbosity level is high enough.
 	if (g_verbosity >= verbosity)
 	{
 		va_list argList;  //This type is used as a parameter for the macros defined in <cstdarg> to retrieve the additional arguments of a function.

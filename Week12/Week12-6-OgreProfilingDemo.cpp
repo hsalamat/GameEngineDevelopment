@@ -1,6 +1,10 @@
-//Week12-6-OgreProfilingDemo 
+/** @file Week12-6-OgreProfilingDemo 
+ *  @brief Profiling Demo using ogre profiling
+ *  The profiler allows you to measure the performance of your code.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Hooman Salamat
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
 #include "OgreInput.h"
@@ -72,7 +76,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week12-4-OgreProfilingDemo")
+    : ApplicationContext("Week12-6-OgreProfilingDemo")
 {
 }
 
@@ -96,7 +100,7 @@ void Game::setup()
 
     //you must add this in order to add a tray
     mScnMgr->addRenderQueueListener(mOverlaySystem);
-    // Give it a timer and enable it
+    // Give the profiler a timer and enable it
     Ogre::Profiler::getSingleton().setTimer(Root::getSingleton().getTimer());
     Ogre::Profiler::getSingleton().setEnabled(true);
     //OgreProfileBegin("Ogre Main Loop");
@@ -108,8 +112,11 @@ void Game::setup()
         createFrameListener();
     } 
     //OgreProfileEnd("Ogre Main Loop");
+    //returns true when the profiled code takes over 0.6% of the frame time
     Ogre::Profiler::getSingleton().watchForLimit("Ogre Main Loop", .006, true);
+    //You can change how frequently the display is updated to suit your tastes like this
     Ogre::Profiler::getSingleton().setUpdateDisplayFrequency(100);
+    //!You can log the results of the current profiler statistics like this
     Ogre::Profiler::getSingleton().logResults();
 }
 

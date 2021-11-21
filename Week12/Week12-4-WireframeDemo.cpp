@@ -1,6 +1,8 @@
-//Week12-4-WireframeDemo Press space button to get wireframe
-
-//Hooman Salamat
+/** @file Week12-4-WireframeDemo
+ *  @brief Press space button to get wireframe
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

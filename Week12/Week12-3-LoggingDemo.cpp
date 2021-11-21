@@ -1,4 +1,23 @@
-//! [fullsource]
+/** @file Week12-3-LoggingDemo
+ *  @brief Logging Demo: to mirror all debug output to one or more log files 
+ *  @note this program create a custom log called mylog.log under the project folder (logginDebuggingProject)
+ *  Ogre provides diagnostic and exception logging facilities using its log management classes. 
+ *  This is useful for obtaining details about a crash on a client machine without having to ask users technical details about their setup. 
+ *  The log output that Ogre generates contains all events and system initialization, state, and capabilities information from each run of the Ogre-based program.
+    Log* Ogre::LogManager::createLog	(	const String & 	name,
+                                        bool 	defaultLog = false,
+                                        bool 	debuggerOutput = true,
+                                        bool 	suppressFileOutput = false 
+                                    )	
+                                    Parameters
+    name:	The name to give the log e.g. 'Ogre.log'
+    defaultLog:	If true, this is the default log output will be sent to if the generic logging methods on this class are used. The first log created is always the default log unless this parameter is set.
+    debuggerOutput:	If true, output to this log will also be routed to the debugger's output window.
+    suppressFileOutput:	If true, this is a logical rather than a physical log and no file output will be written. If you do this you should register a LogListener so log output is not lost.
+
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -43,14 +62,13 @@ void Game::setup()
     RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
     shadergen->addSceneManager(scnMgr);
 
-    ///Logging
+    //!Logging
     Ogre::LogManager::getSingletonPtr()->getDefaultLog()->setDebugOutputEnabled(true);
     Log* log = LogManager::getSingleton().createLog("mylog.log", true, true, false);
     //  void logMessage(  const String& message, LogMessageLevel lml, bool maskDebug = false)
     log->logMessage("this is my log", LML_NORMAL , false);
     ///
 
-    // -- tutorial section start --
     //! [turnlights]
     scnMgr->setAmbientLight(ColourValue(0.5, 0.5, 0.5));
     //! [turnlights]

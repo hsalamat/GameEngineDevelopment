@@ -1,6 +1,11 @@
-//Week12-5-ProfilingDemo Press space button to get wireframe
+/** @file Week12-5-ProfilingDemo
+ *  @brief Profiling Demo
+ *  @note PROFILE() macro are implemented in profiling.h 
+ *  @attention this is our own custom built profiling and not ogre's! 
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Hooman Salamat
 #include "Profiling.h"
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
