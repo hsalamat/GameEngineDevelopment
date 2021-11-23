@@ -11,6 +11,7 @@
 #include "OgreRTShaderSystem.h"
 #include <OgreCompositorManager.h>
 #include "OgreWireBoundingBox.h"
+#include "OgreTrays.h"
 #include <iostream>
 
 using namespace Ogre;
@@ -90,6 +91,7 @@ private:
     bool comp1, comp2, comp3;
     bool down1, down2, down3;
 public:
+
     Game();
     virtual ~Game() {}
 
@@ -102,6 +104,8 @@ public:
     void renderOneFrame();
     bool keepRunning();
     Ogre::SceneNode* SinbadNode;
+    OgreBites::TrayListener myTrayListener;
+    OgreBites::Label* mInfoLabel;
 };
 
 
@@ -206,10 +210,48 @@ void Game::createScene()
     // set the bounding boxs box to the axis aligned box
     wireBoundingBox->setupBoundingBox(axisAlignedBox);
 
-    // attach the bounding box to the scene node
+    // attach the bounding box to the scene node (to an indivudual node)
     SinbadNode->attachObject(wireBoundingBox);
 
     mScnMgr->setShadowTechnique(Ogre::SHADOWTYPE_STENCIL_ADDITIVE);
+
+
+
+    OgreBites::TrayManager* mTrayMgr = new OgreBites::TrayManager("InterfaceName", getRenderWindow());
+
+    //you must add this in order to add a tray
+    mScnMgr->addRenderQueueListener(mOverlaySystem);
+    //Once you have your tray manager, make sure you relay input events to it.
+    addInputListener(mTrayMgr);
+
+    mTrayMgr->hideCursor();
+    mTrayMgr->showLogo(TL_TOPRIGHT);
+    mTrayMgr->showFrameStats(TL_BOTTOMLEFT);
+    //mTrayMgr->toggleAdvancedFrameStats();
+
+    mInfoLabel = mTrayMgr->createLabel(TL_TOP, "TInfo", "My Game Engine", 350);
+
+    // a friendly reminder
+    StringVector names;
+    names.push_back("Help");
+    mTrayMgr->createParamsPanel(TL_TOPLEFT, "Help", 100, names)->setParamValue(0, "H/F1");
+
+
+    Ogre::Entity* ballEntity = mScnMgr->createEntity(SceneManager::PrefabType::PT_SPHERE);
+    Ogre::SceneNode* ballNode = mScnMgr->getRootSceneNode()->createChildSceneNode();
+    ballNode->setPosition(8, 5, 0);
+    ballNode->setScale(0.02f, 0.02f, 0.02f);
+    ballNode->attachObject(ballEntity);
+
+    Ogre::Entity* paddleEntity = mScnMgr->createEntity(SceneManager::PrefabType::PT_PLANE);
+    Ogre::SceneNode* paddleNode = mScnMgr->getRootSceneNode()->createChildSceneNode();
+    paddleNode->setPosition(-8, 5, 0);
+    paddleNode->setScale(0.02f, 0.02f, 0.02f);
+    paddleNode->attachObject(paddleEntity);
+
+    mScnMgr->showBoundingBoxes(true);
+
+
 }
 
 void Game::createCamera()
