@@ -23,10 +23,10 @@ float rotX = 0.0f;
 float rotY = 0.0f;
 
 bool walked = false;
-Ogre::Vector3 SinbadTranslate(0, 0, 0);
+Ogre::Vector3 NinjaTranslate(0, 0, 0);
 //we want to move at 50 units per second 
 float WalkingSpeed = 10.0f;
-float SinbadRotation = 0.0f;
+float NinjaRotation = 0.0f;
 
 class ExampleFrameListener : public Ogre::FrameListener
 {
@@ -96,9 +96,9 @@ public:
 
 
         //The last thing we need to do is to apply translation and rotation to our model's scene node :
-        _sceneNode->translate(SinbadTranslate * evt.timeSinceLastFrame * WalkingSpeed);
+        _sceneNode->translate(NinjaTranslate * evt.timeSinceLastFrame * WalkingSpeed);
         _sceneNode->resetOrientation();
-        _sceneNode->yaw(Ogre::Radian(SinbadRotation));
+        _sceneNode->yaw(Ogre::Radian(NinjaRotation));
 
         _aniState->addTime(evt.timeSinceLastFrame);
         _aniStateTop->addTime(evt.timeSinceLastFrame);
@@ -112,8 +112,8 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
-    Ogre::Entity* mSinbadEnt;
+    SceneNode* mNinjaNode;
+    Ogre::Entity* mNinjaEnt;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
@@ -207,21 +207,21 @@ void Game::createScene()
 
 
 
-    mSinbadNode = mScnMgr->getRootSceneNode()->createChildSceneNode("Node1");
-    mSinbadEnt = mScnMgr->createEntity("Entity1", "Sinbad.mesh");
+    mNinjaNode = mScnMgr->getRootSceneNode()->createChildSceneNode("Node1");
+    mNinjaEnt = mScnMgr->createEntity("Entity1", "Sinbad.mesh");
     //ent->setMaterial(Ogre::MaterialManager::getSingleton().getByName("MyMaterial18"));
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode->attachObject(mSinbadEnt);
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode->attachObject(mNinjaEnt);
 
     Ogre::Entity* sword1 = mScnMgr->createEntity("Sword1", "Sword.mesh");
     Ogre::Entity* sword2 = mScnMgr->createEntity("Sword2", "Sword.mesh");
     //Now attach the sword to the model using a bone name:
     //It works if I use one of them at a time!
     //mSinbadEnt->attachObjectToBone("Handle.L", sword1);
-    mSinbadEnt->attachObjectToBone("Handle.R", sword2);
+    mNinjaEnt->attachObjectToBone("Handle.R", sword2);
 
     //Step1: get all the animations that the model has as a set :
-    Ogre::AnimationStateSet* set = mSinbadEnt->getAllAnimationStates();
+    Ogre::AnimationStateSet* set = mNinjaEnt->getAllAnimationStates();
     Ogre::AnimationStateIterator iter = set->getAnimationStateIterator();
     while (iter.hasMoreElements())
     {
@@ -286,7 +286,7 @@ bool Game::mouseMoved(const MouseMotionEvent& evt)
 bool Game::keyPressed(const KeyboardEvent& evt)
 {
     translate = Ogre::Vector3(0, 0, 0);
-    SinbadTranslate = Ogre::Vector3(0, 0, 0);
+    NinjaTranslate = Ogre::Vector3(0, 0, 0);
     walked = false;
     switch (evt.keysym.sym)
     {
@@ -295,23 +295,23 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         _keepRunning = false;
         break;
     case SDLK_UP:
-        SinbadTranslate += Ogre::Vector3(0, 0, -1);
-        SinbadRotation = 3.14f;
+        NinjaTranslate += Ogre::Vector3(0, 0, -1);
+        NinjaRotation = 3.14f;
         walked = true;
         break;
     case SDLK_DOWN:
-        SinbadTranslate += Ogre::Vector3(0, 0, 1);
-        SinbadRotation = 0.0f;
+        NinjaTranslate += Ogre::Vector3(0, 0, 1);
+        NinjaRotation = 0.0f;
         walked = true;
         break;
     case SDLK_LEFT:
-        SinbadTranslate += Ogre::Vector3(-1, 0, 0);
-        SinbadRotation = -1.57f;
+        NinjaTranslate += Ogre::Vector3(-1, 0, 0);
+        NinjaRotation = -1.57f;
         walked = true;
         break;
     case SDLK_RIGHT:
-        SinbadTranslate += Ogre::Vector3(1, 0, 0);
-        SinbadRotation = 1.57f;
+        NinjaTranslate += Ogre::Vector3(1, 0, 0);
+        NinjaRotation = 1.57f;
         walked = true;
         break;
     case 'w':
@@ -365,7 +365,7 @@ bool Game::keyPressed(const KeyboardEvent& evt)
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 

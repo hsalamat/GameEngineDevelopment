@@ -1,4 +1,4 @@
-/** @file Week14-7-CompositorsDemo
+/** @file Week14-8-CompositorsDemo
  *  @brief Compositors Demo
  *  we have created three compositors, which we are now going to add to our
  *  application with the capability to turn each one off and on using keyboard input.
@@ -105,7 +105,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week10-5")
+    : ApplicationContext("Week14-7")
 {
     _keepRunning = true;
     _movementspeed = 50.0f;

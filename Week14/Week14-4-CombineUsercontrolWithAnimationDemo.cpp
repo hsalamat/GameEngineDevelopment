@@ -25,10 +25,10 @@ float rotY = 0.0f;
 //! in which we have moved our model. Third one for controlling the
 //! movement speed and forth one saving our rotation :
 bool walked = false;
-Ogre::Vector3 SinbadTranslate(0, 0, 0);
+Ogre::Vector3 NinjaTranslate(0, 0, 0);
 //! we want to move at 50 units per second 
 float WalkingSpeed = 50.0f;
-float SinbadRotation = 0.0f;
+float NinjaRotation = 0.0f;
 
 class ExampleFrameListener : public Ogre::FrameListener
 {
@@ -109,9 +109,9 @@ public:
 
 
         //The last thing we need to do is to apply translation and rotation to our model's scene node :
-        _sceneNode->translate(SinbadTranslate * evt.timeSinceLastFrame * WalkingSpeed);
+        _sceneNode->translate(NinjaTranslate * evt.timeSinceLastFrame * WalkingSpeed);
         _sceneNode->resetOrientation();
-        _sceneNode->yaw(Ogre::Radian(SinbadRotation));
+        _sceneNode->yaw(Ogre::Radian(NinjaRotation));
 
         _aniState->addTime(evt.timeSinceLastFrame);
         _aniStateTop->addTime(evt.timeSinceLastFrame);
@@ -125,13 +125,13 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
+    SceneNode* mNinjaNode;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
     Camera* mCam;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    Entity* mNinjaEnt;
 public:
     Game();
     virtual ~Game() {}
@@ -229,13 +229,13 @@ void Game::createScene()
     //And finally we need to give our ground a material.
     groundEntity->setMaterialName("Examples/BeachStones");
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
+    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode->attachObject(mNinjaEnt);
+    mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
+    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
+    mNinjaNode->setPosition(0, 4.0, 0);
 
 }
 
@@ -259,7 +259,7 @@ void Game::createCamera()
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 
@@ -281,7 +281,7 @@ bool Game::keyPressed(const KeyboardEvent& evt)
 {
 
     translate = Ogre::Vector3(0, 0, 0);
-    SinbadTranslate = Ogre::Vector3(0, 0, 0);
+    NinjaTranslate = Ogre::Vector3(0, 0, 0);
     walked = false;
 
     switch (evt.keysym.sym)
@@ -290,23 +290,23 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         getRoot()->queueEndRendering();
         break;
     case SDLK_UP:
-        SinbadTranslate += Ogre::Vector3(0, 0, -1);
-        SinbadRotation = 3.14f;
+        NinjaTranslate += Ogre::Vector3(0, 0, -1);
+        NinjaRotation = 3.14f;
         walked = true;
         break;
     case SDLK_DOWN:
-        SinbadTranslate += Ogre::Vector3(0, 0, 1);
-        SinbadRotation = 0.0f;
+        NinjaTranslate += Ogre::Vector3(0, 0, 1);
+        NinjaRotation = 0.0f;
         walked = true;
         break;
     case SDLK_LEFT:
-        SinbadTranslate += Ogre::Vector3(-1, 0, 0);
-        SinbadRotation = -1.57f;
+        NinjaTranslate += Ogre::Vector3(-1, 0, 0);
+        NinjaRotation = -1.57f;
         walked = true;
         break;
     case SDLK_RIGHT:
-        SinbadTranslate += Ogre::Vector3(1, 0, 0);
-        SinbadRotation = 1.57f;
+        NinjaTranslate += Ogre::Vector3(1, 0, 0);
+        NinjaRotation = 1.57f;
         walked = true;
         break;
     case 'w':

@@ -12,7 +12,7 @@
 #include "OgreInput.h"
 #include "OgreRTShaderSystem.h"
 #include <iostream>
-
+using namespace std;
 using namespace Ogre;
 using namespace OgreBites;
 
@@ -21,10 +21,10 @@ float rotX = 0.0f;
 float rotY = 0.0f;
 
 bool walked = false;
-Ogre::Vector3 SinbadTranslate(0, 0, 0);
+Ogre::Vector3 NinjaTranslate(0, 0, 0);
 //we want to move at 50 units per second 
 float WalkingSpeed = 50.0f;
-float SinbadRotation = 0.0f;
+float NinjaRotation = 0.0f;
 
 class ExampleFrameListener : public Ogre::FrameListener
 {
@@ -47,14 +47,14 @@ public:
         _mousespeed = 0.002f;
        
         _ent = ent;
-        _aniState = _ent->getAnimationState("RunBase");
+        _aniState = _ent->getAnimationState("Attack1");
         _aniState->setEnabled(true);
         _aniState->setLoop(false);
 
-        //Dance,DrawSwords,HandsClosed,HandsRelaxed,IdleBase,IdleTop,JumpEnd,JumpLoop
-        //JumpStart,RunBase,RunTop,SliceHorizontal,SliceVertical
+        //Attack1,Attack2, Attack3, Backflip, Block, Climb, Crouch, Death1, Death2, HighJump, Idle1, Idle2, Idle
+        //Jump, JumpNoHeight, Kick, SideKick, Spin, Stealth, Walk
 
-        _aniStateTop = _ent->getAnimationState("SliceHorizontal");
+        _aniStateTop = _ent->getAnimationState("Attack2");
         _aniStateTop->setEnabled(true);
         _aniStateTop->setLoop(false);
     }
@@ -94,9 +94,9 @@ public:
 
 
         //The last thing we need to do is to apply translation and rotation to our model's scene node :
-        _sceneNode->translate(SinbadTranslate * evt.timeSinceLastFrame * WalkingSpeed);
+        _sceneNode->translate(NinjaTranslate * evt.timeSinceLastFrame * WalkingSpeed);
         _sceneNode->resetOrientation();
-        _sceneNode->yaw(Ogre::Radian(SinbadRotation));
+        _sceneNode->yaw(Ogre::Radian(NinjaRotation));
 
         _aniState->addTime(evt.timeSinceLastFrame);
         _aniStateTop->addTime(evt.timeSinceLastFrame);
@@ -131,7 +131,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week14-6-PrintingAnimationDemo")
+    : ApplicationContext("Week14-9-NinjaAnimationsDemo")
 {
 }
 
@@ -196,7 +196,7 @@ void Game::createScene()
 
 
     //The first thing we'll do is create an abstract Plane object. This is not the mesh, it is more of a blueprint.
-    Plane plane(Vector3::UNIT_Y, -10);
+    Plane plane(Vector3::UNIT_Y, 1);
     //Now we'll ask the MeshManager to create us a mesh using our Plane blueprint. The MeshManager is already keeping track of the resources we loaded when initializing our application. On top of this, it can create new meshes for us.
     MeshManager::getSingleton().createPlane(
         "ground", RGN_DEFAULT,
@@ -216,29 +216,41 @@ void Game::createScene()
 
 
 
-    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt = mScnMgr->createEntity("ninja.mesh");
     mNinjaEnt->setCastShadows(true);
-    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode = mScnMgr->createSceneNode("NinjaNode");
     mNinjaNode->attachObject(mNinjaEnt);
     mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
-    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
-    mNinjaNode->setPosition(0, 4.0, 0);
+    mNinjaNode->setScale(0.4f, 0.4f, 0.4f);
+    mNinjaNode->yaw(Degree(180), Ogre::Node::TS_WORLD);
+   
+    mNinjaNode->setPosition(0, 0, 0);
 
     Ogre::Entity* sword1 = mScnMgr->createEntity("Sword1", "Sword.mesh");
     Ogre::Entity* sword2 = mScnMgr->createEntity("Sword2", "Sword.mesh");
     //Now attach the sword to the model using a bone name:
     //It works if I use one of them at a time!
-    //mSinbadEnt->attachObjectToBone("Handle.L", sword1);
-    mNinjaEnt->attachObjectToBone("Handle.R", sword2);
+    //mNinjaEnt->attachObjectToBone("Joint8", sword2);
 
     //Step1: get all the animations that the model has as a set :
     Ogre::AnimationStateSet* set = mNinjaEnt->getAllAnimationStates();
     Ogre::AnimationStateIterator iter = set->getAnimationStateIterator();
+    cout << "animation states list: " << endl;
     while (iter.hasMoreElements())
     {
         std::cout << iter.getNext()->getAnimationName() <<std::endl;
     }
 
+    if (mNinjaEnt->hasSkeleton()) {
+        Ogre::SkeletonInstance* m_skeleton = mNinjaEnt->getSkeleton();
+        //Ogre::Skeleton::BoneIterator it = m_skeleton->getBoneIterator(); --> Deprecated
+        Ogre::Skeleton::BoneList bones = m_skeleton->getBones();
+        for (auto bone : bones)
+        {
+            cout << bone->getName() << endl;
+        }
+    }
+   
 }
 
 void Game::createCamera()
@@ -251,7 +263,7 @@ void Game::createCamera()
     mCam->setNearClipDistance(5); // specific to this sample
     mCam->setAutoAspectRatio(true);
     mCamNode->attachObject(mCam);
-    mCamNode->setPosition(0, 100, 200);
+    mCamNode->setPosition(200, 300, 400);
     mCamNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
 
     // and tell it to render into the main window
@@ -278,7 +290,7 @@ bool Game::keyPressed(const KeyboardEvent& evt)
 {
 
     translate = Ogre::Vector3(0, 0, 0);
-    SinbadTranslate = Ogre::Vector3(0, 0, 0);
+    NinjaTranslate = Ogre::Vector3(0, 0, 0);
     walked = false;
 
     switch (evt.keysym.sym)
@@ -287,23 +299,23 @@ bool Game::keyPressed(const KeyboardEvent& evt)
         getRoot()->queueEndRendering();
         break;
     case SDLK_UP:
-        SinbadTranslate += Ogre::Vector3(0, 0, -1);
-        SinbadRotation = 3.14f;
+        NinjaTranslate += Ogre::Vector3(0, 0, -1);
+        NinjaRotation = 0.0f;
         walked = true;
         break;
     case SDLK_DOWN:
-        SinbadTranslate += Ogre::Vector3(0, 0, 1);
-        SinbadRotation = 0.0f;
+        NinjaTranslate += Ogre::Vector3(0, 0, +1);
+        NinjaRotation = 3.14f;
         walked = true;
         break;
     case SDLK_LEFT:
-        SinbadTranslate += Ogre::Vector3(-1, 0, 0);
-        SinbadRotation = -1.57f;
+        NinjaTranslate += Ogre::Vector3(-1, 0, 0);
+        NinjaRotation = 1.57f;
         walked = true;
         break;
     case SDLK_RIGHT:
-        SinbadTranslate += Ogre::Vector3(1, 0, 0);
-        SinbadRotation = 1.57f;
+        NinjaTranslate += Ogre::Vector3(+1, 0, 0);
+        NinjaRotation = -1.57f;
         walked = true;
         break;
     case 'w':
@@ -353,3 +365,4 @@ int main(int argc, char** argv)
     return 0;
 }
 
+//! [fullsource]

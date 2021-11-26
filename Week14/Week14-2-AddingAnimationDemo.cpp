@@ -87,13 +87,13 @@ class Game
     , public InputListener
 {
 private:
-    SceneNode* mSinbadNode;
+    SceneNode* mNinjaNode;
     SceneManager* mScnMgr;
     Root* mRoot;
     Ogre::PolygonMode mPolyMode;
     Camera* mCam;
     SceneNode* mCamNode;
-    Entity* mSinbadEnt;
+    Entity* mNinjaEnt;
 public:
     Game();
     virtual ~Game() {}
@@ -196,13 +196,13 @@ void Game::createScene()
     groundEntity->setMaterialName("Examples/BeachStones");
 
 
-    mSinbadEnt = mScnMgr->createEntity("Sinbad.mesh");
-    mSinbadEnt->setCastShadows(true);
-    mSinbadNode = mScnMgr->createSceneNode("SinbadNode");
-    mSinbadNode->attachObject(mSinbadEnt);
-    mScnMgr->getRootSceneNode()->addChild(mSinbadNode);
-    mSinbadNode->setScale(3.0f, 3.0f, 3.0f);
-    mSinbadNode->setPosition(0, 4.0, 0);
+    mNinjaEnt = mScnMgr->createEntity("Sinbad.mesh");
+    mNinjaEnt->setCastShadows(true);
+    mNinjaNode = mScnMgr->createSceneNode("SinbadNode");
+    mNinjaNode->attachObject(mNinjaEnt);
+    mScnMgr->getRootSceneNode()->addChild(mNinjaNode);
+    mNinjaNode->setScale(3.0f, 3.0f, 3.0f);
+    mNinjaNode->setPosition(0, 4.0, 0);
 
     // -- tutorial section end --
 }
@@ -228,7 +228,7 @@ void Game::createCamera()
 
 void Game::createFrameListener()
 {
-    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mSinbadNode, mSinbadEnt, mCamNode);
+    Ogre::FrameListener* FrameListener = new ExampleFrameListener(mNinjaNode, mNinjaEnt, mCamNode);
     mRoot->addFrameListener(FrameListener);
 }
 
