@@ -249,7 +249,7 @@ void Game::createScene()
     paddleNode->setScale(0.02f, 0.02f, 0.02f);
     paddleNode->attachObject(paddleEntity);
 
-    mScnMgr->showBoundingBoxes(true);
+    //mScnMgr->showBoundingBoxes(true);
 
 
 }

@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
 	int gameLevel = 1, gameSpeed = 60;
 	DebugPrintF("\nVerbosity is set at: %d\n", g_verbosity);
 	OutputDebugString(L"Testing Formmated OutputDebugString... this will produce output in the Output window of the VS Debugger");
-	VerboseDebugPrintF(0, "\nGameLevel: %d & GameSpeed: %d\n", gameLevel, gameSpeed);
+	VerboseDebugPrintF(0, "\nWarning GameLevel: %d & GameSpeed: %d\n", gameLevel, gameSpeed);
 
 	OutputDebugString(L"\nWarning: this is a warning");
 	OutputDebugString(L"\nInformation: this is a Verbosity Demo");

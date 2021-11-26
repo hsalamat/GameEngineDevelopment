@@ -18,7 +18,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-//! this function will take the number of values to averag followed by all of the numbers to average 
+//! this function will take the number of values to average followed by all of the numbers to average 
 double average(int num, ...)
 {
     va_list arguments;
@@ -62,6 +62,7 @@ int main()
 
     FILE* pFile;
     char szFileName[] = "myfile.txt";
+    char szPathName[] = "root/gameengine/mydirectory/";
 
     errno_t err;
 
@@ -69,11 +70,11 @@ int main()
     err = fopen_s(&stream, szFileName, "r");
     if (err == 0)
     {
-        PrintFError("The file '%s' was  opened. File Name: %s",szFileName);
+        PrintFError("The file '%s' was  opened. Path Name: %s",szFileName, szPathName);
     }
     else
     {
-        PrintFError("The file '%s' was not opened. ", szFileName);
+        PrintFError("The file '%s' was not opened. Path Name: %s", szFileName, szPathName);
     }
 
     // Close stream if it isn't NULL

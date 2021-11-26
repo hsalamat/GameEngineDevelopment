@@ -1,18 +1,25 @@
-/** @file Week12-6-OgreProfilingDemo
+/** @file Week12-7-OgreProfilingDemo2
  *  @brief Profiling Demo using ogre profiling
- *  The profiler allows you to measure the performance of your code.
- *  If you are using the Ogre SDK and you want to use the Profiler, it is advisable to switch to the source code version of Ogre,
- *  because the SDK is shipped with OGRE_PROFILING=OFF, so Profiling is disabled by default
- *  How to read the profile:
- *  On the left side are the profile names with a number in parentheses next to it. 
- *  This number is the number of times this profile was called during this frame. 
- *  If this number is 0, that means that the profile was called before, but is not being called currently. 
- *  The bars on the left represent the frame time statistics. You can see indicators above which show that a profile can take anywhere 
- *  from 0% to 100% of the frame time. 
- *  The big yellow bars show the current frame percentage that the profile is taking. 
- *  The green line shows the minimum frame time, the red line is the maximum frame time, and the blue line is the average frame time. 
- *  Big discrepancies between the average and maximum can possibly be the sign of a performance bottleneck (however it could be the profiler acting strangely). 
- *  These results will be printed to the log when the application ends or you can manually do it by calling logResults().
+    Analyzing Application State
+    It is helpful to see the state of your application when a profile reaches a maximum level or some other condition. To check if a specific has reached a new maximum level, use:
+
+    Ogre::Profiler.getSingleton().watchForMax("<profile name>"); // return true if it reaches a new maximum
+    or to see if a profile has reached a new minimum level, use:
+
+    Ogre::Profiler.getSingleton().watchForMin("<profile name>"); // returns true if it reaches a new minimum
+    or to set an arbitrary level:
+
+    //returns true when AI code takes over 60% of the frame time
+    Ogre::Profiler.getSingleton().watchForLimit("AI code", .6, true);
+    //returns true when graphics code takes less than 10% of the frame time
+    Ogre::Profiler.getSingleton().watchForLimit("Graphics code", .1, false);
+    These functions should be used at the end of the main game loop for more accuracy. Otherwise, it will represent the results of the previous frame.
+
+    Logging Results
+    You can log the results of the current profiler statistics like this:
+
+    Ogre::Profiler.getSingleton().logResults();
+    This is called automatically when you quit your Ogre application.
  *  @author Hooman Salamat
  *  @bug No known bugs.
  */
@@ -69,6 +76,11 @@ public:
 
     bool frameEnded(const Ogre::FrameEvent& evt)
     {
+        //returns true when the profiled code takes over 60% of the frame time
+        bool result = Ogre::Profiler::getSingleton().watchForLimit("Ogre Main Loop", .60, true);
+        if (result)
+            cout << green << "Ogre Main Loop took over 60% of the frame time" << white << endl;
+
         //!step2: Add this at the very end of the frameEnded() function:
         //!Make sure the names match exactly, otherwise the profiler will fail an assert. Next you want to profile some of your code. 
         OgreProfileEnd("Ogre Main Loop");
@@ -130,10 +142,12 @@ void Game::setup()
     Ogre::Profiler::getSingleton().setEnabled(true);
     //You can change how frequently the display is updated to suit your tastes like this
     Ogre::Profiler::getSingleton().setUpdateDisplayFrequency(100);
+    //!You can log the results of the current profiler statistics like this
+    Ogre::Profiler::getSingleton().logResults();
 
     //!step4: Next you want to profile some of your code. You do this by calling OgreProfile() and using braces ({}) to limit the scope.
     //!Note that OgreProfile cannot be called in the same scope as another OgreProfile().
-    
+
     //you have to add this..there is a bug, so system doesn't the first profile
     {
         OgreProfile("Ogre Profile");
@@ -141,6 +155,10 @@ void Game::setup()
     {
         OgreProfile("Scene Profile");
         createScene();
+        //returns true when graphics code takes less than 90% of the frame time
+        bool result = Ogre::Profiler::getSingleton().watchForLimit("Scene Profile", .90, false);
+        if (result)
+            cout << green << "Create Scene function took less than 90% of the frame time" << white << endl;
     }
     {
         OgreProfile("Camera Profile");
@@ -150,6 +168,12 @@ void Game::setup()
         OgreProfile("Frame Profile");
         createFrameListener();
     }
+
+    //you can enable/disable individual profiler
+    //Ogre::Profiler.getSingleton().disableProfile("<profile name>");
+    //and you can enable it again with this:
+    //Ogre::Profiler.getSingleton().enableProfile("<profile name>");
+
 }
 
 void Game::createScene()
