@@ -1,7 +1,13 @@
-//The third method for simulating sky is rather different from the first two.
-//This method will use a single plane.The first thing we need to do is create a Plane object.Comment out our call to setSkyDomeand add the following :
+/** @file week13-5-SkyboxDemo2
+ *  @brief Skybox Demo 2
+ *  mSceneMgr->setSkyBox(true, "Examples/SpaceSkyBox", 300, false);
+ *  The third parameter is the distance between the Camera and the SkyBox.
+ *  Compile and run your application. Nothing has changed. 
+ *  This is because the fourth parameter sets whether or not to render the SkyBox before the rest of the scene. If the SkyBox is rendered first, then no matter how close it is the rest of your scene objects will be rendered on top of it.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Hooman Salamat
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -78,7 +84,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week13-9-FogDemo")
+    : ApplicationContext("Week13-5-SkyboxDemo2")
 {
 }
 
@@ -173,32 +179,14 @@ void Game::createScene()
 
     //mScnMgr->setSkyBox(true, "Examples/SpaceSkyBox");
 
-    //setSkyPlane
-    //Ogre::Plane plane;
-    plane.d = 1000;
-    plane.normal = Ogre::Vector3::NEGATIVE_UNIT_Y;
-    //We've defined a plane by providing a distance from the origin (d) and a vector that is normal to our plane (normal). By choosing the the ''negative'' unit vector along the y-axis we have a plane that is parallel to the ground and facing downwards.
+    //The third parameter is the distance between the Camera and the SkyBox.Make this change to your call :
+    //the fourth parameter sets whether or not to render the SkyBox before the rest of the scene. 
+    //If the SkyBox is rendered first, then no matter how close it is the rest of your scene objects will be rendered on top of it.
+    //The SkyBox is being rendered only 300 pixels away from the Camera 
+    //and it is no longer being rendered before everything else.This means the SkyBox is drawn 
+    //over terrain that is farther than 300 units away from the Camera.
+    mScnMgr->setSkyBox(true, "Examples/SpaceSkyBox", 300, false);
 
-    //Now we can create the SkyPlane.
-    //The fourth parameter is the size of the SkyPlane(1500x1500 units), and the fifth parameter is number of times to tile the texture.
-
-    mScnMgr->setSkyPlane(true, plane, "Examples/SpaceSkyPlane", 1500, 5);
-
-    //The SkyPlane has some other attributes that can be used to produce a better effect.The sixth parameter of the setSkyPlane method is the "renderFirst" parameter we covered for the past two methods.The seventh parameter allows us to specify a curvature for the SkyPlane.This will pull down the corners of the SkyPlane turning it into a curved surface instead of a flat plane.If we set the curvature to something other flat, we also need to set the number of segments Ogre should use to render the SkyPlane.When the SkyPlane was a flat plane, everything was one large square, but if we add curvature, then it will require a more complicated geometry.The eighthand ninth parameters to the function are the number of segments for each dimension of the plane.
-
-    //Let's test this out. Make these changes to our call:
-
-     /*mScnMgr->setSkyPlane(
-            true, plane, "Examples/SpaceSkyPlane", 1500, 50, true, 1.5, 150, 150);*/
-
-
-    Ogre::ColourValue fadeColour(0.9, 0.9, 0.9);
-    //getRenderWindow()->getViewport(0)->setBackgroundColour(fadeColour);
-
-    //Now we can create the fog.
-
-    mScnMgr->setFog(Ogre::FOG_LINEAR, fadeColour, 0, 600, 900);
-    //mScnMgr->setFog(Ogre::FOG_EXP2, fadeColour, 0.002);
     // -- tutorial section end --
 }
 

@@ -1,8 +1,14 @@
-//Week13-5-SkyboxDemo
-//A SkyBox is basically a huge textured cube that surrounds all of the objects in your scene.It is one of the methods for simulating a sky.We will need six textures to cover all of the interior faces of the SkyBox.
-//It is very easy to include a SkyBox in your scene.Add the following to the end of createScene :
-//mSceneMgr->setSkyBox(true, "Examples/SpaceSkyBox");
-//Hooman Salamat
+/** @file week13-4-SkyboxDemo
+ *  @brief Skybox Demo
+ *  A SkyBox is basically a huge textured cube that surrounds all of the objects in your scene.
+ *  It is one of the methods for simulating a sky.
+ *  We will need six textures to cover all of the interior faces of the SkyBox.
+ *  It is very easy to include a SkyBox in your scene.Add the following to the end of createScene :
+ *  mSceneMgr->setSkyBox(true, "Examples/SpaceSkyBox");
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

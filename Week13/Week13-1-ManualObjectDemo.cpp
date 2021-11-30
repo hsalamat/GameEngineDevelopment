@@ -1,7 +1,13 @@
-//week13-1-MeshDemo Mesh using ManualObject
-//There are two ways to create your own mesh.The first way is to create a Ogre::Mesh instanceand provide it with the vertexand index buffers directly.
-//The second way is the high level Ogre::ManualObject interface.Instead of filling positionand color buffers, you simply call the "position" and "colour" functions.
-//Hooman Salamat
+/** @file week13-1-Manual Object Demo
+ *  @brief Mesh using ManualObject
+ *  There are two ways to create your own mesh.The first way is to create a Ogre::Mesh instance
+ *  and provide it with the vertex and index buffers directly.
+ *  The second way is the high level Ogre::ManualObject interface.
+ *  Instead of filling positionand color buffers, you simply call the "position" and "colour" functions.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"

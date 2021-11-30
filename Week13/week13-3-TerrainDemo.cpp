@@ -1,4 +1,13 @@
-//! [fullsource]
+/** @file week13-3-TerrainDemo
+ *  @brief Terrain Demo
+ *  To set up the terrain we will focus on two main classes:
+
+ *  Ogre::Terrain, representing one piece of terrain and
+ *  Ogre::TerrainGroup, holding a series of Terrain pieces.
+ *  This separation is used for LOD (Level of Detail) rendering.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -28,6 +37,48 @@ using namespace OgreBites;
 #define TERRAIN_PAGE_MAX_X 0
 #define TERRAIN_PAGE_MAX_Y 0
 
+
+Ogre::Vector3 translate(0, 0, 0);
+float rotX = 0.0f;
+float rotY = 0.0f;
+
+class ExampleFrameListener : public Ogre::FrameListener
+{
+private:
+
+	Ogre::SceneNode* _camNode;
+	float _movementspeed;
+	float _mousespeed;
+public:
+
+	ExampleFrameListener(Ogre::SceneNode* camNode)
+	{
+
+		_camNode = camNode;
+		_movementspeed = 2.0f;
+		_mousespeed = 0.002f;
+	}
+
+	bool frameStarted(const Ogre::FrameEvent& evt)
+	{
+
+		float rotXNew = rotX * evt.timeSinceLastFrame * -1;
+		float rotYNew = rotY * evt.timeSinceLastFrame * -1;
+
+
+		//_camNode->yaw(Ogre::Radian(rotXNew));
+		//_camNode->pitch(Ogre::Radian(rotYNew));
+
+		_camNode->yaw(Ogre::Radian(rotXNew * _mousespeed));
+		_camNode->pitch(Ogre::Radian(rotYNew * _mousespeed));
+
+		//_camNode->moveRelative(translate * evt.timeSinceLastFrame * _movementspeed);
+		_camNode->translate(translate * evt.timeSinceLastFrame * _movementspeed);
+
+		return true;
+	}
+};
+
 class Game
 	: public ApplicationContext
 	, public InputListener
@@ -38,6 +89,8 @@ public:
 
 	void setup();
 	bool keyPressed(const KeyboardEvent& evt);
+	bool mouseMoved(const MouseMotionEvent& evt);
+	void createFrameListener();
 
 	void configureTerrainDefaults(Light* l);
 	void defineTerrain(long x, long y, bool flat);
@@ -50,6 +103,8 @@ public:
 	bool mTerrainsImported;
 
 	SceneManager* scnMgr;
+	Root* root;
+	SceneNode* camNode;
 };
 
 
@@ -71,7 +126,7 @@ void Game::setup()
 	addInputListener(this);
 
 	// get a pointer to the already created root
-	Root* root = getRoot();
+	root = getRoot();
 	scnMgr = root->createSceneManager();
 
 	// register our scene with the RTSS
@@ -97,7 +152,7 @@ void Game::setup()
 	//! [lightpos]
 
 	//! [camera]
-	SceneNode* camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
+	camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
 
 	// create the camera
 	Camera* cam = scnMgr->createCamera("myCam");
@@ -120,30 +175,41 @@ void Game::setup()
 	}
 	//! [cameralaststep]
 
+	//! The Terrain component can use a directional light to compute a lightmap. 
+	//! Let's add a Light for this purpose and add some ambient light to the scene while we're at it.
 	Ogre::Light* l = scnMgr->createLight("tstLight");
 	l->setType(Ogre::Light::LT_DIRECTIONAL);
 	l->setDiffuseColour(ColourValue::White);
 	l->setSpecularColour(ColourValue(0.4, 0.4, 0.4));
 
 	Ogre::SceneNode* ln = scnMgr->getRootSceneNode()->createChildSceneNode();
+	//!The normalise method will make the vector's length equal to one while maintaining its direction.
 	ln->setDirection(Vector3(0.55, -0.3, 0.75).normalisedCopy());
 	ln->attachObject(l);
 
-	//This is a class that holds information for all of the terrains we might create - that is why they are called ''global'' options. It also provides a few getters and setters. There are also local options for each TerrainGroup that we will see later in this tutorial.
+
+	//! This is a class that holds information for all of the terrains we might create - 
+	//! that is why they are called ''global'' options. It also provides a few getters and setters.
+	//! There are also local options for each TerrainGroup.
 	mTerrainGlobals = new Ogre::TerrainGlobalOptions();
 
+	//! Next we construct our TerrainGroup object. This will manage a grid of Terrains.
+	//! The TerrainGroup constructor takes the SceneManager as its first parameter. 
+	//! It then takes an alignment option, terrain size, and terrain world size.
 	mTerrainGroup = new Ogre::TerrainGroup(scnMgr, Ogre::Terrain::ALIGN_X_Z, TERRAIN_SIZE, TERRAIN_WORLD_SIZE);
 	mTerrainGroup->setFilenameConvention(TERRAIN_FILE_PREFIX, TERRAIN_FILE_SUFFIX);
 	mTerrainGroup->setOrigin(mTerrainPos);
 
+	//! The next thing we will do is call our terrain configuration method, which we will fill in soon. 
+	//! Make sure to pass the Light we created as a parameter.
 	configureTerrainDefaults(l);
 
-	//The next thing we do is define our terrains and ask the TerrainGroup to load them all.
-
+	//! The next thing we do is define our terrains and ask the TerrainGroup to load them all.
+	//! We are only using a single terrain, so the method will only be called once. The for loops are just for demonstration in our case. 
+	//! Again, we will fill in the defineTerrain method soon.
 	for (long x = TERRAIN_PAGE_MIN_X; x <= TERRAIN_PAGE_MAX_X; ++x)
 		for (long y = TERRAIN_PAGE_MIN_Y; y <= TERRAIN_PAGE_MAX_Y; ++y)
-			defineTerrain(x, y, false); //hooman: I added false
-// sync load since we want everything in place when we start
+			defineTerrain(x, y, false); //hooman: I added false sync load since we want everything in place when we start
 	mTerrainGroup->loadAllTerrains(true);
 
 	//We will now initialize the blend maps for our terrain.
@@ -179,6 +245,7 @@ void Game::setup()
 	if (mTerrainGroup->isDerivedDataUpdateInProgress())
 	{
 	    mTrayMgr->moveWidgetToTray(mInfoLabel, TL_TOP, 0);
+		mTrayMgr->hideCursor();
 	    mInfoLabel->show();
 	    if (mTerrainsImported)
 	    {
@@ -200,10 +267,21 @@ void Game::setup()
 	        mTerrainsImported = false;
 	    }
 	}
-
-	// -- tutorial section end --
 }
 
+void Game::createFrameListener()
+{
+	Ogre::FrameListener* FrameListener = new ExampleFrameListener(camNode);
+	root->addFrameListener(FrameListener);
+}
+
+
+bool Game::mouseMoved(const MouseMotionEvent& evt)
+{
+	rotX = evt.xrel;
+	rotY = evt.yrel;
+	return true;
+}
 
 bool Game::keyPressed(const KeyboardEvent& evt)
 {
@@ -219,7 +297,16 @@ bool Game::keyPressed(const KeyboardEvent& evt)
 void Game::configureTerrainDefaults(Light* l)
 {
 	//! [configure_lod]
+	//! Set the largest allowed error for geometry. 
+	//! It controls the distance in pixels allowed between our ideal terrain 
+	//! and the mesh that is created to render it. 
+	//! A smaller number will mean a more accurate terrain, because it will require more vertices to reduce the error.
 	mTerrainGlobals->setMaxPixelError(8);
+	//! Set the distance at which Ogre will reduce the texture resolution. 
+	//! For this, Ogre automatically creates a composite map, where the terrain textures, 
+	//! the blending textures and lighting information are "baked" together at a lower resolution. 
+	//! This way only a single texture lookup is needed when using the low LOD setting. 
+	//! If you increase the distance, then Ogre will use the high LOD setting out to a farther distance, where it computes all lighting effects per-pixel.
 	mTerrainGlobals->setCompositeMapDistance(3000);
 	//! [configure_lod]
 
@@ -320,7 +407,9 @@ void Game::getTerrainImage(bool flipX, bool flipY, Image& img)
 	//! [heightmap]
 }
 
-
+//! With blend mapping you are able to blend two different textures. 
+//! It is very useful to break up the repeating when you're using two tileable textures. 
+//! It can also serve to give localized dirt, wear, tear, etc.
 void Game::initBlendMaps(Terrain* terrain)
 {
 	//! [blendmap]

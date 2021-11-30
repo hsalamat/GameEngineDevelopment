@@ -1,7 +1,13 @@
-//week13-2-SubmeshDemo 
-//This time we are going to create a plane using the lower level Ogre::HardwareBuffer primitives.
-//We start by creating a Mesh object.As this is a manual Mesh, we have to set the bounds of it explicitly.
-//Hooman Salamat
+/** @file week13-2-MeshDemo
+ *  @brief Mesh using Meshmanager
+ *	We start by creating a Mesh object. As this is a manual Mesh, we have to set the bounds of it explicitly.
+ *	Next we define what should end up in our vertex and index buffer. We will store all data interleaved in one buffer. 
+ *	This typically has some advantages due to cache coherency and also is what ManualObject does automatically for us
+ *  This time we are going to create a plane using the lower level Ogre::HardwareBuffer primitives.
+ *  We start by creating a Mesh object.As this is a manual Mesh, we have to set the bounds of it explicitly.
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -151,10 +157,7 @@ void OgreTutorial::createScene()
 	TriangleNode = scnMgr->getRootSceneNode()->createChildSceneNode("TriangleNode");
 	TriangleNode->attachObject(ent);
 
-	/// <summary>
-	/// We start by creating a Mesh object. As this is a manual Mesh, we have to set the bounds of it explicitly.
-	/// Next we define what should end up in our vertex and index buffer. We will store all data interleaved in one buffer. This typically has some advantages due to cache coherency and also is what ManualObject does automatically for us
-	/// </summary>
+
 	MeshPtr mesh = MeshManager::getSingleton().createManual("mesh1", RGN_DEFAULT);
 	mesh->_setBounds(AxisAlignedBox({ -100,-100,0 }, { 100,100,0 }));
 	float vertices[32] = {
@@ -175,7 +178,8 @@ void OgreTutorial::createScene()
 	uint16 faces[6] = { 0,1,2,
 					   0,2,3 };
 
-	//To describe the vertex sources, we have to create a Ogre::VertexData object.Notably it stores how many vertices we have.
+	//To describe the vertex sources, we have to create a Ogre::VertexData object.
+	//Notably it stores how many vertices we have.
 	mesh->sharedVertexData = new VertexData();
 	mesh->sharedVertexData->vertexCount = 4;
 	VertexDeclaration * decl = mesh->sharedVertexData->vertexDeclaration;
@@ -211,8 +215,6 @@ void OgreTutorial::createScene()
 	//And finally we need to give our ground a material.
 	groundEntity->setMaterialName("Examples/BeachStones");
 
-
-	// -- tutorial section end --
 }
 
 void OgreTutorial::createCamera()

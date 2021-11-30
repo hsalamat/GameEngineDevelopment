@@ -1,7 +1,15 @@
-//The third method for simulating sky is rather different from the first two.
-//This method will use a single plane.The first thing we need to do is create a Plane object.Comment out our call to setSkyDomeand add the following :
+/** @file week13-6-SkyDomeDemo
+ *  @brief Sky Dome Demo 
+ *  Another method of simulating a sky is the SkyDome.The sky texture is still applied to 
+ *  a huge cube that surrounds the scene, but the textures is projected in such a way 
+ *  that it appears to create a dome over the scene. 
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
-//Hooman Salamat
+
+
+
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -78,7 +86,7 @@ public:
 
 
 Game::Game()
-    : ApplicationContext("Week13-8-SkyPlaneDemo")
+    : ApplicationContext("Week13-7-SkydomeDemo")
 {
 }
 
@@ -173,24 +181,19 @@ void Game::createScene()
 
     //mScnMgr->setSkyBox(true, "Examples/SpaceSkyBox");
 
-    //setSkyPlane
-    //Ogre::Plane plane;
-    plane.d = 1000;
-    plane.normal = Ogre::Vector3::NEGATIVE_UNIT_Y;
-    //We've defined a plane by providing a distance from the origin (d) and a vector that is normal to our plane (normal). By choosing the the ''negative'' unit vector along the y-axis we have a plane that is parallel to the ground and facing downwards.
+    //setSkyDome
+    //The main drawback to setSkyDome is that the texture won't cover the bottom face of the cube. 
+    //You would need to make sure a user could not accidentally see behind the curtain.
+    //The first two parameters of the setSkyDome method are the same as setSkyBox.
+    //You can disable the SkyDome in the same way as well.
+    //The third parameter is the curvature for the dome projection.
+    //It is suggested to use values between 2 and 65. 
+    //Lower values will produce a better effect at far distances, 
+    //but higher values will cause less distortion of the texture.
+    //The fourth parameter is the number of times the texture will be tiled.
+    mScnMgr->setSkyDome(true, "Examples/CloudySky", 5, 8);
 
-    //Now we can create the SkyPlane.
-    //The fourth parameter is the size of the SkyPlane(1500x1500 units), and the fifth parameter is number of times to tile the texture.
 
-    mScnMgr->setSkyPlane(true, plane, "Examples/SpaceSkyPlane", 1500, 5);
-
-    //The SkyPlane has some other attributes that can be used to produce a better effect.The sixth parameter of the setSkyPlane method is the "renderFirst" parameter we covered for the past two methods.The seventh parameter allows us to specify a curvature for the SkyPlane.This will pull down the corners of the SkyPlane turning it into a curved surface instead of a flat plane.If we set the curvature to something other flat, we also need to set the number of segments Ogre should use to render the SkyPlane.When the SkyPlane was a flat plane, everything was one large square, but if we add curvature, then it will require a more complicated geometry.The eighthand ninth parameters to the function are the number of segments for each dimension of the plane.
-
-    //Let's test this out. Make these changes to our call:
-
-       /* mScnMgr->setSkyPlane(
-            true, plane, "Examples/SpaceSkyPlane", 1500, 50, true, 1.5, 150, 150);*/
-    
     // -- tutorial section end --
 }
 
