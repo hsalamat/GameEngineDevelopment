@@ -1,0 +1,35 @@
+material LiamBlakeMaterialRock
+{
+    technique
+    {
+        pass
+        {
+            diffuse vertexcolour
+	    specular vertexcolour
+	    ambient vertexcolour
+
+           texture_unit 
+           {
+                texture terr_rock6.jpg
+           }
+        }
+    }
+}
+material LiamBlakeMaterialDoodle
+{
+    technique
+    {
+        pass
+        {
+            diffuse vertexcolour
+			specular vertexcolour
+			ambient vertexcolour
+			lighting on
+			
+            texture_unit 
+            {
+                texture doodle.png
+            }
+        }
+    }
+}

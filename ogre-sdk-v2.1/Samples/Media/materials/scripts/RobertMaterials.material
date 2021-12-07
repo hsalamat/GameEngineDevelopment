@@ -1,0 +1,27 @@
+material RobertMaterial1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture MtlPlat2.jpg
+            }
+        }
+    }
+}
+
+material RobertMaterial2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture red.png
+            }
+        }
+    }
+}
